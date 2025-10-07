@@ -2,9 +2,19 @@
 
 This guide explains how to create a new ETL plugin for the GenomicsDB ETL framework. Plugins orchestrate extract, transform, and load (ETL) operations, and are managed by the pipeline system. All plugins must inherit from `AbstractBasePlugin` and implement its required (abstract) methods.
 
+## Code Organization
+
+For the NIAGADS Alzheimer's GenomicsDB, all ETL plugins should be saved in the [`bases/niagads/genomicsdb_service/etl/plugins`](https://github.com/NIAGADS/niagads-pylib/tree/bda5cfc5dffc2e1073edca8a18896ef403d0cc9a/bases/niagads/genomicsdb_service/etl/plugins) directory in the `niagads-pylib` project.  ETL plugins are part of the business logic and are considered a `base`-type brick in the `Polylith` software architecture.  
+
+Supporting infrastructure:
+
+* [CLI Plugin Runner](https://github.com/NIAGADS/niagads-pylib/blob/bda5cfc5dffc2e1073edca8a18896ef403d0cc9a/bases/niagads/pipeline_service/runners/plugin.py) - allows users to run plugins independently of a pipeline from the command line and/or integrate a plugin with other scripts.  Run using `runpipe-plugin`.  See the [Running a Plugin](#running-a-plugin) section below.
+
+* [Plugin Base Code](https://github.com/NIAGADS/niagads-pylib/tree/bda5cfc5dffc2e1073edca8a18896ef403d0cc9a/components/niagads/etl/plugins) - reusable `component`-type bricks that define the basic functionality of an ETL plugin, including, ETL logic, parameter defaults and handling, logging, and the plugin registry.
+
 ## Plugin Structure
 
-A _plugin_ is a Python class that inherits from `AbstractBasePlugin`. It must implement the following abstract methods and properties:
+A _plugin_ is a Python class that inherits from [`AbstractBasePlugin`](https://github.com/NIAGADS/niagads-pylib/blob/main/components/niagads/etl/plugins/base.py). It must implement the following abstract methods and properties:
 
 - `description`: Returns a string describing the plugin.
 - `parameter_model`: Returns a Pydantic model class for plugin parameters (subclass of `BasePluginParams`).
@@ -81,14 +91,14 @@ class SimpleTextLoaderPlugin(AbstractBasePlugin):
 
 ## Key Points
 
-- **Parameter Model**: Define a Pydantic model for plugin parameters. Inherit from `BasePluginParams` and add any plugin-specific fields.  Make sure to add any necessary validation.  Notice how the validation can be handled directly by the Pydantic model.
-- **Streaming vs Bulk**: Set the `streaming` property. If `True`, records are processed line by line and loaded in batches; if `False`, the ET stage processes the entire dataset at once (bulk).  Loading will still be in batches.
+- **Parameter Model**: Define a Pydantic model for plugin parameters. Inherit from [`BasePluginParams`](https://github.com/NIAGADS/niagads-pylib/blob/bda5cfc5dffc2e1073edca8a18896ef403d0cc9a/components/niagads/etl/plugins/parameters.py#L25) and add any plugin-specific fields.  Make sure to add any necessary validation.  Notice how the validation can be handled directly by the Pydantic model.  See the [`PathValidatorMixin`](https://github.com/NIAGADS/niagads-pylib/blob/bda5cfc5dffc2e1073edca8a18896ef403d0cc9a/components/niagads/etl/plugins/parameters.py#L73) for an example.
+- **Streaming vs Bulk**: Set the `streaming` property. If `True`, records are processed line by line and loaded in batches; if `False`, the ET stage processes the entire dataset at once (bulk).  Loading will still be in batches according to the `commit_after` setting.
 - **ETL Methods**: Implement `extract`, `transform`, and `load` methods. Use `self.__session_manager` for loading data.
-- **Checkpointing**: Implement `get_record_id` to support resume and checkpoint features.
-- **Logging**: Use `self.logger` for JSON logging and status updates.
+- **Checkpointing**: Implement `get_record_id` to support resume and checkpoint features.  If `record_id` is not relevant to your task, have `get_record_id` simply return `None`; the checkpoint will use a `line number` instead.
+- **Logging**: Use `self.logger` for JSON logging and status updates. 
 - **Error Handling**: Enclose any codeblock in the ETL functions that may raise an error in `try/except` block to ensure that the error gets raised.  Failure to do so will lead to the plugin to exit with status `FAIL` without providing a stack-trace.
 
-See the `XMLRecordLoader` for an example of how to write a plugin, including logging and error handling.
+See the [`XMLRecordLoader` plugin](https://github.com/NIAGADS/niagads-pylib/blob/bda5cfc5dffc2e1073edca8a18896ef403d0cc9a/bases/niagads/genomicsdb_service/etl/plugins/xml.py) for an example of how to write a plugin, including logging and error handling.
 
 ## Running a Plugin
 
