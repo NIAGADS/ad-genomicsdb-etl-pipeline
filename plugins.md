@@ -4,7 +4,7 @@ This guide explains how to create a new ETL plugin for the GenomicsDB ETL framew
 
 ## Code Organization
 
-For the NIAGADS Alzheimer's GenomicsDB, all ETL plugins should be saved in the [`bases/niagads/genomicsdb_service/etl/plugins`](https://github.com/NIAGADS/niagads-pylib/tree/bda5cfc5dffc2e1073edca8a18896ef403d0cc9a/bases/niagads/genomicsdb_service/etl/plugins) directory in the `niagads-pylib` project.  ETL plugins are part of the business logic and are considered a `base`-type brick in the `Polylith` software architecture.  
+For the NIAGADS Alzheimer's GenomicsDB, all ETL plugins should be saved in the [`bases/niagads/genomicsdb_service/etl/plugins`](https://github.com/NIAGADS/niagads-pylib/tree/bda5cfc5dffc2e1073edca8a18896ef403d0cc9a/bases/niagads/genomicsdb_service/etl/plugins) directory in the [`niagads-pylib`](https://github.com/NIAGADS/niagads-pylib) project.  ETL plugins are part of the business logic and are considered a `base`-type brick in the `Polylith` software architecture.  
 
 Supporting infrastructure:
 
