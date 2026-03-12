@@ -1,5 +1,5 @@
 export PROJECT_DIR=root-project-directory
-export DATA_DIR=$PROJECT/<data_directory>
+export DATA_DIR=full-path-to-data-directory
 export CONFIG_DIR=$PROJECT_DIR/ad-genomicsdb-etl-pipeline/pipeline
 export DATABASE_URI=postgresql://<user>:<pwd>@<host>:<port>/<database>
 
