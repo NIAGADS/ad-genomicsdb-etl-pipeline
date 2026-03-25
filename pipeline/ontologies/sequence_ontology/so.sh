@@ -3,7 +3,8 @@ wget -O $DATA_DIR/ontologies/so-simple.owl https://raw.githubusercontent.com/The
 
 # load external database reference
 
-runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/sequence_ontology/so_xdb.json  --log-path $LOG_DIR/ontologies/sequence_ontology/logs/so-xdbr.log --commit
+runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/sequence_ontology/so_xdb.json  --log-path $LOG_PATH/ontologies/sequence_ontology/logs/so-xdbr.log --commit
 
 # load ontology
 
+runpipe-plugin --plugin OntologyTermLoader --xdbref "Sequence Ontology|2024-11-18" --file $DATA_DIR/ontologies/so-simple.low --commit-after 1000 --log-path $LOG_PATH/ontologies/so-load.log
