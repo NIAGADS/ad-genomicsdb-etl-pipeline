@@ -7,4 +7,4 @@ runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/seq
 
 # load ontology
 
-runpipe-plugin --plugin OntologyTermLoader --xdbref "Sequence Ontology|2024-11-18" --file $DATA_DIR/ontologies/so-simple.low --commit-after 1000 --log-path $LOG_PATH/ontologies/so-load.log
+runpipe-plugin --plugin OntologyTermLoader --xdbref "Sequence Ontology|2024-11-18" --file $DATA_DIR/ontologies/so-simple.owl --batch-size 1000 --log-path $LOG_DIR/ontologies/so-load.log
