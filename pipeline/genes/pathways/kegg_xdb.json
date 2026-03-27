@@ -1,0 +1,9 @@
+{
+	"name": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
+	"database_key": "KEGG",
+	"description": "The Kyoto Encyclopedia of Genes and Genomes(KEGG) database is a resource for understanding high-level functions and utilities of the biological system.  KEGG PATHWAY is a collection of manually drawn pathway maps representing molecular interactions, reactions and relationships.  Gene-pathway membership and KEGG Disease associations were retrieved for all curated human pathways using the KEGG REST API.",
+	"url": "https://www.genome.jp/kegg/",
+	"version": "117.0",
+	"download_date": "2026-03-27",
+	"release_date": "2026-01-01"
+}
