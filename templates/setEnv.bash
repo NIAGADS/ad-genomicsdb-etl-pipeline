@@ -9,7 +9,7 @@ PURPLE="\[\033[01;35m\]"
 GREEN="\[\033[01;32m\]"
 RESET="\[\033[00m\]"
 
-PS1="${GREEN}\u@\h${RESET}:${PURPLE}\w${RESET}\$ "
+PS1="${GREEN}[gdb-env]@\h${RESET}:${PURPLE}\w${RESET}\$ "
 
 # activate python env
 source $PROJECT_DIR/niagads-pylib/.venv/bin/activate

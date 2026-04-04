@@ -1,0 +1,10 @@
+{
+	"name": "Ensembl Gene Annotation",
+	"database_key": "ENSEMBL_GENE",
+	"description": "gene annotation resource providing gene models on the human reference genome derived by combining automated, evidence-based annotation with manual curation to define genes and transcript structures",
+	"url": "https://www.ensembl.org",
+	"version": "115/GRCh38",
+	"download_url": "https://ftp.ensembl.org/pub/release-115/",
+	"download_date": "2026-04-02",
+	"release_date": "2025-09-03"
+}
