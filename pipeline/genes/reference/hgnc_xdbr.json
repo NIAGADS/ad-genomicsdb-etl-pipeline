@@ -1,0 +1,10 @@
+{
+	"name": "HGNC Gene Nomenclature",
+	"database_key": "HGNC",
+	"description": "approved gene names and symbols, gene types, and mappings to standard resources",
+	"url": "https://www.genenames.org/",
+	"version": "2026-04-01",
+	"download_url": "storage.googleapis.com/public-download-files/hgnc/json/json/hgnc_complete_set.json",
+	"download_date": "2026-04-05",
+	"release_date": "2026-04-01"
+}
