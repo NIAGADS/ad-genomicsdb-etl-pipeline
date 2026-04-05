@@ -1,8 +1,0 @@
-<Records>
-    <Table schema="reference" name="ontologyterm">
-        <Record>
-            <Field name="source_id">SO:0002133</Field>
-            <Field name="synonyms">["TR_gene", "TR_V_gene"]</Field>
-        </Record>
-    </Table>
-</Records>

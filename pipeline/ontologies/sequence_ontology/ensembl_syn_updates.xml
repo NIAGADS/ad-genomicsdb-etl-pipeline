@@ -1,0 +1,20 @@
+<Records>
+    <Table schema="reference" name="ontologyterm">
+        <Record>
+            <Field name="source_id">SO:0002133</Field>
+            <Field name="synonyms">["TR_gene", "TR_V_gene", "TR_D_gene", "TR_C_gene", "TR_J_gene"]</Field>
+        </Record>
+        <Record>
+            <Field name="source_id">SO:0000777</Field>
+            <Field name="synonyms">["INSDC_qualifier:pseudo","pseudogenic rRNA", "rRNA_pseudogene"]</Field>
+        </Record>
+        <Record>
+            <Field name="source_id">SO:0000370</Field>
+            <Field name="synonyms">["small regulatory ncRNA","sRNA"]</Field>
+        </Record>
+        <Record>
+            <Field name="source_id">SO:0002098</Field>
+            <Field name="synonyms">["immunoglobulin pseudogene", "IG_pseudogene", "IG pseudogene"]</Field>
+        </Record>
+    </Table>
+</Records>

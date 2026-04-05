@@ -9,9 +9,5 @@ runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/seq
 
 runpipe-plugin --plugin OntologyTermLoader --xdbref "Sequence Ontology|2024-11-18" --file $DATA_DIR/ontologies/so-simple.owl --batch-size 1000 --log-path $LOG_DIR/ontologies/so-load.log
 
-
-# patch the ontology
-# add synonyms to support obsolete terms found in Ensembl GFF3 file
-runpipe-plugin --plugin XMLRecordLoader --file $CONFIG_DIR/ontologies/sequence_ontology/rRNA_pseudogene.xml --log-path $LOG_DIR/ontologies/patch-rRNA-pseudogene.log --commit
-runpipe-plugin --plugin XMLRecordLoader --file $CONFIG_DIR/ontologies/sequence_ontology/sRNA.xml --log-path $LOG_DIR/ontologies/patch-sRNA.log --commit
-runpipe-plugin --plugin XMLRecordLoader --file $CONFIG_DIR/ontologies/sequence_ontology/TR_V_gene.xml --log-path $LOG_DIR/ontologies/patch-TR_V_gene.log --commit
+# add synonyms to support obsolete or custom terms found in Ensembl GFF3 file
+runpipe-plugin --plugin XMLRecordLoader --file $CONFIG_DIR/ontologies/sequence_ontology/ensembl_syn_updates.xml --log-path $LOG_DIR/ontologies/ensembl-syn-updates.log --commit
