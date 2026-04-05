@@ -1,0 +1,8 @@
+<Records>
+    <Table schema="reference" name="ontologyterm">
+        <Record>
+            <Field name="source_id">SO:0000370</Field>
+            <Field name="synonyms">["small regulatory ncRNA","sRNA"]</Field>
+        </Record>
+    </Table>
+</Records>
