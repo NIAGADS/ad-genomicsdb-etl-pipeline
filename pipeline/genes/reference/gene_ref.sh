@@ -49,3 +49,8 @@ UNIPROT_LOG_PREFIX=$LOG_DIR/gene/reference/uniprot
 wget -O $UNIPROT_FILE_PATH https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/HUMAN_9606_idmapping.dat.gz
 
 # -- xdbr
+runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/uniprotkb_xdbr.json  --log-path $UNIPROT_LOG_PREFIX-xdbr.log --commit
+
+    # runpipe-xdb-lookup --xdb uniprot -> UniProtKB|2026-01-28
+
+runpipe-plugin --plugin UniProtKBIDLoader --file $UNIPROT_FILE_PATH --xdbref "UniProtKB|2026-01-28" --log-path $UNIPROT_LOG_PREFIX-load.log --commit
