@@ -1,0 +1,10 @@
+{
+	"name": "UniProtKB",
+	"database_key": "UNIPROTKB",
+	"description": "UniProtKB is a central hub for the collection of functional information on proteins, with accurate, consistent and rich annotation.  This includes both high quality (reviewed) non-redundant records (UniProtKB/Swiss-Prot) and computationally inferred records (UniProtKB/TrEMBL).",
+	"url": "https://www.uniprot.org/",
+	"version": "2026-01-28",
+	"download_url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/",
+	"download_date": "2026-04-09",
+	"release_date": "2026-01-28"
+}
