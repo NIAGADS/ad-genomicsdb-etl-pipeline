@@ -14,10 +14,7 @@ echo "Getting disease list"
 wget "http://rest.kegg.jp/get/br:br08402/json" --output-document "$DISEASES" || echo "Warning: Failed to fetch disease list."
 
 while IFS='' read -r line || [[ -n "$line" ]]; do
-    arrIN=(${line})
-    PATHWAY_ID=${arrIN[0]}
-    PATHWAY_ID=(${PATHWAY_ID//:/ })
-    PATHWAY_ID=${PATHWAY_ID[1]}
+    PATHWAY_ID=(${line})
     echo "Fetching: $PATHWAY_ID"
     wget "http://rest.kegg.jp/get/${PATHWAY_ID}/kgml" --output-document ${FILE_PATH}/${PATHWAY_ID}.kgml || echo "Warning: Failed to fetch KGML for $PATHWAY_ID."
 done < "$PATHWAYS"
