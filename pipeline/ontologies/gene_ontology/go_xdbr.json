@@ -1,0 +1,10 @@
+{
+	"name": "Gene Ontology",
+	"database_key": "GO",
+	"description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge organized in three aspects: Molecular Function (MF), Cellular Component (CC), and Biological Process (BP).",
+	"url": "https://geneontology.org/",
+	"version": "2026-03-25",
+	"release_date": "2026-03-25",
+	"download_url": "https://purl.obolibrary.org/obo/go/go-basic.owl",
+	"download_date": "2026-04-09"
+}
