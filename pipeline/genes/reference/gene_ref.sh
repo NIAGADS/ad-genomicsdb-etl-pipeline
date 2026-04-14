@@ -62,3 +62,5 @@ runpipe-plugin --plugin UniProtKBIDLoader --file $UNIPROT_FILE_PATH --xdbref "Un
 # -- xdbr
 runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/pan_go_xdbr.json  --log-path $LOG_PATH/pan-go-xdbr.log --commit
 
+# -- load
+runpipe-plugin --plugin GAFLoader --file $FILE_PATH/functionome_release.gaf.gz --xdbref "PAN-GO|2.0" --go-xdbref "Gene Ontology|2026-03-25" --eco-xdbref "Gene Ontology|2026-03-25" --log-path $LOG_PATH/pan-go-load.log --commit
