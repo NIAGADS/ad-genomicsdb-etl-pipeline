@@ -1,0 +1,10 @@
+{
+	"name": "PAN-GO",
+	"database_key": "PAN_GO",
+	"description": "The PAN-GO functionome is the set of all annotated functional characteristics (GO Annotations) for human protein-coding genes, as determined by the PAN-GO (Phylogenetic ANnotation using Gene Ontology) project, a collaboration between the Gene Ontology Consortium and the PANTHER evolutionary tree resource. Each annotation is the result of expert biologist review, based on integration of experimental data for related genes using explicit evolutionaray modeling.",
+	"url": "https://functionome.geneontology.org/",
+	"version": "2.0",
+	"download_url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/",
+	"download_date": "2026-04-14",
+	"release_date": "2025-10-01"
+}

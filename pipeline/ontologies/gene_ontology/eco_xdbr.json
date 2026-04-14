@@ -1,0 +1,10 @@
+{
+	"name": "Evidence and Conclusion Ontology",
+	"database_key": "ECO",
+	"description": "The Evidence & Conclusion Ontology (ECO) is a controlled vocabulary that describes scientific evidence, which results from a variety of research methods, as well as interpretations by authors and scientific curators. ECO is used to document scientific evidence to support conclusions that result from a scientific investigation.",
+	"url": "https://www.evidenceontology.org/",
+	"version": "v2026-04-05",
+	"release_date": "2026-04-05",
+	"download_url": "https://raw.githubusercontent.com/evidenceontology/evidenceontology/269fa799fa9b89598265af640b60570de233f3c6/eco.owl",
+	"download_date": "2026-04-14"
+}
