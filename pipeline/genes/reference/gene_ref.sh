@@ -1,6 +1,6 @@
 # set up env
-FILE_PATH=$DATA_DIR/gene/reference
-LOG_PATH=$LOG_DIR/gene/reference
+export FILE_PATH=$DATA_DIR/gene/reference
+export LOG_PATH=$LOG_DIR/gene/reference
 mkdir -p $FILE_PATH
 mkdir -p $LOG_PATH
 
@@ -57,7 +57,8 @@ runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/referenc
 runpipe-plugin --plugin UniProtKBIDLoader --file $UNIPROT_FILE_PATH --xdbref "UniProtKB|2026-01-28" --log-path $UNIPROT_LOG_PREFIX-load.log --commit
 
 # ====== PAN-GO Annotations
-# Cannot fetch via w/get need to download in browser: https://functionome.geneontology.org/download/functionome_release.gaf.gz 
+wget -O $FILE_PATH/functionome_release.gaf.gz   -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"  --referer="https://functionome.geneontology.org" https://functionome.geneontology.org/download/functionome_release.gaf.gz 
+
 
 # -- xdbr
 runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/pan_go_xdbr.json  --log-path $LOG_PATH/pan-go-xdbr.log --commit
