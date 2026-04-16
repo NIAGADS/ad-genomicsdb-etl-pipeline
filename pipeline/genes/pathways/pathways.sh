@@ -7,7 +7,10 @@ runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/pathways
 
 
 # load the pathway memberships
+# --fail-on-missing-genes
+runpipe-plugin --plugin KEGGLoaderPlugin --kgml-dir $DATA_DIR/KEGG --xdbref "KEGG: Kyoto Encyclopedia of Genes and Genomes|117.0" --log-path $LOG_DIR/kegg-load.log  --commit 
 
 # REACTOME
+
 
 # ditto
