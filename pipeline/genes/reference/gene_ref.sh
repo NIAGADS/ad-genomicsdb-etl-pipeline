@@ -40,18 +40,16 @@ runpipe-plugin --plugin HGNCXRefLoader --file $DATA_DIR/gene/reference/hgnc_comp
 # need a file with ensembl ids for lookup against UniProt API
 # runpipe-export --table gene --schema gene --fields source_id --output $DATA_DIR/gene/reference/loaded_ensembl_genes.txt
 
-UNIPROT_FILE_PATH=$DATA_DIR/gene/reference/HUMAN_9606_idmapping.dat.gz
-UNIPROT_LOG_PREFIX=$LOG_DIR/gene/reference/uniprot
 
 # found the download
-wget -O $UNIPROT_FILE_PATH https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/HUMAN_9606_idmapping.dat.gz
+wget -O $FILE_PATH/HUMAN_9606_idmapping.dat.gz https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/HUMAN_9606_idmapping.dat.gz
 
 # -- xdbr
-runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/uniprotkb_xdbr.json  --log-path $UNIPROT_LOG_PREFIX-xdbr.log --commit
+runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/uniprotkb_xdbr.json  --log-path $LOG_PATH/uniprot-xdbr.log --commit
 
     # runpipe-xdb-lookup --xdb uniprot -> UniProtKB|2026-01-28
 
-runpipe-plugin --plugin UniProtKBIDLoader --file $UNIPROT_FILE_PATH --xdbref "UniProtKB|2026-01-28" --log-path $UNIPROT_LOG_PREFIX-load.log --commit
+runpipe-plugin --plugin UniProtKBIDLoader --file $FILE_PATH/HUMAN_9606_idmapping.dat.gz --xdbref "UniProtKB|2026-01-28" --log-path $LOG_PATH/uniprot-load.log --commit
 
 # ====== PAN-GO Annotations
 wget -O $FILE_PATH/functionome_release.gaf.gz   -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"  --referer="https://functionome.geneontology.org" https://functionome.geneontology.org/download/functionome_release.gaf.gz 
