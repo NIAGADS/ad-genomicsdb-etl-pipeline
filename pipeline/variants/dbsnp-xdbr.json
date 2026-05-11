@@ -1,0 +1,10 @@
+{
+	"name": "dbSNP",
+	"database_key": "DBSNP",
+	"description": "NCBI dbSNP is a database of single nucleotide polymorphisms (SNPs) and multiple small-scale variations that include insertions/deletions, microsatellites, and non-polymorphic variants. dbSNP serves as the primary reference for sequence variants in the GenomicsDB",
+	"url": "https://www.ncbi.nlm.nih.gov/projects/SNP/",
+	"version": "157",
+	"download_url": "https://ftp.ncbi.nih.gov/snp/latest_release/VCF/",
+	"download_date": "2026-04-22",
+	"release_date": "2025-01-15"
+}

@@ -13,9 +13,13 @@ wget -O $FILE_PATH/GCF_000001405.40.gz.md5 https://ftp.ncbi.nih.gov/snp/latest_r
 wget -O $FILE_PATH/CHECKSUMS https://ftp.ncbi.nih.gov/snp/latest_release/VCF/CHECKSUMS
 
 # split by chrm
-./split_vcf_by_chr.sh  $FILE_PATH/GCF_000001405.40.gz
+$PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/split_vcf_by_chr.sh  $FILE_PATH/GCF_000001405.40.gz
 
-# ----- run vep ---
-# spin up docker in `niagads-pylib/variant_annotator` project
-# install cache following instructions
+# load xdbr
+
+# load merged variants
+wget -O $FILE_PATH/dbsnp/refsnp-merged.json.bz2 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2
+wget -O $FILE_PATH/dbsnp/refsnp-merged.json.bz2.md5 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2.md5
+
+# load variants
 
