@@ -1,6 +1,6 @@
 # set up env
 export FILE_PATH=$DATA_DIR/variants
-export LOG_PATH=$DATA_DIR/variants/logs
+export LOG_PATH=$LOG_DIR/variants
 mkdir -p $FILE_PATH
 mkdir -p $LOG_PATH
 
@@ -16,10 +16,14 @@ wget -O $FILE_PATH/CHECKSUMS https://ftp.ncbi.nih.gov/snp/latest_release/VCF/CHE
 $PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/split_vcf_by_chr.sh  $FILE_PATH/GCF_000001405.40.gz
 
 # load xdbr
+runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/variants/dbsnp_xdbr.json  --log-path $LOG_DIR/variants/dbsnp-xdbr.log --commit
+# dbSNP|157
 
 # load merged variants
 wget -O $FILE_PATH/dbsnp/refsnp-merged.json.bz2 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2
 wget -O $FILE_PATH/dbsnp/refsnp-merged.json.bz2.md5 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2.md5
+
+runpipe-plugin --plugin RefSNPMergeHistory --xdbref "dbSNP|157" --batch-size 50000 --file $FILE_PATH/dbsnp/refsnp-merged.json.bz2 --log-path $LOG_DIR/variants/dbsnp-merges-load.log --commit
 
 # load variants
 
