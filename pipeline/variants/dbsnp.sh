@@ -1,29 +1,31 @@
-# set up env
-export FILE_PATH=$DATA_DIR/variants
-export LOG_PATH=$LOG_DIR/variants
-mkdir -p $FILE_PATH
-mkdir -p $LOG_PATH
-
 
 # get dbsnp
-mkdir $FILE_PATH/dbsnp
-wget -O $FILE_PATH/dbsnp/release_notes.txt https://ftp.ncbi.nih.gov/snp/latest_release/release_notes.txt
-wget -O $FILE_PATH/GCF_000001405.40.gz https://ftp.ncbi.nih.gov/snp/latest_release/VCF/GCF_000001405.40.gz
-wget -O $FILE_PATH/GCF_000001405.40.gz.md5 https://ftp.ncbi.nih.gov/snp/latest_release/VCF/GCF_000001405.40.gz.md5
-wget -O $FILE_PATH/CHECKSUMS https://ftp.ncbi.nih.gov/snp/latest_release/VCF/CHECKSUMS
+mkdir $DATA_DIR/variants/dbsnp
+wget -O $DATA_DIR/variants/dbsnp/release_notes.txt https://ftp.ncbi.nih.gov/snp/latest_release/release_notes.txt
+wget -O $DATA_DIR/variants/GCF_000001405.40.gz https://ftp.ncbi.nih.gov/snp/latest_release/VCF/GCF_000001405.40.gz
+wget -O $DATA_DIR/variants/GCF_000001405.40.gz.md5 https://ftp.ncbi.nih.gov/snp/latest_release/VCF/GCF_000001405.40.gz.md5
+wget -O $DATA_DIR/variants/CHECKSUMS https://ftp.ncbi.nih.gov/snp/latest_release/VCF/CHECKSUMS
 
-# split by chrm
-$PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/split_vcf_by_chr.sh  $FILE_PATH/GCF_000001405.40.gz
-
-# load xdbr
+# ====== load xdbr
 runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/variants/dbsnp_xdbr.json  --log-path $LOG_DIR/variants/dbsnp-xdbr.log --commit
 # dbSNP|157
 
-# load merged variants
-wget -O $FILE_PATH/dbsnp/refsnp-merged.json.bz2 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2
-wget -O $FILE_PATH/dbsnp/refsnp-merged.json.bz2.md5 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2.md5
+# ====== load variants
 
-runpipe-plugin --plugin RefSNPMergeHistory --xdbref "dbSNP|157" --batch-size 50000 --file $FILE_PATH/dbsnp/refsnp-merged.json.bz2 --log-path $LOG_DIR/variants/dbsnp-merges-load.log --commit
+# split by chrm
+$PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/split_vcf_by_chr.sh  $DATA_DIR/variants/GCF_000001405.40.gz
 
-# load variants
+runpipe-plugin --plugin dbSNPVCFLoader --xdbref "dbSNP|157" --file $DATA_DIR/variants/dbsnp/chrY.vcf --log-path $LOG_DIR/variants/dbsnp-chrY-load.log --batch-size 50000 --seqrepo-batch-size 250 --commit
+
+
+
+
+# ====== load merged variants
+wget -O $DATA_DIR/variants/dbsnp/refsnp-merged.json.bz2 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2
+wget -O $DATA_DIR/variants/dbsnp/refsnp-merged.json.bz2.md5 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2.md5
+
+# start the seqrepo docker container
+docker compose --file $PROJECT_DIR/niagads-pylib/projects/variant-annotator/docker-compose.yaml up -d seqrepo-rest-service
+
+runpipe-plugin --plugin RefSNPMergeHistory --xdbref "dbSNP|157" --file $DATA_DIR/variants/dbsnp/refsnp-merged.json.bz2 --log-path $LOG_DIR/variants/dbsnp-merges-load.log --commit
 
