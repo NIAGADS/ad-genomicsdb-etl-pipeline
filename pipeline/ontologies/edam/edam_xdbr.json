@@ -1,0 +1,10 @@
+{
+	"name": "EDAM Ontology",
+	"database_key": "EDAM",
+	"description": "EDAM is the ontology of data analysis and management, providing a comprehensive set of well-established, familiar concepts that are prevalent within scientific data analysis and data management (both within and beyond life sciences and imaging). EDAM includes topics, operations, types of data and data identifiers, and data formats. EDAM provides a set of concepts with preferred terms and synonyms, related terms, definitions, and other information - organised into a simple and intuitive hierarchy for convenient use.",
+	"url": "https://edamontology.org/",
+	"version": "1.25",
+	"release_date": "2020-06-18",
+	"download_url": "https://edamontology.org/page#:~:text=a,below%29%2E",
+	"download_date": "2026-05-15"
+}
