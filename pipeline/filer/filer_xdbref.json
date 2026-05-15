@@ -1,0 +1,9 @@
+{
+	"name": "NIAGADS Functional Genomics Repository",
+	"database_key": "FILER",
+	"description": "The Functional genomics repository (FILER) is a comprehesive functional genomics database developed by NIAGADS, providing harmonized, indexed, searchable human functional genomics data collection across >20 data sources.",
+	"url": "https://tf.lisanwanglab.org/FILER/",
+	"version": "2.0",
+	"download_url": "https://tf.lisanwanglab.org/FILER2/",
+	"download_date": "2026-05-14"
+}
