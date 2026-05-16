@@ -1,0 +1,8 @@
+<Records>
+    <Table schema="reference" name="externaldatabase">
+        <Record>
+            <Field name="database_key">EDAM</Field>
+            <Field name="database_type_id">144467</Field>
+        </Record>
+    </Table>
+</Records>

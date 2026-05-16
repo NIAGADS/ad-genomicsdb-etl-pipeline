@@ -6,5 +6,6 @@
 	"version": "2.0",
 	"download_url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/",
 	"download_date": "2026-04-14",
-	"release_date": "2025-10-01"
+	"release_date": "2025-10-01",
+    "database_type_id" :"EDAM:operation_3672"
 }
