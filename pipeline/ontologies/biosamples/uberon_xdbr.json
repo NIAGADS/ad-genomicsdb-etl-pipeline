@@ -1,0 +1,11 @@
+{
+	"name": "UBERON",
+	"database_key": "UBERON",
+	"description": "UBERON is an anatomical ontology that represents body parts, organs and tissues in a variety of animal species.",
+	"url": "https://obophenotype.github.io/uberon/",
+	"version": "v2026-04-01",
+	"release_date": "2026-04-01",
+	"download_url": "http://purl.obolibrary.org/obo/uberon.owl",
+	"download_date": "2026-05-16",
+    "database_type_id": "EDAM:data_0582"
+}

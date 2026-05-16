@@ -1,0 +1,12 @@
+{
+	"name": "Cell Ontology",
+	"database_key": "CL",
+	"description": "The Cell Ontology is a structured controlled vocabulary for cell types in animals.",
+	"url": "https://obophenotype.github.io/cell-ontology/",
+	"version": "v2026-03-26",
+	"release_date": "2026-03-26",
+	"download_url": "http://purl.obolibrary.org/obo/cl.owl",
+	"download_date": "2026-05-16",
+    "database_type_id": "EDAM:data_0582"
+}
+

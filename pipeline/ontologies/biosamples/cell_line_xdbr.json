@@ -1,0 +1,13 @@
+{
+	"name":  "Cell Line Ontology",
+	"database_key": "CLO",
+	"description":"The Cell Line Ontology (CLO) is a community-driven ontology that is developed to standardize and integrate cell line information and support computer-assisted reasoning.",
+	"url": "https://github.com/CLO-Ontology/CLO",
+	"version": "2023-03-28",
+	"release_date": "2023-03-28",
+	"download_url": "http://purl.obolibrary.org/obo/clo.owl",
+	"download_date": "2026-05-15",
+    "database_type_id":"EDAM:data_0582"
+}
+
+
