@@ -11,6 +11,6 @@ runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/pathways
 runpipe-plugin --plugin KEGGLoaderPlugin --kgml-dir $DATA_DIR/KEGG --xdbref "KEGG: Kyoto Encyclopedia of Genes and Genomes|117.0" --log-path $LOG_DIR/kegg-load.log  --commit 
 
 # REACTOME
-
+wget -O $DATA_DIR/Pathways/Ensembl2Reactome.txt https://download.reactome.org/96/Ensembl2Reactome.txt
 
 # ditto
