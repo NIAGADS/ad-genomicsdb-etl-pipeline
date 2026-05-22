@@ -1,9 +1,10 @@
 {
-	"name": "Reactome: ",
+	"name": "Reactome",
 	"database_key": "Reactome",
-	"description": "",
-	"url": "",
-	"version": "",
-	"download_date": "",
-	"release_date": ""
+	"description": "REACTOME is an open-source, open access,manually curated and peer-reviewed pathway database. REACTOME ENSEMBL to Pathway identifier mapping files map Ensembl Gene ids to the most specific (lowest level) pathways",
+	"url": "https://reactome.org/",
+	"version": "V96",
+	"download_date": "2026-05-22",
+	"release_date": "2026-04-01",
+	"database_type_id": "EDAM:data_2600"
 }
