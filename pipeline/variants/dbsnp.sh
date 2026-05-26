@@ -20,7 +20,9 @@ $PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/split_vcf_by_chr.sh  $
 mv $DATA_DIR/variants/dbsnp/orig/chr*.vcf ../.
 
 # TEST
-#runpipe-plugin --plugin dbSNPVCFLoader --xdbref "dbSNP|157" --file $DATA_DIR/variants/dbsnp/chrY.vcf --log-path $LOG_DIR/variants/dbsnp-chrY-load.log --batch-size 50000 --seqrepo-batch-size 250 --commit
+# runpipe-plugin --plugin dbSNPVCFLoader --xdbref "dbSNP|157" --file $DATA_DIR/variants/dbsnp/chrY.vcf --seqrepo-data-proxy $DATA_DIR/shared/seqrepo/2024-12-20 --log-path $DATA_DIR/variants/dbsnp/chrY-test.log --batch-size 50000 --commit
+
+
 $PROJECT_DIR/ad-genomicsdb-etl-pipeline/pipeline/variants/load_dbnp_vcfs.sh $DATA_DIR/variants/dbsnp 25 commit
 
 

@@ -14,14 +14,15 @@ process_vcf() {
 
     echo "loading $filename"
     runpipe-plugin --plugin dbSNPVCFLoader --xdbref "dbSNP|157" \
-        --file "$vcf_file" --log-path ${VCF_DIR}/${filename%.vcf}.log \
-        --batch-size 10000 $COMMIT_FLAG
-
-    
+        --file "$vcf_file" \
+        --seqrepo-data-proxy $DATA_DIR/shared/seqrepo/2024-12-20 \
+        --log-path ${VCF_DIR}/${filename%.vcf}.log \
+        --batch-size 50000 $COMMIT_FLAG
 }
 
 export -f process_vcf
 export VCF_DIR
 export COMMIT_FLAG
+export DATA_DIR
 
 find "$VCF_DIR" -maxdepth 1 -name "*.vcf" -type f -print0 | xargs -0 -P "$NUM_PARALLEL" -I {} bash -c 'process_vcf "$@"' _ {}
