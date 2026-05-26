@@ -25,6 +25,11 @@ mv $DATA_DIR/variants/dbsnp/orig/chr*.vcf ../.
 
 $PROJECT_DIR/ad-genomicsdb-etl-pipeline/pipeline/variants/load_dbnp_vcfs.sh $DATA_DIR/variants/dbsnp 25 commit
 
+# build indexes
+docker run --rm -it --network host -v $PROJECT_DIR/niagads-pylib/projects/genomicsdb-schema-manager/sql/schemas/variant/tables/:/work postgres:18 psql -a -e $DATABASE_URI -f /work/create_variant_lookup_indexes.sql
+
+
+
 
 # ====== load merged variants
 wget -O $DATA_DIR/variants/dbsnp/refsnp-merged.json.bz2 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2
