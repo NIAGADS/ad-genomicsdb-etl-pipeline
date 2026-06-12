@@ -1,0 +1,27 @@
+APOE ε4 carrier	NO:0000059
+APOE ε4 non-carrier	NO:0000060
+APOE4 carrier status or allele number	NIAGADS:undefined
+APOε4 carrier status or allele number	NIAGADS:undefined
+African American	HANCESTRO:0568
+African/African American	NO:0000046
+Alzheimer's disease	EFO:1001870
+Asian	HANCESTRO:0008
+Black or African American	NCIT:C16352
+East Asian	HANCESTRO:0009
+European	HANCESTRO:0005
+GWAS Summary Statistics	NIAGADS:undefined
+Hispanic Or Latino	NCIT:C17459
+Hispanic or Latin American	HANCESTRO:0014
+Japanese	HANCESTRO:0019
+Korean	NIAGADS:needs-review
+Not Hispanic Or Latino	NCIT:C41222
+PCA	NIAGADS:undefined
+White	NCIT:C48325
+age	NIAGADS:undefined
+amyloid levels	NIAGADS:needs-review
+female	PATO:0000383
+gender	NCIT:C17357
+male	PATO:0000384
+platform	NIAGADS:undefined
+population stratification	NIAGADS:undefined
+sex	NIAGADS:needs-review
