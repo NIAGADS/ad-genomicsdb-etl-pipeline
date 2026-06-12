@@ -1,0 +1,83 @@
+{
+  "id": "NG00182_APOE\u03b54_non-carrier",
+  "name": "GARD GWAS Summary Statistics: APOE\u03b54 non-carrier",
+  "description": "GWAS summary statistics derived from single-variant association tests for WGS data  from 2,195 Korean APOE\u03b54 non-carriers aged 60 years or older (773 AD cases, 1,422 controls) from the GARD cohort.",
+  "genome_build": "GRCh38",
+  "feature_type": "VARIANT",
+  "cohorts": [
+    "GARD"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00182",
+    "release_date": "2025-09-24",
+    "release_version": "v1",
+    "attribution": "Kang et al. 2024",
+    "pubmed_id": [
+      "39428694"
+    ],
+    "doi": [
+      "10.1002/alz.14128"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "gard.gwas.sum.stat_e4.non.car.txt",
+    "md5sum": "5a4f0a7c4dd569b5701584a9c4efa0fe",
+    "file_size": 1304671730
+  },
+  "experimental_design": {
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+      {
+        "curie": "NIAGADS:undefined",
+        "term": "APO\u03b54 carrier status or allele number"
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "EFO:1001870",
+        "term": "Alzheimer's disease"
+      }
+    ],
+    "race": [
+      {
+        "curie": "HANCESTRO:0008",
+        "term": "Asian"
+      }
+    ],
+    "population": [
+      {
+        "curie": "NIAGADS:needs-review",
+        "term": "Korean"
+      }
+    ],
+    "genotype": [
+      {
+        "curie": "NO:0000060",
+        "term": "APOE \u03b54 non-carrier"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Alzheimer's disease",
+      "num_cases": 773,
+      "num_controls": 1422
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-04-21",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    }
+  ]
+}

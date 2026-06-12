@@ -1,0 +1,98 @@
+{
+  "id": "NG00177_NHW",
+  "name": "ADGC Multi-Ancestry GWAS Meta-Analysis - NHW",
+  "description": "We constructed and analyzed GWAS datasets in the Alzheimer's Disease Genetics Consortium (ADGC) to test for novel shared and population-specific late-onset Alzheimer's Disease (LOAD) susceptibility loci and evaluate underlying genetic architecture in 37,382 non-Hispanic Whites, performing a within ancestry fixed-effects meta-analysis.",
+  "genome_build": "GRCh38",
+  "feature_type": "VARIANT",
+  "cohorts": [
+    "MAYO"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00177",
+    "release_date": "2025-09-10",
+    "consortium": [
+      "ADGC"
+    ],
+    "attribution": "Rajabli et al. 2025",
+    "pubmed_id": [
+      "PMID:40676597"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "temp.txt",
+    "md5sum": "d41d8cd98f00b204e9800998ecf8427e",
+    "file_size": 0
+  },
+  "experimental_design": {
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+      {
+        "curie": "NIAGADS:undefined",
+        "term": "PCA"
+      },
+      {
+        "curie": "NIAGADS:undefined",
+        "term": "age"
+      },
+      {
+        "curie": "NIAGADS:undefined",
+        "term": "platform"
+      },
+      {
+        "curie": "NIAGADS:undefined",
+        "term": "APOE4 carrier status or allele number"
+      },
+      {
+        "curie": "NCIT:C17357",
+        "term": "gender"
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "EFO:1001870",
+        "term": "Alzheimer's disease"
+      }
+    ],
+    "ethnicity": [
+      {
+        "curie": "NCIT:C41222",
+        "term": "Not Hispanic Or Latino"
+      }
+    ],
+    "race": [
+      {
+        "curie": "NCIT:C48325",
+        "term": "White"
+      }
+    ],
+    "population": [
+      {
+        "curie": "HANCESTRO:0005",
+        "term": "European"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Alzheimer's disease",
+      "num_cases": 17839,
+      "num_controls": 19543
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-04-22",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    }
+  ]
+}

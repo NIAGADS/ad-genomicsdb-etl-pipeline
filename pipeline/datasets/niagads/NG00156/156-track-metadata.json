@@ -1,0 +1,63 @@
+{
+  "id": "156",
+  "name": "Genetic variants and functional pathways associated with resilience to Alzheimer\u2019s disease",
+  "description": "This study explored the genetic variants associated with resilience to Alzheimer\u2019s disease, leveraging cognitive and pathology data harmonized across two datasets with autopsy measures of amyloid (ROS/MAP and ACT) and two datasets with amyloid PET (A4 and ADNI). Resilience phenotypes were calculated using a latent variable modeling approach, modeling better than expected cognition for a given level of amyloid pathology, following the method originally published in Hohman, et al, 2017 (PMID: 27743375). Genotype data in each study underwent standard quality control and imputation onto the HRC reference panel (genome build 37). GWAS on both resilience phenotypes were performed including all samples as well as subsetted to only cognitively normal samples to evaluate resilience at the preclinical stage of disease.",
+  "genome_build": "GRCh37",
+  "feature_type": "VARIANT",
+  "cohorts": [
+    "ROS",
+    "MAP",
+    "ACT",
+    "A4",
+    "ADNI"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00156",
+    "release_date": "2024-03-06",
+    "release_version": "1",
+    "attribution": "Dumitrescu et al. 2020",
+    "pubmed_id": [
+      "32844198"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "tmp.txt",
+    "md5sum": "d41d8cd98f00b204e9800998ecf8427e",
+    "file_size": 0
+  },
+  "experimental_design": {
+    "is_lifted": false,
+    "covariates": [
+      {
+        "curie": "NIAGADS:needs-review",
+        "term": "amyloid levels"
+      },
+      {
+        "curie": "NIAGADS:needs-review",
+        "term": "sex"
+      },
+      {
+        "curie": "NIAGADS:undefined",
+        "term": "age"
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "EFO:1001870",
+        "term": "Alzheimer's disease"
+      }
+    ]
+  },
+  "curation_history": [
+    {
+      "event_date": "2026-04-23",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    }
+  ]
+}
