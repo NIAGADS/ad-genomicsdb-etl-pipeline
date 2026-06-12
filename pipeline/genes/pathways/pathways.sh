@@ -20,6 +20,6 @@ runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/pathways
 
 # load the pathway memberships
 # --fail-on-missing-genes
-runpipe-plugin --plugin ReactomeLoaderPlugin --reactome-dir $DATA_DIR/Reactome --xdbref "Reactome|V96" --log-path $LOG_DIR/reactome-load.log  --commit 
+runpipe-plugin --plugin ReactomeLoaderPlugin --file $DATA_DIR/Pathways/Ensembl2Reactome.txt --xdbref "Reactome|V96" --log-path $LOG_DIR/reactome-load.log  --commit 
 
 # REACTOM
