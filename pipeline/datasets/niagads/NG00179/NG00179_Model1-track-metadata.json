@@ -1,0 +1,114 @@
+{
+  "id": "NG00179_Model1",
+  "name": "AD GWAS in participants of African ancestry",
+  "description": "Genome-wide single variant association analyses of common and rare variants were performed individually on each dataset using SNPTEST. Covariates entered for both models are listed below. Each dataset was independently phased and imputed to the African Genome Resource (AGR) reference panel utilizing the Sanger genotype imputation and phasing service.",
+  "genome_build": "GRCh37",
+  "feature_type": "VARIANT",
+  "cohorts": [
+    "The NIA ADC Samples Batch 11 (ADC11)",
+    "The NIA ADC Samples Batch 3 (ADC3)",
+    "The NIA ADC Samples Batch 1 and Batch 2 (ADC12)",
+    "The NIA ADC Samples Batch 8(ADC8)",
+    "The Research in African American Alzheimer Disease Initiative (REAADI)",
+    "The Adult Changes in Thought Study (ACT)",
+    "ADGC 2013 (ADGCCHOP)",
+    "ADGC 2018a (CHOPREDO)",
+    "ADGC 2018b (IGSGSA)",
+    "The Chicago Health and Aging Project (CHAP)",
+    "Indianapolis Cohort of the Indianapolis Ibadan Dementia Study",
+    "Indiana University (INDIANAPOLIS)",
+    "The Genetic and Environmental Risk Factors for Alzheimer\u2019s Disease Among African Americans (GenerAAtions) Study (JHU)",
+    "NIA-FBS/NCRAD (NIALOAD)",
+    "The Washington Heights Inwood Aging Project (WHICAP)",
+    "The MIRAGE Study 300k (MIR300)",
+    "The MIRAGE Study 600k (MIR600)",
+    "Ibadan Cohort of the Indianapolis Ibadan Dementia Study",
+    "Indiana University (IBADAN)"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00179",
+    "release_date": "2025-12-10",
+    "release_version": "1",
+    "attribution": "Ray et al. 2024",
+    "pubmed_id": [
+      "38958117"
+    ],
+    "doi": [
+      "10.1002/alz.13880"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "tmp.txt",
+    "md5sum": "d41d8cd98f00b204e9800998ecf8427e",
+    "file_size": 0
+  },
+  "experimental_design": {
+    "analysis": "Genome-wide single variant association analyses of common and rare variants",
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+      {
+        "curie": "NIAGADS:undefined",
+        "term": "age"
+      },
+      {
+        "curie": "NCIT:C17357",
+        "term": "gender"
+      },
+      {
+        "curie": "NIAGADS:undefined",
+        "term": "population stratification"
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "EFO:1001870",
+        "term": "Alzheimer's disease"
+      }
+    ],
+    "race": [
+      {
+        "curie": "NCIT:C16352",
+        "term": "Black or African American"
+      }
+    ],
+    "population": [
+      {
+        "curie": "NO:0000046",
+        "term": "African/African American"
+      }
+    ],
+    "gender": [
+      {
+        "curie": "PATO:0000383",
+        "term": "female"
+      },
+      {
+        "curie": "PATO:0000384",
+        "term": "male"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Black or African American",
+      "num_cases": 2903,
+      "num_controls": 6265
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-04-27",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    }
+  ]
+}
