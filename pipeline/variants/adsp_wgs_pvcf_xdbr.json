@@ -1,0 +1,11 @@
+{
+	"name": "ADSP R5 58K WGS: SNVs and short INDELs",
+	"database_key": "ADSP",
+	"description": "Project level VCFs with full quality control SNV and short INDEL variants joint called from whole genome sequencing of 58,507 genomes from 57 cohorts.",
+	"url": "https://adseq.org/",
+    "download_url": "https://dss.niagads.org/datasets/ng00067/",
+	"version": "R5",
+	"download_date": "2026-05-13",
+	"release_date": "2025-04-01",
+    "database_type_id": "EDAM:data_0918"
+}
