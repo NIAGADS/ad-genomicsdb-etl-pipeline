@@ -23,20 +23,17 @@ mv $DATA_DIR/variants/dbsnp/orig/chr*.vcf ../.
 # runpipe-plugin --plugin dbSNPVCFLoader --xdbref "dbSNP|157" --file $DATA_DIR/variants/dbsnp/chrY.vcf --seqrepo-data-proxy $DATA_DIR/shared/seqrepo/2024-12-20 --log-path $DATA_DIR/variants/dbsnp/chrY-test.log --batch-size 50000 --commit
 
 
-$PROJECT_DIR/ad-genomicsdb-etl-pipeline/pipeline/variants/load_dbnp_vcfs.sh $DATA_DIR/variants/dbsnp 25 commit
+./$PROJECT_DIR/ad-genomicsdb-etl-pipeline/pipeline/variants/load_dbnp_vcfs.sh $DATA_DIR/variants/dbsnp 25 commit
 
 # build indexes
 docker run --rm -it --network host -v $PROJECT_DIR/niagads-pylib/projects/genomicsdb-schema-manager/sql/schemas/variant/tables/:/work postgres:18 psql -a -e $DATABASE_URI -f /work/create_variant_lookup_indexes.sql
-
-
+./$PROJECT_DIR/niagads-pylib/projects/genomicsdb-schema-manager/sql/schemas/variant/tables/create_partition_bin_index_indexes.sh
+docker run --rm -it --network host -v $PROJECT_DIR/niagads-pylib/projects/genomicsdb-schema-manager/sql/schemas/variant/tables/:/work postgres:18 psql -a -e $DATABASE_URI -f /work/create_parent_bin_index_index.sql
 
 
 # ====== load merged variants
 wget -O $DATA_DIR/variants/dbsnp/refsnp-merged.json.bz2 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2
 wget -O $DATA_DIR/variants/dbsnp/refsnp-merged.json.bz2.md5 https://ftp.ncbi.nih.gov/snp/latest_release/JSON/refsnp-merged.json.bz2.md5
-
-# start the seqrepo docker container
-docker compose --file $PROJECT_DIR/niagads-pylib/projects/variant-annotator/docker-compose.yaml up -d seqrepo-rest-service
 
 runpipe-plugin --plugin RefSNPMergeHistory --xdbref "dbSNP|157" --file $DATA_DIR/variants/dbsnp/refsnp-merged.json.bz2 --log-path $LOG_DIR/variants/dbsnp-merges-load.log --commit
 
