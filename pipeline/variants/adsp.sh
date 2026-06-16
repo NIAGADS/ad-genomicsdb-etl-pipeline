@@ -11,7 +11,10 @@ $PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/run_vep_parallel.sh $D
 runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/variants/adsp_wgs_pvcf_xdbr.json  --log-path $DATA_DIR/variants/logs/adsp-wgs-pvcf-xdbr.log --commit
 
 # ===== set flags and load any missing variants
-runpipe-plugin --plugin ADSPVCFLoader --xdbref "ADSP R5 58K WGS: SNVs and short INDELs|R5" --seqrepo-data-proxy $DATA_DIR/shared/seqrepo/2024-12-20 --log-path $DATA_DIR/variants/logs/adsp-vcf-flag-test.log --file $DATA_DIR/variants/adsp/compact/temp/gcad.qc.compact.r5.wgs.58506.GLnexus.2025.07.31.genotypes.chr21_23354996-46699980.ALL.vcf.gz --batch-size 10000
+# test
+# runpipe-plugin --plugin ADSPVCFLoader --xdbref "ADSP R5 58K WGS: SNVs and short INDELs|R5" --seqrepo-data-proxy $DATA_DIR/shared/seqrepo/2024-12-20 --log-path $DATA_DIR/variants/logs/adsp-vcf-flag-test.log --file $DATA_DIR/variants/adsp/compact/temp/gcad.qc.compact.r5.wgs.58506.GLnexus.2025.07.31.genotypes.chr21_23354996-46699980.ALL.vcf.gz --batch-size 10000
+
+./$PROJECT_DIR/ad-genomicsdb-etl-pipeline/pipeline/variants/load_adsp_vcfs.sh $DATA_DIR/variants/adsp/compact/vcfs 25 commit
 
 # SVS 
 mkdir -p $DATA_DIR/variants/adsp/sv
