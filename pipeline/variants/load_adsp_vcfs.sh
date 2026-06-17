@@ -18,7 +18,8 @@ process_vcf() {
         --file "$vcf_file" \
         --seqrepo-data-proxy $DATA_DIR/shared/seqrepo/2024-12-20 \
         --log-path ${VCF_DIR}/${filename%.vcf.gz}.log \
-        --batch-size 100000 $COMMIT_FLAG
+        --batch-size 100000 \
+        --no-updates $COMMIT_FLAG
 }
 
 export -f process_vcf
