@@ -1,0 +1,102 @@
+{
+  "id": "NG00122_A84C6BC6_STD",
+  "name": "Genome-Wide Association Identifies the First Risk Loci for Psychosis in Alzheimer Disease",
+  "description": "Genome-wide association meta-analysis of Alzheimer’s disease (AD) subjects (N=12,317) classified as psychosis-positive (AD+P) or psychosis-negative (AD-P) based on delusions and/or hallucinations. Eight program sources contributed whole blood, DNA, SNP array data, or genome-wide association statistics; data were processed as four cohorts (Phase 1, Phase 2, GR@ACE, NEXGENS). Cohort GWAS contrasted AD+P versus AD-P using PLINK logistic regression with ancestry covariate adjustment (and sex as an additional covariate for chromosome X), and results were meta-analyzed using METAL; NEXGENS contributed summary statistics from consortium datasets.",
+  "genome_build": "GRCh38",
+  "feature_type": "VARIANT",
+  "cohorts": [
+    "Phase 1",
+    "Phase 2",
+    "GR@ACE",
+    "NEXGENS"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00122",
+    "release_date": "2021-06-10",
+    "release_version": "v1",
+    "attribution": "DeMichele-Sweet 2021",
+    "pubmed_id": [
+      "34112972"
+    ]
+  },
+  "file_properties": {
+    "file_name": "NG00122_A84C6BC6_STD.tsv.gz",
+    "md5sum": "756b85fcb38c84b4780f9400ba2b1f0a",
+    "file_size": 980677339
+  },
+  "experimental_design": {
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+      {
+        "term": "PCA"
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "EFO:1001870",
+        "term": "Alzheimer's disease"
+      }
+    ],
+    "neuropathology": [
+      {
+        "term": ""
+      }
+    ],
+    "ethnicity": [
+      {
+        "term": ""
+      }
+    ],
+    "race": [
+      {
+        "term": ""
+      }
+    ],
+    "population": [
+      {
+        "term": "European"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "psychosis",
+      "num_cases": 5445,
+      "num_controls": 6872
+    }
+  ],
+  "biosample_characteristics": {
+    "biosample": [
+      {
+        "term": "blood"
+      }
+    ],
+    "biosample_type": [
+      {
+        "term": ""
+      }
+    ],
+    "biomarker": [
+      {
+        "term": ""
+      }
+    ]
+  },
+  "curation_history": [
+    {
+      "event_date": "2026-05-10",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "NG00165_9193D258_pvalue_only_STD",
+  "name": "CHARGE Association results from the ADSP R1 WGS data set: Hispanic/Latino Population P-value Only GWAS Summary Statistics",
+  "description": "CHARGE investigators performed single common variant association, rare variant aggregate analyses, and targeted association analyses in sub-populations using the R1 WGS data from the Alzheimer\u2019s Disease Sequencing Project (ADSP) to identify causal and rare variants that were linked to loci from the Alzheimer\u2019s Disease (AD) GWAS.",
+  "genome_build": "GRCh38",
+  "feature_type": "VARIANT",
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00165",
+    "release_date": "2024-05-15",
+    "release_version": "1",
+    "consortium": [
+      "ADSP"
+    ],
+    "attribution": "Wang et al. 2024",
+    "pubmed_id": [
+      "38511601"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "NG00165_9193D258_pvalue_only_STD.tsv.gz",
+    "md5sum": "715613bb99bf447ce52a13463eb903d8",
+    "file_size": 1008928798
+  },
+  "experimental_design": {
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+      {
+        "term": "population stratification"
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "EFO:1001870",
+        "term": "Alzheimer's disease"
+      }
+    ],
+    "neuropathology": [
+      {
+        "term": ""
+      }
+    ],
+    "ethnicity": [
+      {
+        "term": "Hispanic Or Latino"
+      }
+    ],
+    "race": [
+      {
+        "term": ""
+      }
+    ],
+    "population": [
+      {
+        "term": "Hispanic or Latin American"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Alzheimer's disease",
+      "num_cases": 795,
+      "num_controls": 721
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-05-15",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    }
+  ]
+}

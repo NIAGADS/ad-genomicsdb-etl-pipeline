@@ -1,0 +1,83 @@
+{
+  "id": "NG00165_6DCE2D7B_STD",
+  "name": "CHARGE Association results from the ADSP R1 WGS data set: Pooled Population GWAS Summary Statistics",
+  "description": "CHARGE investigators performed single common variant association, rare variant aggregate analyses, and targeted association analyses in sub-populations using the R1 WGS data from the Alzheimer\u2019s Disease Sequencing Project (ADSP) to identify causal and rare variants that were linked to loci from the Alzheimer\u2019s Disease (AD) GWAS.",
+  "genome_build": "GRCh38",
+  "feature_type": "VARIANT",
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00165",
+    "release_date": "2024-05-15",
+    "release_version": "1",
+    "consortium": [
+      "ADSP"
+    ],
+    "attribution": "Wang et al. 2024",
+    "pubmed_id": [
+      "38511601"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "NG00165_6DCE2D7B_STD.tsv.gz",
+    "md5sum": "ae3413446b2631498e9013b98990447b",
+    "file_size": 1512373847
+  },
+  "experimental_design": {
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+      {
+        "term": ""
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "EFO:1001870",
+        "term": "Alzheimer's disease"
+      }
+    ],
+    "neuropathology": [
+      {
+        "term": ""
+      }
+    ],
+    "ethnicity": [
+      {
+        "term": ""
+      }
+    ],
+    "race": [
+      {
+        "term": ""
+      }
+    ],
+    "population": [
+      {
+        "term": ""
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Alzheimer's disease",
+      "num_cases": 2184,
+      "num_controls": 2383
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-05-15",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    }
+  ]
+}

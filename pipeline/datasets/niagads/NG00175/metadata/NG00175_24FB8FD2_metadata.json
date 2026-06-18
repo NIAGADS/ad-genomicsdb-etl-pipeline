@@ -1,0 +1,71 @@
+{
+  "id": "NG00175_24FB8FD2_STD",
+  "name": "GWAS of neuropathology endophenotypes: neuritic plaques GWAS Summary Statistics",
+  "description": "Summary statistics for GWAS meta-analysis examining neuritic plaques as a neuropathological endophenotype. The analysis integrates data from multiple cohort studies (NACC, ROS/MAP, and ACT) comprising 7,804 autopsied participants.",
+  "genome_build": "GRCh38",
+  "feature_type": "VARIANT",
+  "cohorts": [
+    "NACC",
+    "ROS",
+    "MAP",
+    "ACT"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00175",
+    "release_date": "2025-08-06",
+    "release_version": "V1",
+    "consortium": [
+      "ADGC"
+    ],
+    "attribution": "Shade et al. 2024",
+    "pubmed_id": [
+      "39379761"
+    ],
+    "doi": [
+      "10.1038/s41588-024-01939-9"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "NG00175_24FB8FD2_STD.tsv.gz",
+    "md5sum": "cdb89c92db82d7d38e894c5aa1a229b3",
+    "file_size": 463802392
+  },
+  "experimental_design": {
+    "analysis": "Meta-analysis",
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false
+  },
+  "participant_phenotypes": {
+    "neuropathology": [
+      {
+        "curie": "NO:0000026",
+        "term": "CERAD score"
+      },
+      {
+        "curie": "HP:0100256",
+        "term": "neuritic plaques"
+      }
+    ],
+    "population": [
+      {
+        "curie": "HANCESTRO:0005",
+        "term": "European"
+      }
+    ]
+  },
+  "curation_history": [
+    {
+      "event_date": "2026-06-16",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    }
+  ]
+}

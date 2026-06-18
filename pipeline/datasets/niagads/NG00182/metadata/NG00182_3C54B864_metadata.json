@@ -1,0 +1,92 @@
+{
+  "id": "NG00182_3C54B864_STD",
+  "name": "GARD GWAS Summary Statistics Meta Analsyis: female",
+  "description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 3,782 female participants, including 1,872 Alzheimer\u2019s disease (AD) cases and 1,910 controls. These samples derive from the Korean GARD cohort (1,980 individuals: 914 AD cases, 1,066 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (1,802 individuals: 958 AD cases, 844 controls; SNP array\u2013based GWAS).",
+  "genome_build": "GRCh38",
+  "feature_type": "VARIANT",
+  "cohorts": [
+    "GARD",
+    "JGSCAD_1",
+    "JGSCAD_2"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00182",
+    "release_date": "2025-09-24",
+    "release_version": "v1",
+    "attribution": "Kang et al. 2024",
+    "pubmed_id": [
+      "39428694"
+    ],
+    "doi": [
+      "10.1002/alz.14128"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "NG00182_3C54B864_STD.tsv.gz",
+    "md5sum": "f638fb65a0c1d1d1959819d47f761461",
+    "file_size": 167944886
+  },
+  "experimental_design": {
+    "analysis": "Meta-Analysis",
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "Meta-analysis"
+    },
+    "is_lifted": false,
+    "covariates": [
+      {
+        "curie": "NCIT:C17357",
+        "term": "gender"
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "EFO:1001870",
+        "term": "Alzheimer's disease"
+      }
+    ],
+    "race": [
+      {
+        "curie": "HANCESTRO:0008",
+        "term": "Asian"
+      }
+    ],
+    "population": [
+      {
+        "curie": "NIAGADS:needs-review",
+        "term": "Korean"
+      },
+      {
+        "curie": "HANCESTRO:0019",
+        "term": "Japanese"
+      }
+    ],
+    "gender": [
+      {
+        "curie": "PATO:0000383",
+        "term": "female"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Alzheimer's disease",
+      "num_cases": 1872,
+      "num_controls": 1910
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-05-10",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    }
+  ]
+}
