@@ -1,7 +1,7 @@
 {
-  "id": "NG00189_5AF19759_pvalue_only_STD",
+  "id": "NG00189_5AF19759_STD_OA",
   "name": "Summary statistics for GWAS of nine individual neuropsychiatric symptoms in mild cognitive impairment and dementia: Nighttime Behaviors P-value Only",
-  "description": "Nine individual neuropsychiatric symptom domains (agitation or aggression, anxiety, apathy or indifference, delusions, depression or dysphoria, disinhibition, hallucinations, irritability or lability, nighttime behaviors) measured using the Neuropsychiatric Symptom Inventory Questionnaire were tested for association with single-nucleotide polymorphisms (SNPs) with minor allele frequency > 5% in a sample of 12,806 participants with mild cognitive impairment or dementia. Participants were sampled from Alzheimer\u2019s Disease Research Centers (ADRCs) throughout the United States and were of European genetic ancestry.",
+  "description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of nighttime behaviors in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [
@@ -33,28 +33,32 @@
     "data_category": {
       "curie": "NIAGADS:undefined",
       "term": "GWAS Summary Statistics"
-    },
-    "is_lifted": false
+    }
+
   },
   "participant_phenotypes": {
+    
     "disease": [
-      {
-        "curie": "NIAGADS:needs-review",
-        "term": "psychosis"
+      { "term": "mild cognitive impairment", 
+      "curie": "DOID:0080832" 
       },
-      {
-        "curie": "NIAGADS:needs-review",
-        "term": "Nighttime behaviors"
-      },
-      {
-        "curie": "EFO:1001870",
-        "term": "Alzheimer's disease"
+
+			{ "term": "dementia", 
+      "curie": "DOID:1307"
       }
+    ],
+    "symptom": [
+
+      {
+        "curie": "NIAGADS:undefined",
+        "term": " Nighttime Behaviors" 
+      }
+
     ]
   },
   "study_diagnosis": [
     {
-      "phenotype": "psychosis",
+      "phenotype": "Nighttime Behaviors",
       "num_cases": 7085
     }
   ],
@@ -65,6 +69,14 @@
       "actor": "NIAGADS",
       "actor_type": "USER",
       "tool": "hipFG",
+      "tool_version": "1.4.1"
+    },
+    {
+      "event_date": "2026-05-15",
+      "event_type": "FILTER",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "oa_release_filter",
       "tool_version": "1.4.1"
     }
   ]
