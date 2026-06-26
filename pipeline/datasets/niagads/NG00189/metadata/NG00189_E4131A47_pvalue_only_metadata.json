@@ -59,7 +59,8 @@
   "study_diagnosis": [
     {
       "phenotype": "delusion",
-      "num_cases": 3081
+      "num_cases": 3081,
+      "num_controls":9642
     }
   ],
   "curation_history": [

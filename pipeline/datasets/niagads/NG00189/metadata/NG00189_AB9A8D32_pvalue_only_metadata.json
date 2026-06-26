@@ -56,16 +56,17 @@
       },
       
       {
-        "curie": "NIAGADS:needs-review",
-        "term": "Agression"
+        "curie": "MFOEM:000015",
+        "term": "aggression"
     
       }
     ]
   },
   "study_diagnosis": [
     {
-      "phenotype": "Agitation or aggression",
-      "num_cases": 7015
+      "phenotype": ["Agitation" , "aggression "],
+      "num_cases": 7015,
+      "num_controls": 5713
     }
   ],
   "curation_history": [

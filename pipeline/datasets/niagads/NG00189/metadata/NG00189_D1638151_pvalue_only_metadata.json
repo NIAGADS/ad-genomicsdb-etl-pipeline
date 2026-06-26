@@ -52,14 +52,20 @@
         "curie": "HP:0000741",
         "term": "Apathy"
     
+      },
+      {
+        "curie": "PATO:0000772",
+        "term": "indifference"
       }
     
     ]
   },
   "study_diagnosis": [
     {
-      "phenotype": "Apathy",
-      "num_cases": 7895
+      "phenotype": ["Apathy","indifference"],
+      "num_cases": 7895,
+      "num_controls":4832
+
     }
   ],
   "curation_history": [

@@ -50,11 +50,11 @@
     "symptom": [
 
       {
-        "curie": "NIAGADS:undefined",
-        "term": "Depression" #OLS has it as depressive disorder
+        "curie": "HP:0000716",
+        "term": "Depression" 
       },
       {
-        "curie": "NIAGADS:undefined",
+        "curie": "HP:0033838",
         "term": "Dysphoria"
       }
 
@@ -62,8 +62,9 @@
   },
   "study_diagnosis": [
     {
-      "phenotype": "Depression or Dysphoria",
-      "num_cases": 7581
+      "phenotype": ["Depression" ,"Dysphoria"],
+      "num_cases": 7581,
+      "num_controls":5146
     }
   ],
   "curation_history": [

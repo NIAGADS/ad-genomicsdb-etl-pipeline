@@ -56,7 +56,8 @@
   "study_diagnosis": [ 
     {
       "phenotype": "Disinhibition",
-      "num_cases": 5070
+      "num_cases": 5070,
+      "num_controls": 7658
     }
   ],
   "curation_history": [
