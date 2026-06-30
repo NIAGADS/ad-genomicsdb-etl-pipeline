@@ -23,3 +23,8 @@ mkdir -p $DATA_DIR/variants/adsp/sv
 
 # run rep
 $PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/run_vep_parallel.sh $DATA_DIR/variants/adsp/sv --max-parallel 5 --fork 15 --buffer-size 50000 --stats
+
+# load vep
+
+# test
+runpipe-plugin --plugin VEPAnnotationLoader --embedding-batch-size 512 --batch-size 50000 --log-path $DATA_DIR/variants/logs/vep-annot-load-test.log --file $DATA_DIR/variants/adsp/compact/vep --debug --verbose
