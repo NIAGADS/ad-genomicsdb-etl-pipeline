@@ -59,7 +59,8 @@
   "study_diagnosis": [
     {
       "phenotype": "Hallucinations",
-      "num_cases": 2027
+      "num_cases": 2027,
+      "num_controls": 10698
     }
   ],
   "curation_history": [

@@ -48,8 +48,8 @@
 		{
 			"phenotype": ["Irritability", "Emotional lability"],
 			"num_cases": 7085,
-            "num_controls": 
-		},
+            "num_controls": 4865
+		}
 	],
 	"curation_history": [
 		{
