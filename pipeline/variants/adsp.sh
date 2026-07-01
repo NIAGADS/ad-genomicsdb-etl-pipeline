@@ -27,4 +27,6 @@ $PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/run_vep_parallel.sh $D
 # load vep
 
 # test
-runpipe-plugin --plugin VEPAnnotationLoader --embedding-batch-size 512 --batch-size 50000 --log-path $DATA_DIR/variants/logs/vep-annot-load-test.log --file $DATA_DIR/variants/adsp/compact/vep --debug --verbose
+# runpipe-plugin --plugin VEPAnnotationLoader --embedding-batch-size 512 --batch-size 50000 --log-path $DATA_DIR/variants/logs/vep-test.log --file $DATA_DIR/variants/adsp/compact/vep/gcad.qc.compact.r5.wgs.58506.GLnexus.2025.07.31.genotype.chrX_155701383-156030895.ALL.vcf.vep.json.gz --debug --verbose
+
+$PROJECT_DIR/ad-genomicsdb-etl-pipeline/pipeline/variants/load_adsp_vep.sh $DATA_DIR/variants/adsp/compact/vep 25 commit
