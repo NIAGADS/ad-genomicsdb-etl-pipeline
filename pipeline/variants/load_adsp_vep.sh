@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BATCH_SIZE=100000
+BATCH_SIZE=50000
 VEP_RESULT_DIR="$1"
 NUM_PARALLEL="${2:-4}"
 COMMIT_FLAG="${3:-}"
@@ -17,9 +17,8 @@ process_vep() {
     runpipe-plugin --plugin VEPAnnotationLoader  \
         --file "$vep_result_file" \
         --log-path ${VEP_RESULT_DIR}/${filename}.log \
-        --embedding-batch-size 512 \
-        --embedding-force-cpu \
-        --skip-summarization
+        --embedding-batch-size 1024 \
+        --skip-summarization \
         --batch-size $BATCH_SIZE $COMMIT_FLAG
 }
 
