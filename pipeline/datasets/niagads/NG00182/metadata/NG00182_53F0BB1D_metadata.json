@@ -1,6 +1,6 @@
 {
   "id": "NG00182_53F0BB1D_STD",
-  "name": "GARD GWAS Summary Statistics Meta Analsyis: Total",
+  "name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: Total Sample",
   "description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 6,518 individuals, including 2,919 Alzheimer\u2019s disease (AD) cases and 3,599 controls. These samples derive from the Korean GARD cohort (3,540 individuals: 1,583 AD cases, 1,957 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (2,978 individuals: 1,336 AD cases, 1,642 controls; SNP array\u2013based GWAS).",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",

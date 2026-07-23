@@ -1,7 +1,7 @@
 {
   "id": "NG00182_0AED396A_STD",
-  "name": "GARD GWAS Summary Statistics: female",
-  "description": "GWAS summary statistics derived from single-variant association tests for WGS data from 1,980 female Koreans aged 60 years or older (914 AD cases, 1,066 controls) from the GARD cohort.",
+  "name": "Novel Alzheimer's Risk Loci in Korean participants: female",
+  "description": "GWAS summary statistics from single-variant association tests for WGS data from 1,980 female Koreans aged 60 years or older.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [
@@ -81,5 +81,7 @@
       "tool": "hipFG",
       "tool_version": "1.4.1"
     }
+
+  
   ]
 }
