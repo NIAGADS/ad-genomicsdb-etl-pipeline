@@ -1,6 +1,6 @@
 {
-  "id": "NG00189_481473B8_pvalue_STD_OA.tsv.gz",
-  "name": "Summary statistics for GWAS of nine individual neuropsychiatric symptoms in mild cognitive impairment and dementia: Hallucinations",
+  "id": "NG00189_481473B8_pvalue_STD_OA",
+  "name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Hallucinations",
   "description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of hallucinations in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
