@@ -1,84 +1,68 @@
 {
-  "id": "NG00189_EB516ED1_STD_OA",
-  "name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Anxiety",
-  "description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of anxiety in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
-  "genome_build": "GRCh38",
-  "feature_type": "VARIANT",
-  "cohorts": [
-    "ADRC"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00189",
-    "release_date": "2025-12-18",
-    "release_version": "1",
-    "consortium": [
-      "ADGC"
-    ],
-    "attribution": "Vattahil et al. 2025",
-    "pubmed_id": [
-      "40495575"
-    ],
-    "doi": [
-      "10.60859/c486-bm9140495575"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00189_EB516ED1_pvalue_only_STD.tsv.gz",
-    "md5sum": "6dcb6cced6467518e3fa528eb9b47b8c",
-    "file_size": 117294689
-  },
-  "experimental_design": {
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "GWAS Summary Statistics"
-    }
-  },
-   "participant_phenotypes": {
-    
-    "disease": [
-      { "term": "mild cognitive impairment", 
-      "curie": "DOID:0080832" 
-      },
+	"id": "NG00189_EB516ED1_STD_OA",
+	"name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Anxiety",
+	"description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of anxiety in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
+	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
+	"cohorts": ["ADRC"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00189",
+		"release_date": "2025-12-18",
+		"release_version": "1",
+		"consortium": ["ADGC"],
+		"attribution": "Vattahil et al. 2025",
+		"pubmed_id": ["40495575"],
+		"doi": ["10.60859/c486-bm9140495575"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00189_EB516ED1_pvalue_only_STD.tsv.gz",
+		"md5sum": "6dcb6cced6467518e3fa528eb9b47b8c",
+		"file_size": 117294689
+	},
+	"experimental_design": {
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "GWAS Summary Statistics"
+		}
+	},
+	"participant_phenotypes": {
+		"disease": [
+			{ "term": "mild cognitive impairment", "curie": "DOID:0080832" },
 
-			{ "term": "dementia", 
-      "curie": "DOID:1307"
-      }
-    ],
-    "symptom": [
-
-      {
-        "curie": "HP:0000739",
-        "term": "Anxiety"
-    
-      }
-    
-    ]
-  },
-  "study_diagnosis": [
-    {
-      "phenotype": "Anxiety",
-      "num_cases": 7894,
-      "num_controls":4833
-    }
-  ],
-  "curation_history": [
-    {
-      "event_date": "2026-05-15",
-      "event_type": "STANDARDIZE",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    },
-        {
-      "event_date": "2026-05-15",
-      "event_type": "FILTER",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "oa_release_filter",
-      "tool_version": "1.4.1"
-    }
-  ]
+			{ "term": "dementia", "curie": "DOID:1307" }
+		],
+		"symptom": [
+			{
+				"curie": "HP:0000739",
+				"term": "Anxiety"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Anxiety",
+			"num_cases": 7894,
+			"num_controls": 4833
+		}
+	],
+	"curation_history": [
+		{
+			"event_date": "2026-05-15",
+			"event_type": "STANDARDIZE",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		},
+		{
+			"event_date": "2026-05-15",
+			"event_type": "FILTER",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		}
+	]
 }

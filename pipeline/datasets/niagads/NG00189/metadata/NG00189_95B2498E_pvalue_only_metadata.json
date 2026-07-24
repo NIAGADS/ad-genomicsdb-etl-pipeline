@@ -48,7 +48,7 @@
 		{
 			"phenotype": ["Irritability", "Emotional lability"],
 			"num_cases": 7085,
-            "num_controls": 4865
+			"num_controls": 4865
 		}
 	],
 	"curation_history": [
@@ -65,7 +65,7 @@
 			"event_type": "FILTER",
 			"actor": "NIAGADS",
 			"actor_type": "USER",
-			"tool": "oa_release_filter",
+			"tool": "hipFG",
 			"tool_version": "1.4.1"
 		}
 	]
