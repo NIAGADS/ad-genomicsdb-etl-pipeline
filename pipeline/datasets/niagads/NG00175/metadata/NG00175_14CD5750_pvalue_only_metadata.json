@@ -1,7 +1,7 @@
 {
-  "id": "NG00175_14CD5750_pvalue_only_STD",
-  "name": "GWAS of neuropathology endophenotypes: cerebral amyloid angiopathy P-value Only GWAS Summary Statistics",
-  "description": "Summary statistics for GWAS meta-analysis examining cerebral amyloid angiopathy as a neuropathological endophenotype. The analysis integrates data from multiple cohort studies (NACC, ROS/MAP, and ACT) comprising 7,804 autopsied participants.",
+  "id": "NG00175_14CD5750_STD_OA",
+  "name": "Neuropathology endophenotypes: cerebral amyloid angiopathy",
+  "description": "Summary statistics from a genome-wide association study meta-analysis examining cerebral amyloid angiopathy as a neuropathological endophenotype. The individual studies used in this project were National Alzheimer's Coordinating Center (NACC), Religious Orders Study (ROS) and Rush Memory and Aging Project (MAP), and Adult Changes in Thought (ACT). Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [
@@ -14,7 +14,7 @@
     "data_source": "NIAGADS_DSS",
     "accession": "NG00175",
     "release_date": "2025-08-06",
-    "release_version": "V1",
+    "release_version": "1",
     "consortium": [
       "ADGC"
     ],
@@ -38,13 +38,31 @@
       "curie": "NIAGADS:undefined",
       "term": "GWAS Summary Statistics"
     },
-    "is_lifted": false
+    "is_lifted": false,
+    "covariates": [
+      {
+        "term": "Age at death"
+      },
+      {
+        "term": "Sex"
+      },
+      {
+        "term": "Cohort"
+      },
+      {
+        "term": "PCA"
+      }
+    ]
   },
   "participant_phenotypes": {
     "neuropathology": [
       {
         "curie": "EFO:0006790",
         "term": "cerebral amyloid angiopathy"
+      },
+      {
+        "curie": "EFO:0006800",
+        "term": "vascular brain injury"
       }
     ],
     "population": [
@@ -56,8 +74,22 @@
   },
   "curation_history": [
     {
+      "event_date": "2026-06-12",
+      "event_type": "PREPROCESS",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    },
+    {
       "event_date": "2026-06-16",
       "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    },
+    {
+      "event_date": "2026-06-16",
+      "event_type": "FILTER",
       "actor": "NIAGADS",
       "actor_type": "USER",
       "tool": "hipFG",
