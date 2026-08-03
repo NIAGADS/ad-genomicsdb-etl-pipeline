@@ -14,7 +14,7 @@
     "data_source": "NIAGADS_DSS",
     "accession": "NG00175",
     "release_date": "2025-08-06",
-    "release_version": "V1",
+    "release_version": "1",
     "consortium": [
       "ADGC"
     ],
@@ -50,7 +50,7 @@
         "term": "Cohort"
       },
       {
-        "term": "PCA"
+        "term": "Genetic ancestry"
       }
     ]
   },

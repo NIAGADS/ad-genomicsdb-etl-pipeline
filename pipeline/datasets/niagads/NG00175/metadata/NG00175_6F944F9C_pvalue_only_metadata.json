@@ -50,7 +50,7 @@
         "term": "Cohort"
       },
       {
-        "term": "PCA"
+        "term": "Genetic ancestry"
       }
     ]
   },
@@ -89,7 +89,7 @@
       "actor_type": "USER",
       "tool": "hipFG",
       "tool_version": "1.4.1"
-    }
+    },
     {
       "event_date": "2026-06-16",
       "event_type": "FILTER",

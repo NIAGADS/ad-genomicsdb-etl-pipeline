@@ -1,6 +1,6 @@
 {
   "id": "NG00175_DBE28B97_STD_OA",
-  "name": "europathology endophenotypes: arteriolosclerosis",
+  "name": "Neuropathology endophenotypes: arteriolosclerosis",
   "description": "Summary statistics from a genome-wide association study meta-analysis examining arteriolosclerosis as a neuropathological endophenotype. The individual studies used in this project were National Alzheimer's Coordinating Center (NACC), Religious Orders Study (ROS) and Rush Memory and Aging Project (MAP), and Adult Changes in Thought (ACT). Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
@@ -50,7 +50,7 @@
         "term": "Cohort"
       },
       {
-        "term": "PCA"
+        "term": "Genetic ancestry"
       }
     ]
   },
