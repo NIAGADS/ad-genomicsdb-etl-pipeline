@@ -1,15 +1,30 @@
 {
   "id": "NG00165_9193D258_pvalue_only_STD",
-  "name": "CHARGE Association results from the ADSP R1 WGS data set: Hispanic/Latino Population P-value Only GWAS Summary Statistics",
-  "description": "CHARGE investigators performed single common variant association, rare variant aggregate analyses, and targeted association analyses in sub-populations using the R1 WGS data from the Alzheimer\u2019s Disease Sequencing Project (ADSP) to identify causal and rare variants that were linked to loci from the Alzheimer\u2019s Disease (AD) GWAS.",
+  "name": "CHARGE Association results from ADSP R1 WGS: Hispanic/Latino Population",
+  "description": "CHARGE investigators performed single common variant association, rare variant aggregate analyses, and targeted association analyses in sub-populations using the R1 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to identify causal and rare variants that were linked to loci from the Alzheimer's Disease (AD) GWAS.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
+  "cohorts": [
+    "ACT",
+    "ADC",
+    "ADNI",
+    "EFIGA",
+    "ERF",
+    "IIAA",
+    "MIA",
+    "NCRAD",
+    "NIA AD-FBS",
+    "UWash_Families",
+    "VAN",
+    "WHICAP"
+  ],
   "provenance": {
     "data_source": "NIAGADS_DSS",
     "accession": "NG00165",
     "release_date": "2024-05-15",
     "release_version": "1",
     "consortium": [
+      "CHARGE",
       "ADSP"
     ],
     "attribution": "Wang et al. 2024",
@@ -31,7 +46,19 @@
     "is_lifted": false,
     "covariates": [
       {
-        "term": "population stratification"
+        "term": "Sex"
+      },
+      {
+        "term": "Cohort"
+      },
+      {
+        "term": "Sequencing center"
+      },
+      {
+        "term": "Platform"
+      },
+      {
+        "term": "Population stratification"
       }
     ]
   },
@@ -42,24 +69,15 @@
         "term": "Alzheimer's disease"
       }
     ],
-    "neuropathology": [
+    "ethnicity": [ #Should Ethnicity and race be included for pooled?
       {
-        "term": ""
-      }
-    ],
-    "ethnicity": [
-      {
+        "curie": "NCIT:C17459",
         "term": "Hispanic Or Latino"
-      }
-    ],
-    "race": [
-      {
-        "term": ""
       }
     ],
     "population": [
       {
-        "term": "Hispanic or Latin American"
+        "term": "Hispanic Or Latino"
       }
     ]
   },
@@ -72,8 +90,22 @@
   ],
   "curation_history": [
     {
+      "event_date": "2026-05-09",
+      "event_type": "PREPROCESS",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    },
+    {
       "event_date": "2026-05-15",
       "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    },
+    {
+      "event_date": "2026-05-15",
+      "event_type": "FILTER",
       "actor": "NIAGADS",
       "actor_type": "USER",
       "tool": "hipFG",
