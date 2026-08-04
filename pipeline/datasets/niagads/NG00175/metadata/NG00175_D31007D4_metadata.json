@@ -1,7 +1,7 @@
 {
   "id": "NG00175_D31007D4_STD",
-  "name": "GWAS of neuropathology endophenotypes: gross infarcts GWAS Summary Statistics",
-  "description": "Summary statistics for GWAS meta-analysis examining gross infarcts as a neuropathological endophenotype. The analysis integrates data from multiple cohort studies (NACC, ROS/MAP, and ACT) comprising 7,804 autopsied participants.",
+  "name": "Neuropathology endophenotypes: gross infarcts",
+  "description": "Summary statistics from a genome-wide association study meta-analysis examining gross infracts as a neuropathological endophenotype. The individual studies used in this project were National Alzheimer's Coordinating Center (NACC), Religious Orders Study (ROS) and Rush Memory and Aging Project (MAP), and Adult Changes in Thought (ACT). Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [
@@ -38,10 +38,28 @@
       "curie": "NIAGADS:undefined",
       "term": "GWAS Summary Statistics"
     },
-    "is_lifted": false
+    "is_lifted": false,
+    "covariates": [
+      {
+        "term": "Age at death"
+      },
+      {
+        "term": "Sex"
+      },
+      {
+        "term": "Cohort"
+      },
+      {
+        "term": "Genetic ancestry"
+      }
+    ]
   },
   "participant_phenotypes": {
     "neuropathology": [
+      {
+        "curie": "NIAGADS:needs-review",
+        "term": "gross infracts"
+      },
       {
         "curie": "EFO:0006791",
         "term": "vascular brain injury"
@@ -54,10 +72,31 @@
       }
     ]
   },
+    "study_diagnosis": [
+    {
+      "phenotype": "Gross Infracts",
+      "num_cases": 1766,
+      "num_controls": 5632
+    }
+  ],
   "curation_history": [
+    {
+      "event_date": "2026-06-12",
+      "event_type": "PREPROCESS",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    },
     {
       "event_date": "2026-06-16",
       "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    },
+    {
+      "event_date": "2026-06-16",
+      "event_type": "FILTER",
       "actor": "NIAGADS",
       "actor_type": "USER",
       "tool": "hipFG",

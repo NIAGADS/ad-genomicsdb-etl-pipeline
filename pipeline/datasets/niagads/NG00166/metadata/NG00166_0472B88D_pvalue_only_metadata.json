@@ -1,0 +1,111 @@
+{
+  "id": "NG00166_0472B88D_STD_OA",
+  "name": "Association results from the ADSP R3 17k WGS data set: Non-Hispanic White",
+  "description": "Association testing on single variants (MAF > 0.5%) and aggregates of rare (MAF < 1%) coding and non-coding variants with the R3 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to uncover common and rare genetic variation that may have been missed by traditional genotyping methods.",
+  "genome_build": "GRCh38",
+  "feature_type": "VARIANT",
+  "cohorts": [
+    "ACT",
+    "ADC",
+    "ADNI",
+    "Cache_County",
+    "EFIGA",
+    "ERF",
+    "IIAA",
+    "KGAD",
+    "MAYO",
+    "MIA",
+    "MSBB",
+    "NCRAD",
+    "NIA AD-FBS",
+    "PITT",
+    "PR1066",
+    "PSP",
+    "PSP_UCLA",
+    "ROSMAP",
+    "STEP",
+    "UWash_Families",
+    "VAN",
+    "WHICAP"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00166",
+    "release_date": "2024-06-18",
+    "consortium": [
+      "ADSP"
+    ],
+    "attribution": "Lee et al. 2023",
+    "pubmed_id": [
+      "PMID:39428839"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "NG00166_0472B88D_STD_pvalue_only.tsv.gz",
+    "md5sum": "8ec5ce07d8ba6135116d7a853c0cff31",
+    "file_size": 178300810
+  },
+  "experimental_design": {
+    "is_lifted": false,
+    "covariates": [
+      {
+        "term": "Sex" 
+      },
+      {
+        "term": "Sequencing center" #consider sequencing variables as overarching term for this and below two covariates
+      },
+      {
+        "term": "Sequencing length" #new
+      },
+      {
+        "term": "PCR status" #new
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "EFO:1001870",
+        "term": "Alzheimer's disease"
+      }
+    ],
+    "ethnicity": [
+      {
+        "curie": "NCIT:C41222",
+        "term": "Not Hispanic Or Latino"
+      }
+    ],
+    "race": [
+      {
+        "curie": "NCIT:C48325",
+        "term": "White"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Alzheimer's disease",
+      "num_cases": 4230,
+      "num_controls": 3109
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-06-16",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    },
+    {
+      "event_date": "2026-06-16",
+      "event_type": "FILTER",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    }
+  ]
+}

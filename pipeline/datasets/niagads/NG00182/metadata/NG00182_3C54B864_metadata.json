@@ -1,7 +1,7 @@
 {
   "id": "NG00182_3C54B864_STD",
-  "name": "GARD GWAS Summary Statistics Meta Analsyis: female",
-  "description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 3,782 female participants, including 1,872 Alzheimer\u2019s disease (AD) cases and 1,910 controls. These samples derive from the Korean GARD cohort (1,980 individuals: 914 AD cases, 1,066 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (1,802 individuals: 958 AD cases, 844 controls; SNP array\u2013based GWAS).",
+  "name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: female",
+  "description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 3,782 female participants. These samples derive from the Korean GARD cohort (1,980 individuals: 914 AD cases, 1,066 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (1,802 individuals: 958 AD cases, 844 controls; SNP array\u2013based GWAS).",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [

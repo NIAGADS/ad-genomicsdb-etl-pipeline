@@ -1,6 +1,6 @@
 {
   "id": "NG00165_6DCE2D7B_STD",
-  "name": "CHARGE Association results from the ADSP R1 WGS data set: Pooled Population GWAS Summary Statistics",
+  "name": "Analysis of WGS in ADSP to identify causal variants within GWAS loci: Pooled Population GWAS Summary Statistics",
   "description": "CHARGE investigators performed single common variant association, rare variant aggregate analyses, and targeted association analyses in sub-populations using the R1 WGS data from the Alzheimer\u2019s Disease Sequencing Project (ADSP) to identify causal and rare variants that were linked to loci from the Alzheimer\u2019s Disease (AD) GWAS.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",

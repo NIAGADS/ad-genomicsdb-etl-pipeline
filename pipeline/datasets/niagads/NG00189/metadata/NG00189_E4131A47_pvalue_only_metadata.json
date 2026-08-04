@@ -1,84 +1,68 @@
 {
-  "id": "NG00189_E4131A47_STD_OA",
-  "name": "Summary statistics for GWAS of nine individual neuropsychiatric symptoms in mild cognitive impairment and dementia: Delusion",
-  "description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of delusion in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
-  "genome_build": "GRCh38",
-  "feature_type": "VARIANT",
-  "cohorts": [
-    "ADRC"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00189",
-    "release_date": "2025-12-18",
-    "release_version": "1",
-    "consortium": [
-      "ADGC"
-    ],
-    "attribution": "Vattahil et al. 2025",
-    "pubmed_id": [
-      "40495575"
-    ],
-    "doi": [
-      "10.60859/c486-bm9140495575"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00189_E4131A47_pvalue_only_STD.tsv.gz",
-    "md5sum": "033a53fe03fca877e0bb5b70f6ee5977",
-    "file_size": 117282178
-  },
-  "experimental_design": {
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "GWAS Summary Statistics"
-    }
-  },
-  "participant_phenotypes": {
-    
-    "disease": [
-      { "term": "mild cognitive impairment", 
-      "curie": "DOID:0080832" 
-      },
+	"id": "NG00189_E4131A47_STD_OA",
+	"name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia:: Delusion",
+	"description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of delusion in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
+	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
+	"cohorts": ["ADRC"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00189",
+		"release_date": "2025-12-18",
+		"release_version": "1",
+		"consortium": ["ADGC"],
+		"attribution": "Vattahil et al. 2025",
+		"pubmed_id": ["40495575"],
+		"doi": ["10.60859/c486-bm9140495575"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00189_E4131A47_pvalue_only_STD.tsv.gz",
+		"md5sum": "033a53fe03fca877e0bb5b70f6ee5977",
+		"file_size": 117282178
+	},
+	"experimental_design": {
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "GWAS Summary Statistics"
+		}
+	},
+	"participant_phenotypes": {
+		"disease": [
+			{ "term": "mild cognitive impairment", "curie": "DOID:0080832" },
 
-			{ "term": "dementia", 
-      "curie": "DOID:1307"
-      }
-    ],
-    "symptom": [
-
-      {
-        "curie": "MFOMD:0000101",
-        "term": "delusion"
-    
-      }
-    
-    ]
-  },
-  "study_diagnosis": [
-    {
-      "phenotype": "delusion",
-      "num_cases": 3081,
-      "num_controls":9642
-    }
-  ],
-  "curation_history": [
-    {
-      "event_date": "2026-05-15",
-      "event_type": "STANDARDIZE",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    },
-    {
-      "event_date": "2026-05-15",
-      "event_type": "FILTER",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "oa_release_filter",
-      "tool_version": "1.4.1"
-    }
-  ]
+			{ "term": "dementia", "curie": "DOID:1307" }
+		],
+		"symptom": [
+			{
+				"curie": "MFOMD:0000101",
+				"term": "delusion"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "delusion",
+			"num_cases": 3081,
+			"num_controls": 9642
+		}
+	],
+	"curation_history": [
+		{
+			"event_date": "2026-05-15",
+			"event_type": "STANDARDIZE",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		},
+		{
+			"event_date": "2026-05-15",
+			"event_type": "FILTER",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		}
+	]
 }
