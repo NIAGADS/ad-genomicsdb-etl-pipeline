@@ -27,6 +27,14 @@
 			"term": "GWAS Summary Statistics"
 		}
 	},
+	"covariates": [
+      {
+        "term": "gender", "curie": "niagads: undefined" PCA and batch #define ourslves niagads: undefined.
+      },
+	  {
+		"term" : "population stratification", "curie": "niagads: undefined"
+	  }
+	],
 	"participant_phenotypes": {
 		"disease": [
 			{ "term": "mild cognitive impairment", "curie": "DOID:0080832" },
