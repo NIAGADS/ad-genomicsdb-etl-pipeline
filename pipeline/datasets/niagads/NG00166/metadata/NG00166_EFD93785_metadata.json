@@ -1,19 +1,19 @@
 {
   "id": "NG00166_EFD93785_STD",
-  "name": "Association results from the ADSP R3 17k WGS data set: African American GWAS Summary Statistics",
-  "description": "Investigators used association testing on single variants (MAF > 0.5%) and aggregates of rare (MAF < 1%) coding and non-coding variants with the R3 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to uncover common and rare genetic variation that may have been missed by traditional genotyping methods within African Americans.",
+  "name": "Association results from the ADSP R3 17k WGS data set: African American",
+  "description": "Association testing on single variants (MAF > 0.5%) and aggregates of rare (MAF < 1%) coding and non-coding variants with the R3 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to uncover common and rare genetic variation that may have been missed by traditional genotyping methods.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [
-    "IIAA"
+    "ADSP-derived R3"
   ],
   "provenance": {
     "data_source": "NIAGADS_DSS",
     "accession": "NG00166",
     "release_date": "2024-06-18",
     "consortium": [
-      "ADGC",
-      "ADSP"
+      "ADSP",
+      "GCAD"
     ],
     "attribution": "Lee et al. 2023",
     "pubmed_id": [
@@ -27,7 +27,24 @@
     "file_size": 885349010
   },
   "experimental_design": {
-    "is_lifted": false
+    "is_lifted": false,
+        "covariates": [
+      {
+        "term": "Sex" 
+      },
+      {
+        "term": "Sequencing center" 
+      },
+      {
+        "term": "Technical variables" 
+      },
+      {
+        "term": "Principal components" 
+      },
+      {
+        "term": "Relatedness" 
+      }
+    ]
   },
   "participant_phenotypes": {
     "disease": [
@@ -49,10 +66,6 @@
       }
     ],
     "population": [
-      {
-        "curie": "NO:0000046",
-        "term": "African/African American"
-      },
       {
         "curie": "HANCESTRO:0568",
         "term": "African American"

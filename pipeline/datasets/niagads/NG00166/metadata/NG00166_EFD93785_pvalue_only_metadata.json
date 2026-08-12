@@ -5,35 +5,15 @@
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
 "cohorts": [
-    "ACT",
-    "ADC",
-    "ADNI",
-    "Cache_County",
-    "EFIGA",
-    "ERF",
-    "IIAA",
-    "KGAD",
-    "MAYO",
-    "MIA",
-    "MSBB",
-    "NCRAD",
-    "NIA AD-FBS",
-    "PITT",
-    "PR1066",
-    "PSP",
-    "PSP_UCLA",
-    "ROSMAP",
-    "STEP",
-    "UWash_Families",
-    "VAN",
-    "WHICAP"
+    "ADSP-derived R3"
   ],
   "provenance": {
     "data_source": "NIAGADS_DSS",
     "accession": "NG00166",
     "release_date": "2024-06-18",
     "consortium": [
-      "ADSP"
+      "ADSP",
+      "GCAD"
     ],
     "attribution": "Lee et al. 2023",
     "pubmed_id": [
@@ -53,13 +33,16 @@
         "term": "Sex" 
       },
       {
-        "term": "Sequencing center" #consider sequencing variables as overarching term for this and below two covariates
+        "term": "Sequencing center" 
       },
       {
-        "term": "Sequencing length" #new
+        "term": "Technical variables" 
       },
       {
-        "term": "PCR status" #new
+        "term": "Principal components" 
+      },
+      {
+        "term": "Relatedness" 
       }
     ]
   },
@@ -80,6 +63,12 @@
       {
         "curie": "NCIT:C16352",
         "term": "Black or African American"
+      }
+    ],
+    "population": [
+      {
+        "curie": "HANCESTRO:0568",
+        "term": "African American"
       }
     ]
   },

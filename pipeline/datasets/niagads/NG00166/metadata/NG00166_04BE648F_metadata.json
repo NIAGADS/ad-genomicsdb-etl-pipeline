@@ -1,33 +1,19 @@
 {
   "id": "NG00166_04BE648F_STD",
-  "name": "Association results from the ADSP R3 17k WGS data set: Pooled Population GWAS Summary Statistics",
-  "description": "Investigators used association testing on single variants (MAF > 0.5%) and aggregates of rare (MAF < 1%) coding and non-coding variants with the R3 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to uncover common and rare genetic variation that may have been missed by traditional genotyping methods within the pooled samples.",
+  "name": "Association results from the ADSP R3 17k WGS data set: Pooled Population",
+  "description": "Association testing on single variants (MAF > 0.5%) and aggregates of rare (MAF < 1%) coding and non-coding variants with the R3 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to uncover common and rare genetic variation that may have been missed by traditional genotyping methods.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [
-    "ACT",
-    "ADC",
-    "ADNI",
-    "EFIGA",
-    "IIAA",
-    "KGAD",
-    "MAYO",
-    "MIA",
-    "MSBB",
-    "NCRAD",
-    "NIA AD-FBS",
-    "PITT",
-    "PSP",
-    "ROSMAP",
-    "WHICAP"
+    "ADSP-derived R3"
   ],
   "provenance": {
     "data_source": "NIAGADS_DSS",
     "accession": "NG00166",
     "release_date": "2024-06-18",
     "consortium": [
-      "ADGC",
-      "ADSP"
+      "ADSP",
+      "GCAD"
     ],
     "attribution": "Lee et al. 2023",
     "pubmed_id": [
@@ -44,8 +30,19 @@
     "is_lifted": false,
     "covariates": [
       {
-        "curie": "NIAGADS:undefined",
-        "term": "population stratification"
+        "term": "Sex" 
+      },
+      {
+        "term": "Sequencing center" 
+      },
+      {
+        "term": "Technical variables" 
+      },
+      {
+        "term": "Principal components" 
+      },
+      {
+        "term": "Relatedness" 
       }
     ]
   },
@@ -78,20 +75,16 @@
     ],
     "population": [
       {
+        "curie": "HANCESTRO:0568",
+        "term": "African American"
+      },
+      {
         "curie": "HANCESTRO:0005",
-        "term": "European"
+        "term": "European" 
       },
       {
         "curie": "HANCESTRO:0014",
-        "term": "Hispanic or Latin American"
-      },
-      {
-        "curie": "NO:0000046",
-        "term": "African/African American"
-      },
-      {
-        "curie": "HANCESTRO:0568",
-        "term": "African American"
+        "term": "Latin or Admixed American ancestry"
       }
     ]
   },
