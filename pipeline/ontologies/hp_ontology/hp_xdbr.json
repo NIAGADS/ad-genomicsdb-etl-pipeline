@@ -1,0 +1,11 @@
+{
+	"name": "Human Phenotype Ontology",
+	"database_key": "HP",
+	"description": "The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities encountered in human disease. ",
+	"url": "https://hpo.jax.org/",
+	"version": "v2026-06-23",
+	"release_date": "2026-06-23",
+	"download_url": "https://github.com/obophenotype/human-phenotype-ontology/blob/master/hp-base.owl",
+	"download_date": "2026-08-13",
+    "database_type_id": "EDAM:data_0582"
+}

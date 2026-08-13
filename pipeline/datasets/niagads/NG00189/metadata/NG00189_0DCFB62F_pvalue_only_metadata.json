@@ -33,6 +33,9 @@
       },
 	  {
 		"term" : "population stratification", "curie": "niagads: undefined"
+	  },
+	  {
+		"term" : "batch", "curie" : "niagads: undefined"
 	  }
 	],
 	"participant_phenotypes": {

@@ -1,0 +1,11 @@
+{
+	"name": "Human Disease Ontology",
+	"database_key": "DOID",
+	"description": "An ontology for describing the classification of human diseases organized by etiology.",
+	"url": "https://disease-ontology.org",
+	"version": "1.0",
+	"release_date": "2026-07-31",
+	"download_url": "http://purl.obolibrary.org/obo/doid.owl",
+	"download_date": "2026-08-13",
+    "database_type_id": "EDAM:data_0582"
+}
