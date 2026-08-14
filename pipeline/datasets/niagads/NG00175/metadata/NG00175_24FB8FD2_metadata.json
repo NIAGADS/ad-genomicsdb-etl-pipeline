@@ -1,7 +1,7 @@
 {
   "id": "NG00175_24FB8FD2_STD",
   "name": "Neuropathology endophenotypes: neuritic plaques",
-  "description": "Summary statistics from a genome-wide association study meta-analysis examining neuritic plaques as a neuropathological endophenotype. The individual studies used in this project were National Alzheimer’s Coordinating Center (NACC), Religious Orders Study (ROS) and Rush Memory and Aging Project (MAP), and Adult Changes in Thought (ACT). Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
+  "description": "Summary statistics from a genome-wide association study meta-analysis examining neuritic plaques as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [
@@ -16,6 +16,7 @@
     "release_date": "2025-08-06",
     "release_version": "1",
     "consortium": [
+      "NACC",
       "ADGC"
     ],
     "attribution": "Shade et al. 2024",
@@ -50,18 +51,19 @@
         "term": "Cohort"
       },
       {
-        "term": "Genetic ancestry"
+        "term": "PCA"
+      },
+      {
+        "term": "Relatedness"
       }
     ]
   },
   "participant_phenotypes": {
     "neuropathology": [
       {
-        "curie": "NO:0000026",
         "term": "CERAD score"
       },
       {
-        "curie": "HP:0100256",
         "term": "neuritic plaques"
       }
     ],
@@ -82,14 +84,6 @@
     {
       "event_date": "2026-06-16",
       "event_type": "STANDARDIZE",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    },
-    {
-      "event_date": "2026-06-16",
-      "event_type": "FILTER",
       "actor": "NIAGADS",
       "actor_type": "USER",
       "tool": "hipFG",
