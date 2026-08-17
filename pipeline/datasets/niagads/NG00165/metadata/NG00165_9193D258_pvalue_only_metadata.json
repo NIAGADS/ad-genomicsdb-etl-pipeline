@@ -1,22 +1,11 @@
 {
-  "id": "NG00165_9193D258_pvalue_only_STD",
-  "name": "CHARGE Association results from ADSP R1 WGS: Hispanic/Latino Population",
-  "description": "CHARGE investigators performed single common variant association, rare variant aggregate analyses, and targeted association analyses in sub-populations using the R1 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to identify causal and rare variants that were linked to loci from the Alzheimer's Disease (AD) GWAS.",
+  "id": "NG00165_9193D258_STD_OA",
+  "name": "Multi-ancestry evidence for AD associations: Hispanic/Latino Ancestry",
+  "description": "GWAS summary statistics from a population-specific analysis of whole genome sequencing from individuals self-identified or statistcally inferred as having Hispanic/Latino ancestry in ADSP cohorts (release 1).",
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [
-    "ACT",
-    "ADC",
-    "ADNI",
-    "EFIGA",
-    "ERF",
-    "IIAA",
-    "MIA",
-    "NCRAD",
-    "NIA AD-FBS",
-    "UWash_Families",
-    "VAN",
-    "WHICAP"
+    "ADSP-derived R1"
   ],
   "provenance": {
     "data_source": "NIAGADS_DSS",
@@ -24,7 +13,7 @@
     "release_date": "2024-05-15",
     "release_version": "1",
     "consortium": [
-      "CHARGE",
+      "ADNI",
       "ADSP"
     ],
     "attribution": "Wang et al. 2024",
@@ -49,16 +38,16 @@
         "term": "Sex"
       },
       {
-        "term": "Cohort"
-      },
-      {
         "term": "Sequencing center"
       },
       {
         "term": "Platform"
       },
       {
-        "term": "Population stratification"
+        "term": "PCA"
+      },
+      {
+        "term": "Relatedness"
       }
     ]
   },
@@ -69,7 +58,7 @@
         "term": "Alzheimer's disease"
       }
     ],
-    "ethnicity": [ #Should Ethnicity and race be included for pooled?
+    "ethnicity": [
       {
         "curie": "NCIT:C17459",
         "term": "Hispanic Or Latino"
@@ -77,7 +66,7 @@
     ],
     "population": [
       {
-        "term": "Hispanic Or Latino"
+        "term": "Latin or Admixed American ancestry"
       }
     ]
   },
