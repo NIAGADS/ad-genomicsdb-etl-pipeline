@@ -1,0 +1,10 @@
+<Records>
+    <Table schema="reference" name="externaldatabase">
+        <Record>
+            <Field name="database_key">Reactome</Field>
+            <Field name="version">V97</Field>
+            <Field name="download_date">2026-08-17</Field>
+            <Field name="release_date">2026-06-23</Field>
+        </Record>
+    </Table>
+</Records>
