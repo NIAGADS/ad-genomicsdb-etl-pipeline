@@ -1,0 +1,68 @@
+{
+  "id": "NG00172_CED96810",
+  "name": "Progressive Supranuclear Palsy: Structural Variants",
+  "description": "GWAS summary statistics from 30x coverage whole-genome sequencing for individuals in ADSP cohort release R7 with Progressive Supranuclear Palsy (PSP) diagnosis and without PSP.",
+  "genome_build": "GRCh38",
+  "feature_type": "STRUCTURAL_VARIANT",
+  "cohorts": [
+    "ADSP-derived R7"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00172",
+    "release_date": "2024-12-13",
+    "release_version": "1",
+    "consortium": [
+      "PSP Study Group"
+    ],
+    "attribution": "Wang et al. 2024",
+    "pubmed_id": [
+      "38234807"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "NG00172_CED96810.txt.gz",
+    "md5sum": "1e8ae1d003307c7feef0ef87cb3f949b",
+    "file_size": 1351762
+  },
+  "experimental_design": {
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+    {
+      "term": "PCA"
+    },
+    {
+      "term": "Relatedness"
+    },
+    {
+      "term": "Sex"
+    }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "Orphanet:683",
+        "term": "Progressive supranuclear palsy"
+      }
+    ],
+    "population": [
+      {
+        "curie": "NCIT:C16612",
+        "term": "European"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Progressive supranuclear palsy",
+      "num_cases": 1718,
+      "num_controls": 2944
+    }
+  ]
+}

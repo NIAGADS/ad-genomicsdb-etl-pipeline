@@ -1,0 +1,92 @@
+{
+  "id": "NG00172_5113A7BC_STD_OA",
+  "name": "Progressive Supranuclear Palsy: SNV/INDELs with APOE selection bias",
+  "description": "GWAS summary statistics from 30x coverage whole-genome sequencing for individuals in ADSP cohort release R7 with Progressive Supranuclear Palsy (PSP) diagnosis and without PSP. This dataset includes samples from cohorts with selection bias for APOE genotype.",
+  "genome_build": "GRCh38",
+  "feature_type": "VARIANT",
+  "cohorts": [
+    "ADSP-derived R7"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00172",
+    "release_date": "2024-12-13",
+    "release_version": "1",
+    "consortium": [
+      "PSP Study Group"
+    ],
+    "attribution": "Wang et al. 2024",
+    "pubmed_id": [
+      "38234807"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "NG00172_5113A7BC_STD_pvalue_only.tsv.gz",
+    "md5sum": "17d751869f97b95165017dd44e62a91e",
+    "file_size": 167791405
+  },
+  "experimental_design": {
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+    {
+      "term": "PCA"
+    },
+    {
+      "term": "Relatedness"
+    },
+    {
+      "term": "Sex"
+    }
+    ]
+  },
+  "participant_phenotypes": {
+    "disease": [
+      {
+        "curie": "Orphanet:683",
+        "term": "Progressive supranuclear palsy"
+      }
+    ],
+    "population": [
+      {
+        "curie": "NCIT:C16612",
+        "term": "European"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Progressive supranuclear palsy",
+      "num_cases": 1718,
+      "num_controls": 2944
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-06-12",
+      "event_type": "PREPROCESS",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    },
+    {
+      "event_date": "2026-06-16",
+      "event_type": "STANDARDIZE",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    },
+    {
+      "event_date": "2026-06-16",
+      "event_type": "FILTER",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.1"
+    }
+  ]
+}
