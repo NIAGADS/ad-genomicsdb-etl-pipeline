@@ -5,7 +5,7 @@
   "genome_build": "GRCh38",
   "feature_type": "VARIANT",
   "cohorts": [
-    "ADSP-derived R1 "
+    "ADSP-derived R1"
   ],
   "provenance": {
     "data_source": "NIAGADS_DSS",

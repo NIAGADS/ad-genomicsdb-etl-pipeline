@@ -1,15 +1,19 @@
 {
   "id": "NG00165_B767EFF3",
-  "name": "CHARGE Association results from the ADSP R1 WGS data set: Gene-based analysis SKAT 0.05",
-  "description": "CHARGE investigators performed single common variant association, rare variant aggregate analyses, and targeted association analyses in sub-populations using the R1 WGS data from the Alzheimer\u2019s Disease Sequencing Project (ADSP) to identify causal and rare variants that were linked to loci from the Alzheimer\u2019s Disease (AD) GWAS.",
+  "name": "Multi-ancestry evidence for AD associations: Gene-based analysis SKAT 0.05",
+  "description": "Gene-based low-frequency variant association analysis using SKAT with a minor allele frequency threshold of 0.05 to test the association of aggregate groups of genetic variants with Alzheimer's disease (AD) status in whole-genome sequencing data from individuals self-identified or statistically inferred as having White/European, African American, or Hispanic/Latino ancestry in ADSP cohorts (release 1).",
   "genome_build": "GRCh38",
   "feature_type": "GENE",
+  "cohorts": [
+    "ADSP-derived R1"
+  ],
   "provenance": {
     "data_source": "NIAGADS_DSS",
     "accession": "NG00165",
     "release_date": "2024-05-15",
     "release_version": "1",
     "consortium": [
+      "ADNI",
       "ADSP"
     ],
     "attribution": "Wang et al. 2024",
@@ -26,12 +30,21 @@
   "experimental_design": {
     "data_category": {
       "curie": "NIAGADS:undefined",
-      "term": "Gene-based analysis"
+      "term": "Gene-based variant assocication analysis"
     },
     "is_lifted": false,
     "covariates": [
       {
-        "term": ""
+        "term": "Sequencing center"
+      },
+      {
+        "term": "Technical variables"
+      },
+      {
+        "term": "Relatedness"
+      },
+      {
+        "term": "PCA"
       }
     ]
   },
@@ -42,24 +55,35 @@
         "term": "Alzheimer's disease"
       }
     ],
-    "neuropathology": [
+        "ethnicity": [
       {
-        "term": ""
-      }
-    ],
-    "ethnicity": [
+        "curie": "NCIT:C17459",
+        "term": "Hispanic Or Latino"
+      },
       {
-        "term": ""
+        "curie": "NCIT:C41222",
+        "term": "Not Hispanic Or Latino"
       }
     ],
     "race": [
       {
-        "term": ""
+        "curie": "NCIT:C16352",
+        "term": "Black or African American"
+      },
+      {
+        "curie": "NCIT:C48325",
+        "term": "White"
       }
     ],
     "population": [
       {
-        "term": ""
+        "term": "European"
+      },
+      {
+        "term": "African American"
+      },
+      {
+        "term": "Hispanic Or Latino"
       }
     ]
   },

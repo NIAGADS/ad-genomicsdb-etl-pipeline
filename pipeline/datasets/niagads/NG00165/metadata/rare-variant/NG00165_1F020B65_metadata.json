@@ -1,15 +1,21 @@
 {
 	"id": "NG00165_1F020B65_STD",
-	"name": "Analysis of ADSP R1 WGS to identiy causal variants within GWAS loci: Rare-variant Analysis",
-	"description": "CHARGE investigators performed single common variant association, rare variant aggregate analyses, and targeted association analyses in sub-populations using the R1 WGS data from the Alzheimer\u2019s Disease Sequencing Project (ADSP) to identify causal and rare variants that were linked to loci from the Alzheimer\u2019s Disease (AD) GWAS.",
+	"name": "Multi-ancestry evidence for AD associations: Gene-based analysis STAAR",
+	"description": "Gene-based rare variant association analysis using STAAR (variant-Set Test for Association using Annotation infoRmation) to test aggregate groups of genetic variants for association with Alzheimer's disease (AD) status in whole-genome sequencing data from individuals self-identified or statistically inferred as having White/European, African American, or Hispanic/Latino ancestry in ADSP cohorts (release 1).",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
+	"cohorts": [
+		"ADSP-derived R1"
+	],
 	"provenance": {
 		"data_source": "NIAGADS_DSS",
 		"accession": "NG00165",
 		"release_date": "2024-05-15",
 		"release_version": "1",
-		"consortium": ["ADSP"],
+		"consortium": [
+			"ADNI",
+			"ADSP"
+		],
 		"attribution": "Wang et al. 2024",
 		"pubmed_id": ["38511601"],
 		"data_source_url": "https://dss.niagads.org"
@@ -22,13 +28,22 @@
 	"experimental_design": {
 		"data_category": {
 			"curie": "NIAGADS:undefined",
-			"term": "Rare-variant Analysis"
+			"term": "Gene-based variant assocication analysis"
 		},
 		"is_lifted": false,
 		"covariates": [
-			{
-				"term": ""
-			}
+		{
+			"term": "Sequencing center"
+		},
+		{
+			"term": "Technical variables"
+		},
+		{
+			"term": "Relatedness"
+		},
+		{
+			"term": "PCA"
+		}
 		]
 	},
 	"participant_phenotypes": {
@@ -38,27 +53,38 @@
 				"term": "Alzheimer's disease"
 			}
 		],
-		"neuropathology": [
-			{
-				"term": ""
-			}
-		],
-		"ethnicity": [
-			{
-				"term": ""
-			}
-		],
-		"race": [
-			{
-				"term": ""
-			}
-		],
-		"population": [
-			{
-				"term": ""
-			}
-		]
-	},
+    "ethnicity": [
+		{
+			"curie": "NCIT:C17459",
+			"term": "Hispanic Or Latino"
+		},
+		{
+			"curie": "NCIT:C41222",
+			"term": "Not Hispanic Or Latino"
+	}
+	],
+    "race": [
+		{
+			"curie": "NCIT:C16352",
+			"term": "Black or African American"
+		},
+		{
+			"curie": "NCIT:C48325",
+			"term": "White"
+		}
+    ],
+    "population": [
+		{
+			"term": "European"
+		},
+		{
+			"term": "African American"
+		},
+		{
+			"term": "Hispanic Or Latino"
+		}
+    ]
+},
 	"study_diagnosis": [
 		{
 			"phenotype": "Alzheimer's disease",
