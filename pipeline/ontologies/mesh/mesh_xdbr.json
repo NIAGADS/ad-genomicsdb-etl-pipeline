@@ -1,0 +1,11 @@
+{
+	"name": "Medical Subject Headings",
+	"database_key": "MeSH",
+	"description": "The Medical Subject Headings (MeSH) thesaurus is a controlled and hierarchically-organized vocabulary produced by the National Library of Medicine used for indexing, cataloging, and searching of biomedical and health-related information.",
+	"url": "https://www.nlm.nih.gov/mesh/meshhome.html",
+	"version": "2026",
+	"release_date": "2026-01-09",
+	"download_url": "https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/2026/mesh2026.nt",
+	"download_date": "2026-08-24",
+	"database_type_id": "EDAM:data_0582"
+}
