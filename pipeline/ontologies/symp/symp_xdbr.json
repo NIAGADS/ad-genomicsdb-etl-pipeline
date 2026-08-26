@@ -1,11 +1,11 @@
 {
 	"name": "Symptom Ontology",
-	"database_key": "",
+	"database_key": "SYMP",
 	"description": "An ontology of disease symptoms, with symptoms encompasing perceived changes in function, sensations or appearance reported by a patient indicative of a disease.",
 	"url": "https://github.com/DiseaseOntology/SymptomOntology",
-	"version": "1.0",
-	"release_date": "2026-07",
+	"version": "v2026-07-30",
+	"release_date": "2026-07-30",
 	"download_url": "http://purl.obolibrary.org/obo/symp.owl",
-	"download_date": "2026-08-13",
+	"download_date": "2026-08-21",
     "database_type_id": "EDAM:data_0582"
 }
