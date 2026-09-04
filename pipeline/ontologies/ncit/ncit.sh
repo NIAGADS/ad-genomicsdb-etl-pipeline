@@ -2,6 +2,7 @@ wget -O $DATA_DIR/ontologies/ncit.owl http://purl.obolibrary.org/obo/ncit.owl #d
 
 
 # load external database reference
+#done
 runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/hp/ncit_xdbr.json --log-path $DATA_DIR/ontologies/ncit-xdbr.log --commit
 
 # load ontology
