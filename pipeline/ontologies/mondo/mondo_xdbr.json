@@ -1,0 +1,11 @@
+{
+	"name": "Mondo Disease Ontology",
+	"database_key": "MONDO",
+	"description": "A global community effort to harmonize multiple disease resources to yield a coherent merged ontology.",
+	"url": "https://monarch-initiative.github.io/mondo",
+	"version": "v2026-09-01",
+	"release_date": "2026-09-01",
+	"download_url": "http://purl.obolibrary.org/obo/mondo.owl",
+	"download_date": "2026-09-03",
+    "database_type_id": "EDAM:data_0582"
+}

@@ -7,4 +7,4 @@ runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/hp/
 
 # load ontology
 
-runpipe-plugin --plugin OntologyTermLoader --xdbref "Human Phenotype Ontology|v2026-06-23" --curie_prefix  --file $DATA_DIR/ontologies/hp.owl --embedding-batch-size 512 --batch-size 1000 --log-path $DATA_DIR/ontologies/hp-load.log --commit
+runpipe-plugin --plugin OntologyTermLoader --xdbref "Human Phenotype Ontology|v2026-06-23" --file $DATA_DIR/ontologies/hp.owl --embedding-batch-size 512 --batch-size 1000 --log-path $DATA_DIR/ontologies/hp-load.log --commit
