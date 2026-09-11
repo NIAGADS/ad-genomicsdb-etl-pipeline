@@ -1,0 +1,83 @@
+{
+  "id": "NG00161_0240C266_STD",
+  "name": "Sex differences in AD cognitive resilience genetics: Global cognitive resilience in females",
+  "description": "Summary statistics from a genome-wide association study meta-analysis examining global cognitive resilience in females. GWAS were performed in the combined autopsy and PET datasets and subsequently meta-analyzed using a fixed-effects model.",
+  "genome_build": "GRCh38",
+  "cohorts": [
+    "ROS",
+    "MAP",
+    "ADNI",
+    "A4",
+    "ACT"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00161",
+    "release_date": "2024-03-06",
+    "release_version": "1",
+    "attribution": "Eissman et al. 2022",
+    "pubmed_id": [
+      "35552371"
+    ],
+    "doi": [
+      "10.1093/brain/awac177"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "NG00161_0240C266_STD.tsv.gz",
+    "md5sum": "d4fdc888ff623cf8fce0389a25ae00d7",
+    "file_size": 211441884
+  },
+  "experimental_design": {
+    "analysis": "Meta-analysis",
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+      {
+        "term": "age"
+      },
+      {
+        "term": "PCA"
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "sex": [
+      {
+        "term": "female"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Global cognitive resilience"
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-09-02",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.12"
+    },
+    {
+      "event_date": "2026-09-02",
+      "event_type": "FILTER",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.12"
+    },
+    {
+      "event_date": "2026-08-06",
+      "event_type": "PRE-PROCESS",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    }
+  ]
+}
