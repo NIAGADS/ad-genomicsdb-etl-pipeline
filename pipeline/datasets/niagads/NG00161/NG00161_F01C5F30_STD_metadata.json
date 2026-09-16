@@ -15,6 +15,10 @@
     "accession": "NG00161",
     "release_date": "2024-03-06",
     "release_version": "1",
+    "consortium": [
+      "ADNI",
+      "ADGC"
+    ],
     "attribution": "Eissman et al. 2022",
     "pubmed_id": [
       "35552371"

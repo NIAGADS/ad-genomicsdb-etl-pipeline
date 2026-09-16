@@ -10,6 +10,7 @@
   "provenance": {
     "data_source": "NIAGADS_DSS",
     "accession": "NG00166",
+    "version": "1",
     "release_date": "2024-06-18",
     "consortium": [
       "ADSP"

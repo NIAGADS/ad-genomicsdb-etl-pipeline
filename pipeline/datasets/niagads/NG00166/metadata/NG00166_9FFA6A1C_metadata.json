@@ -11,6 +11,7 @@
     "data_source": "NIAGADS_DSS",
     "accession": "NG00166",
     "release_date": "2024-06-18",
+    "version": "1",
     "consortium": [
       "ADSP"
     ],
