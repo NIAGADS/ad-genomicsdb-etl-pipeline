@@ -1,0 +1,117 @@
+{
+  "id": "NG00177_FD6FE203_STD_OA",
+  "name": "ADGC multi-ancestry AD GWAS meta-analysis: Rare variants in African American individuals",
+  "description": "Summary statistics from a fixed-effects GWAS meta-analysis examining rare variants associated with late-onset Alzheimer's disease in African American individuals without adjustment for APOE ε4 dosage.",
+  "genome_build": "GRCh38",
+  "cohorts": [
+    "ACT",
+    "ADC",
+    "UM/CWRU",
+    "MSSM",
+    "WHICAP",
+    "AAG",
+    "MIRAGE",
+    "NIA-LOAD/NCRAD",
+    "MAYO",
+    "ROS/MAP",
+    "MARS/CORE",
+    "CHAP",
+    "IU",
+    "GenerAAtions",
+    "UPITT",
+    "WASHU"
+  ],
+  "provenance": {
+    "data_source": "NIAGADS_DSS",
+    "accession": "NG00177",
+    "release_date": "2025-09-01",
+    "release_version": "1",
+    "consortium": [
+      "ADGC"
+    ],
+    "attribution": "Rajabli et al. 2025",
+    "pubmed_id": [
+      "40676597"
+    ],
+    "doi": [
+      " 10.1186/s13059-025-03564-z"
+    ],
+    "data_source_url": "https://dss.niagads.org"
+  },
+  "file_properties": {
+    "file_name": "NG00177_FD6FE203_STD_OA.tsv.gz",
+    "md5sum": "c5cdc24bfb5ccd9d18faba5b7a8f1192",
+    "file_size": 311023984
+  },
+  "experimental_design": {
+    "analysis": "Meta-analysis",
+    "data_category": {
+      "curie": "NIAGADS:undefined",
+      "term": "GWAS Summary Statistics"
+    },
+    "is_lifted": false,
+    "covariates": [
+      {
+        "term": "age"
+      },
+      {
+        "term": "PCA"
+      },
+      {
+        "term": "sex"
+      }
+    ]
+  },
+  "participant_phenotypes": {
+    "Disease": [
+      {
+        "term": "Alzheimer's disease"
+      }
+    ],
+    "ethnicity": [
+      {
+        "term": "Not Hispanic Or Latino"
+      }
+    ],
+    "race": [
+      {
+        "term": "Black or African American"
+      }
+    ],
+    "population": [
+      {
+        "term": "African American"
+      }
+    ]
+  },
+  "study_diagnosis": [
+    {
+      "phenotype": "Alzheimer's disease",
+      "num_cases": 2114,
+      "num_controls": 4614
+    }
+  ],
+  "curation_history": [
+    {
+      "event_date": "2026-09-15",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.12"
+    },
+    {
+      "event_date": "2026-09-15",
+      "event_type": "FILTER",
+      "actor": "NIAGADS",
+      "actor_type": "USER",
+      "tool": "hipFG",
+      "tool_version": "1.4.12"
+    },
+    {
+      "event_date": "2026-09-04",
+      "event_type": "PREPROCESS",
+      "actor": "NIAGADS",
+      "actor_type": "USER"
+    }
+  ]
+}
