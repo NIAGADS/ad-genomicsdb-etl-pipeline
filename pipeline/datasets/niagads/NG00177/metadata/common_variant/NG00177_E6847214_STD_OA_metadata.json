@@ -104,19 +104,19 @@
   ],
   "curation_history": [
     {
-      "event_date": "2026-09-15",
+      "event_date": "2026-09-17",
       "actor": "NIAGADS",
       "actor_type": "USER",
       "tool": "hipFG",
-      "tool_version": "1.4.12"
+      "tool_version": "1.4.16"
     },
     {
-      "event_date": "2026-09-15",
+      "event_date": "2026-09-17",
       "event_type": "FILTER",
       "actor": "NIAGADS",
       "actor_type": "USER",
       "tool": "hipFG",
-      "tool_version": "1.4.12"
+      "tool_version": "1.4.16"
     },
     {
       "event_date": "2026-05-14",
