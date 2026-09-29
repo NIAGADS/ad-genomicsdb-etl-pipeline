@@ -28,15 +28,18 @@
 		}
 	},
 	"covariates": [
-      {
-        "term": "gender", "curie": "niagads: undefined" 
-	  },
-	  {
-		"term" : "population stratification", "curie": "niagads: undefined"
-	  },
-	  {
-		"term" : "batch", "curie" : "niagads: undefined"
-	  }
+		{
+			"term": "gender",
+			"curie": "niagads: undefined"
+		},
+		{
+			"term": "population stratification",
+			"curie": "niagads: undefined"
+		},
+		{
+			"term": "batch",
+			"curie": "niagads: undefined"
+		}
 	],
 	"participant_phenotypes": {
 		"disease": [
@@ -44,7 +47,7 @@
 
 			{ "term": "dementia", "curie": "DOID:1307" }
 		],
-		"symptom": [
+		"clinical_status": [
 			{
 				"curie": "NIAGADS:undefined",
 				"term": " Nighttime Behaviors"

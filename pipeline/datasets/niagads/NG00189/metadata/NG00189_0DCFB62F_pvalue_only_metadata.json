@@ -43,7 +43,7 @@
 			{ "term": "mild cognitive impairment", "curie": "DOID:0080832" },
 			{ "term": "dementia", "curie": "DOID:1307" }
 		],
-		"symptom": [
+		"clinical_status": [
 			{
 				"curie": "HP:0000734",
 				"term": "Disinhibition"
