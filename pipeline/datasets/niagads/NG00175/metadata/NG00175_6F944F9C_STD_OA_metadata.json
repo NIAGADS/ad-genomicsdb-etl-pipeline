@@ -45,7 +45,8 @@
 	"participant_phenotypes": {
 		"neuropathology": [
 			{
-				"term": "hippocampal sclerosis"
+				"term": "Hippocampal sclerosis",
+				"curie": "HP:0033715"
 			}
 		],
 		"population": [
@@ -57,7 +58,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Hippocampal Sclerosis",
+			"phenotype": "Hippocampal sclerosis",
 			"num_cases": 751,
 			"num_controls": 6413
 		}

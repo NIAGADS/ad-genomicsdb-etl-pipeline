@@ -1,7 +1,7 @@
 {
 	"id": "NG00175_A2F00830_STD",
-	"name": "Neuropathology endophenotypes: Amyloid-beta plaques",
-	"description": "Summary statistics from a genome-wide association study meta-analysis examining amyloid-beta plaque as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
+	"name": "Neuropathology endophenotypes: Amyloid-β plaques",
+	"description": "Summary statistics from a genome-wide association study meta-analysis examining Amyloid-β plaques as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["NACC", "ROS", "MAP", "ACT"],
@@ -46,7 +46,7 @@
 		"neuropathology": [
 			{
 				"curie": "NIAGADS:needs-review",
-				"term": "diffuse amyloid plaques"
+				"term": "Amyloid-β plaques"
 			}
 		],
 		"population": [

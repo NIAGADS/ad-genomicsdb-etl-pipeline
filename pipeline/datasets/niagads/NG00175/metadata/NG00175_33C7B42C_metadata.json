@@ -1,7 +1,7 @@
 {
 	"id": "NG00175_33C7B42C_STD",
-	"name": "Neuropathology endophenotypes: LATE-NC",
-	"description": "Summary statistics from a genome-wide association study meta-analysis examining LATE-NC as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
+	"name": "Neuropathology endophenotypes: LATE neuropathologic change",
+	"description": "Summary statistics from a genome-wide association study meta-analysis examining LATE neuropathologic change as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["NACC", "ROS", "MAP", "ACT"],
@@ -46,7 +46,7 @@
 		"neuropathology": [
 			{
 				"curie": "NIAGADS:needs-review",
-				"term": "LATE-NC"
+				"term": "LATE neuropathologic change"
 			}
 		],
 		"population": [

@@ -45,12 +45,8 @@
 	"participant_phenotypes": {
 		"neuropathology": [
 			{
-				"curie": "EFO:0006790",
-				"term": "cerebral amyloid angiopathy"
-			},
-			{
-				"curie": "EFO:0006800",
-				"term": "vascular brain injury"
+				"curie": "HP:0011970",
+				"term": "Cerebral amyloid angiopathy"
 			}
 		],
 		"population": [

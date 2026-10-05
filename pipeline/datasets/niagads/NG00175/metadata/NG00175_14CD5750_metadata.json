@@ -47,10 +47,6 @@
 			{
 				"curie": "EFO:0006790",
 				"term": "cerebral amyloid angiopathy"
-			},
-			{
-				"curie": "EFO:0006800",
-				"term": "vascular brain injury"
 			}
 		],
 		"population": [

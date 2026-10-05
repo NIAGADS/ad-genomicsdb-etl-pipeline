@@ -1,7 +1,7 @@
 {
 	"id": "NG00175_374B8524_STD_OA",
 	"name": "Neuropathology endophenotypes: Microinfarcts",
-	"description": "Summary statistics from a genome-wide association study meta-analysis examining microinfracts as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
+	"description": "Summary statistics from a genome-wide association study meta-analysis examining microinfarcts as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["NACC", "ROS", "MAP", "ACT"],
@@ -45,11 +45,7 @@
 	"participant_phenotypes": {
 		"neuropathology": [
 			{
-				"curie": "NIAGADS:needs-review",
-				"term": "Microinfracts"
-			},
-			{
-				"curie": "EFO:0006791",
+				"curie": "MONDO:0005621",
 				"term": "vascular brain injury"
 			}
 		],
@@ -62,7 +58,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Microinfracts",
+			"phenotype": "vascular brain injury",
 			"num_cases": 1839,
 			"num_controls": 5641
 		}

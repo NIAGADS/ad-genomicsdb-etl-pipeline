@@ -1,7 +1,7 @@
 {
 	"id": "NG00175_75B163D3_STD",
-	"name": "Neuropathology endophenotypes: BRAAK NFT stages",
-	"description": "Summary statistics from a genome-wide association study meta-analysis examining BRAAK NFT stages as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
+	"name": "Neuropathology endophenotypes: Braak neurofibrillary tangle stage",
+	"description": "Summary statistics from a genome-wide association study meta-analysis examining Braak neurofibrillary tangle stage as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["NACC", "ROS", "MAP", "ACT"],
@@ -44,10 +44,6 @@
 	},
 	"participant_phenotypes": {
 		"neuropathology": [
-			{
-				"term": "Neurofibrillary tangles",
-				"curie": "HP:0002185"
-			},
 			{
 				"term": "Braak Stages",
 				"curie": "NIAGADS:0000025"

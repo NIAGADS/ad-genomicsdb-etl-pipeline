@@ -1,7 +1,7 @@
 {
 	"id": "NG00175_24FB8FD2_STD_OA",
-	"name": "Neuropathology endophenotypes: Neuritic plaques",
-	"description": "Summary statistics from a genome-wide association study meta-analysis examining neuritic plaques as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
+	"name": "Neuropathology endophenotypes: CERAD neuritic plaque score",
+	"description": "Summary statistics from a genome-wide association study meta-analysis examining CERAD neuritic plaque score as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["NACC", "ROS", "MAP", "ACT"],
@@ -45,10 +45,8 @@
 	"participant_phenotypes": {
 		"neuropathology": [
 			{
-				"term": "CERAD score"
-			},
-			{
-				"term": "neuritic plaques"
+				"term": "CERAD score",
+				"curie": "NIAGADS:0000026"
 			}
 		],
 		"population": [
