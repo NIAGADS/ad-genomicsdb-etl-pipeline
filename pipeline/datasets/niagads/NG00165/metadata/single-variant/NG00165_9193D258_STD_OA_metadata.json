@@ -36,7 +36,8 @@
 				"curie": "NIAGADS:0000068"
 			},
 			{
-				"term": "Platform"
+				"term": "technical variables",
+				"curie": "NIAGADS:0000069"
 			},
 			{
 				"term": "Principal component analysis",

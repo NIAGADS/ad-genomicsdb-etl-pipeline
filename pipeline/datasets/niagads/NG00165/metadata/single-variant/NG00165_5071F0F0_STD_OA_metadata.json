@@ -32,14 +32,12 @@
 				"curie": "NCIT:C28421"
 			},
 			{
-				"term": "Study Design"
+				"term": "technical variables",
+				"curie": "NIAGADS:0000069"
 			},
 			{
 				"term": "sequencing center",
 				"curie": "NIAGADS:0000068"
-			},
-			{
-				"term": "Platform"
 			},
 			{
 				"term": "Principal component analysis",
