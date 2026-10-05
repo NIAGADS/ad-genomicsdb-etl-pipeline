@@ -29,7 +29,7 @@
 	},
 	"covariates": [
       {
-        "term": "Gender", "curie": "niagads: undefined" PCA and batch #define ourslves niagads: undefined.
+        "term": "Gender", "curie": "NCIT:C17357" PCA and batch #define ourslves niagads: undefined.
       },
 	  {
 		"term" : "Principal component analysis", "curie": "EDAM:operation_3960"

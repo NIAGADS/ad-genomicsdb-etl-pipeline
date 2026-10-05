@@ -30,7 +30,7 @@
 	"covariates": [
 		{
 			"term": "Gender",
-			"curie": "niagads: undefined"
+			"curie": "NCIT:C17357"
 		},
 		{
 			"term": "Principal component analysis",
