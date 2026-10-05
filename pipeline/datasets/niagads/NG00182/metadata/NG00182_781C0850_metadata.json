@@ -1,7 +1,7 @@
 {
 	"id": "NG00182_781C0850_STD",
 	"name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: APOE\u03b54 carrier",
-	"description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 2,386 APOE\u03b54 carriers, including 1,570 Alzheimer\u2019s disease (AD) cases and 816 controls. These samples derive from the Korean GARD cohort (1,345 individuals: 810 AD cases, 535 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (2,802 individuals: 760 AD cases, 281 controls; SNP array\u2013based GWAS).",
+	"description": "Summary statistics from single-variant tests for associations with Alzheimer's disease (AD). The dataset comprises 2,386 APOEε4 carriers derived from the Korean GARD cohort and the Japanese JGSCAD cohort.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["GARD", "JGSCAD_1", "JGSCAD_2"],
@@ -22,8 +22,8 @@
 	},
 	"experimental_design": {
 		"data_category": {
-			"curie": "NIAGADS:undefined",
-			"term": "Meta-analysis"
+			"curie": "NIAGADS:0000067",
+			"term": "single-variant association test summary statistics"
 		},
 		"is_lifted": false,
 		"covariates": [

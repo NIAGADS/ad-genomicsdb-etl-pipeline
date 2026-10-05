@@ -1,7 +1,7 @@
 {
 	"id": "NG00182_9A98AA36_STD",
 	"name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: Meta-Analysis male",
-	"description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 2,736 male participants, including 1,047 Alzheimer\u2019s disease (AD) cases and 1,689 controls. These samples derive from the Korean GARD cohort (1,560 individuals: 669 AD cases, 897 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (1,176 individuals: 378 AD cases, 798 controls; SNP array\u2013based GWAS).",
+	"description": "Summary statistics from single-variant tests for associations with Alzheimer's disease (AD). The dataset comprises 2,736 male participants derived from the Korean GARD cohort and the Japanese JGSCAD cohort.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["GARD", "JGSCAD_1", "JGSCAD_2"],
@@ -22,8 +22,8 @@
 	},
 	"experimental_design": {
 		"data_category": {
-			"curie": "NIAGADS:undefined",
-			"term": "Meta-analysis"
+			"curie": "NIAGADS:0000067",
+			"term": "single-variant association test summary statistics"
 		},
 		"is_lifted": false,
 		"covariates": [

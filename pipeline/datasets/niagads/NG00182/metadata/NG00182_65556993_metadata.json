@@ -1,7 +1,7 @@
 {
 	"id": "NG00182_65556993_STD",
 	"name": "Novel Alzheimer's Risk Loci in Korean participants: APOE\u03b54 carrier",
-	"description": "GWAS summary statistics derived from single-variant association tests for WGS data  from 1,345 Korean APOE\u03b54 carriers aged 60 years or older (1,583 AD cases, 1,957 controls) from the GARD cohort.",
+	"description": "Summary statistics from single-variant tests for associations with Alzheimer's disease (AD). The dataset comprises 1,345 APOEε4 carriers aged 60 years or older derived from the Korean GARD cohort.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["GARD"],
@@ -22,8 +22,8 @@
 	},
 	"experimental_design": {
 		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
+			"curie": "NIAGADS:0000067",
+			"term": "single-variant association test summary statistics"
 		},
 		"is_lifted": false,
 		"covariates": [
