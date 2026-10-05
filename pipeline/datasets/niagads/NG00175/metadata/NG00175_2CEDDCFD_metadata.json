@@ -37,9 +37,6 @@
 				"curie": "NCIT:C28421"
 			},
 			{
-				"term": "Cohort"
-			},
-			{
 				"term": "Principal component analysis",
 				"curie": "EDAM:operation_3960"
 			}
