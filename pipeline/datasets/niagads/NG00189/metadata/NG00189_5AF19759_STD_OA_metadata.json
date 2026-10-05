@@ -49,16 +49,14 @@
 		],
 		"clinical_status": [
 			{
-				"curie": "NIAGADS:undefined",
-				"term": " Nighttime Behaviors"
+				"curie": "NIAGADS:0000071",
+				"term": "nighttime behavioral disturbance"
 			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Nighttime Behaviors"
-			],
+			"phenotype": ["nighttime behavioral disturbance"],
 			"num_cases": 7085,
 			"num_controls": 5631
 		}

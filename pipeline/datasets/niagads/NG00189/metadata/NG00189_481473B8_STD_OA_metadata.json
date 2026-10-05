@@ -49,16 +49,14 @@
 		],
 		"clinical_status": [
 			{
-				"curie": "NIAGADS:needs-review",
+				"curie": "HP:0000738",
 				"term": "Hallucinations"
 			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Hallucinations"
-			],
+			"phenotype": ["Hallucinations"],
 			"num_cases": 2027,
 			"num_controls": 10698
 		}
