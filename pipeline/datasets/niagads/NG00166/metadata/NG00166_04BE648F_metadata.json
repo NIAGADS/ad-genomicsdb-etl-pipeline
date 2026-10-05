@@ -33,7 +33,8 @@
 				"term": "Technical variables"
 			},
 			{
-				"term": "Principal components"
+				"term": "Principal component analysis",
+				"curie": "EDAM:operation_3960"
 			},
 			{
 				"term": "Relatedness"

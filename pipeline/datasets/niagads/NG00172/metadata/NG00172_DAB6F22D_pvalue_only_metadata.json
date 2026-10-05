@@ -28,7 +28,8 @@
 		"is_lifted": false,
 		"covariates": [
 			{
-				"term": "Principal component analysis"
+				"term": "Principal component analysis",
+				"curie": "EDAM:operation_3960"
 			},
 			{
 				"term": "Relatedness"

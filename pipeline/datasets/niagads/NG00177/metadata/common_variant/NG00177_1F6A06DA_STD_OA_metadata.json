@@ -46,10 +46,12 @@
 		"is_lifted": false,
 		"covariates": [
 			{
-				"term": "Age"
+				"term": "Age",
+				"curie": "NCIT:C25150"
 			},
 			{
-				"term": "Principal component analysis"
+				"term": "Principal component analysis",
+				"curie": "EDAM:operation_3960"
 			},
 			{
 				"term": "sex"

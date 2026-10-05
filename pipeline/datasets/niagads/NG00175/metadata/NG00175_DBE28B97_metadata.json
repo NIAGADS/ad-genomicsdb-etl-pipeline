@@ -30,7 +30,8 @@
 		"is_lifted": false,
 		"covariates": [
 			{
-				"term": "Age at death"
+				"term": "Age",
+				"curie": "NCIT:C25150"
 			},
 			{
 				"term": "Sex"
@@ -39,7 +40,8 @@
 				"term": "Cohort"
 			},
 			{
-				"term": "Principal component analysis"
+				"term": "Principal component analysis",
+				"curie": "EDAM:operation_3960"
 			},
 			{
 				"term": "Relatedness"
