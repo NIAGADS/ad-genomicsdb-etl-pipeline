@@ -51,14 +51,14 @@
 		],
 		"derived_phenotype": [
 			{
-				"term": "combined resilience",
+				"term": "combined resilience to Alzheimer’s disease neuropathology",
 				"curie": "NIAGADS:0000065"
 			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "combined resilience",
+			"phenotype": "combined resilience to Alzheimer’s disease neuropathology",
 			"curie": "NIAGADS:0000065",
 			"num_cases": 2093
 		}

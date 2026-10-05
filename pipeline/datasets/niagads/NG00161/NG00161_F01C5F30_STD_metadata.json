@@ -54,14 +54,14 @@
 		],
 		"derived_phenotype": [
 			{
-				"term": "residual cognitive resilience",
+				"term": "residual cognitive resilience to Alzheimer’s disease neuropathology",
 				"curie": "NIAGADS:0000002"
 			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "residual cognitive resilience",
+			"phenotype": "residual cognitive resilience to Alzheimer’s disease neuropathology",
 			"curie": "NIAGADS:0000002",
 			"num_cases": 5024
 		}
