@@ -54,14 +54,14 @@
 			},
 
 			{
-				"curie": "MFOEM:000015",
-				"term": "aggression"
+				"curie": "HP:0000718",
+				"term": "Aggressive behavior"
 			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": ["Agitation", "aggression "],
+			"phenotype": ["Agitation", "Aggressive behavior"],
 			"num_cases": 7015,
 			"num_controls": 5713
 		}
