@@ -95,23 +95,11 @@
 		{
 			"event_date": "2026-09-18",
 			"actor": "NIAGADS",
-			"actor_type": "USER",
+			"actor_type": "ORGANIZATION",
 			"tool": "hipFG",
-			"tool_version": "1.4.16"
-		},
-		{
-			"event_date": "2026-09-18",
-			"event_type": "FILTER",
-			"actor": "NIAGADS",
-			"actor_type": "USER",
-			"tool": "hipFG",
-			"tool_version": "1.4.16"
-		},
-		{
-			"event_date": "2026-09-08",
-			"event_type": "PREPROCESS",
-			"actor": "NIAGADS",
-			"actor_type": "USER"
+			"tool_version": "1.4.16",
+			"event_type": "STANDARDIZE",
+			"description": "Standardized field names, normalized variant alleles against reference genome, and filtered for unrestricted summary statistics."
 		}
 	]
 }

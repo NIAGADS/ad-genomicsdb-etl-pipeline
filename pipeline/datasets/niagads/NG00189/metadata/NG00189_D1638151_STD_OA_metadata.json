@@ -69,17 +69,10 @@
 			"event_date": "2026-05-15",
 			"event_type": "STANDARDIZE",
 			"actor": "NIAGADS",
-			"actor_type": "USER",
+			"actor_type": "ORGANIZATION",
 			"tool": "hipFG",
-			"tool_version": "1.4.1"
-		},
-		{
-			"event_date": "2026-05-15",
-			"event_type": "FILTER",
-			"actor": "NIAGADS",
-			"actor_type": "USER",
-			"tool": "hipFG",
-			"tool_version": "1.4.1"
+			"tool_version": "1.4.1",
+			"description": "Standardized field names, normalized variant alleles against reference genome, and filtered for unrestricted summary statistics."
 		}
 	]
 }
