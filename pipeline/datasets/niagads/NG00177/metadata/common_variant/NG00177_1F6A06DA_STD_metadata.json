@@ -63,7 +63,7 @@
 		]
 	},
 	"participant_phenotypes": {
-		"Disease": [
+		"disease": [
 			{
 				"term": "Alzheimer's disease"
 			}
