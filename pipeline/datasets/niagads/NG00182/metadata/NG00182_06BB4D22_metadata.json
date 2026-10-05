@@ -23,8 +23,8 @@
 	"experimental_design": {
 		"analysis": "Meta-Analysis",
 		"data_category": {
-			"curie": "NIAGADS:undefined",
-			"term": "GWAS Summary Statistics"
+			"curie": "NO:0000010",
+			"term": "GWAS summary statistics"
 		},
 		"is_lifted": false,
 		"covariates": [
@@ -56,7 +56,7 @@
 		"Gender": [
 			{
 				"curie": "PATO:0000384",
-				"term": "male"
+				"term": "Male"
 			}
 		]
 	},
