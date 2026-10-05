@@ -35,7 +35,8 @@
 				"term": "Study Design"
 			},
 			{
-				"term": "Sequencing center"
+				"term": "sequencing center",
+				"curie": "NIAGADS:0000068"
 			},
 			{
 				"term": "Platform"

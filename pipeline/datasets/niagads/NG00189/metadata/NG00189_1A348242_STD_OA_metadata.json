@@ -37,8 +37,8 @@
 			"curie": "EDAM:operation_3960"
 		},
 		{
-			"term": "Technical variables",
-			"curie": "niagads: undefined"
+			"term": "technical variables",
+			"curie": "NIAGADS:0000069"
 		}
 	],
 	"participant_phenotypes": {

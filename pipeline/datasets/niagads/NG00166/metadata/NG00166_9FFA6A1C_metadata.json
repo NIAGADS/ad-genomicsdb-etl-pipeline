@@ -28,10 +28,12 @@
 				"curie": "NCIT:C28421"
 			},
 			{
-				"term": "Sequencing center"
+				"term": "sequencing center",
+				"curie": "NIAGADS:0000068"
 			},
 			{
-				"term": "Technical variables"
+				"term": "technical variables",
+				"curie": "NIAGADS:0000069"
 			},
 			{
 				"term": "Principal component analysis",

@@ -32,7 +32,8 @@
 				"curie": "NCIT:C28421"
 			},
 			{
-				"term": "Sequencing center"
+				"term": "sequencing center",
+				"curie": "NIAGADS:0000068"
 			},
 			{
 				"term": "Platform"
