@@ -49,14 +49,14 @@
 		],
 		"clinical_status": [
 			{
-				"curie": "MFOMD:0000101",
-				"term": "delusion"
+				"curie": "HP:0000746",
+				"term": "Delusion"
 			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "delusion",
+			"phenotype": "Delusion",
 			"num_cases": 3081,
 			"num_controls": 9642
 		}
