@@ -22,8 +22,8 @@
 	},
 	"experimental_design": {
 		"data_category": {
-			"curie": "NIAGADS:undefined",
-			"term": "Gene-based variant assocication analysis"
+			"curie": "NIAGADS:0000072",
+			"term": "aggregate variant association test summary statistics"
 		},
 		"is_lifted": false,
 		"covariates": [
