@@ -2,10 +2,10 @@
 	"name": "National Cancer Institute Thesaurus",
 	"database_key": "NCIT",
 	"description": "NCI Thesaurus (NCIt) provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities.",
-	"url": "https://github.com/ncit-obo-org/ncit-obo-edition",
-	"version": "v2026-03-19",
-	"release_date": "2026-03-19",
-	"download_url": "http://purl.obolibrary.org/obo/ncit.owl",
-	"download_date": "2026-08-13",
-    "database_type_id": "EDAM:data_0582"
+	"url": "https://evsexplore.semantics.cancer.gov/evsexplore/welcome",
+	"version": "26.09.d",
+	"release_date": "2026-09-28",
+	"download_url": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/",
+	"download_date": "2026-10-5",
+	"database_type_id": "EDAM:data_0582"
 }
