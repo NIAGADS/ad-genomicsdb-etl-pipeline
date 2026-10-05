@@ -45,7 +45,7 @@
 	"participant_phenotypes": {
 		"neuropathology": [
 			{
-				"curie": "NIAGADS:needs-review",
+				"curie": "HP:0002621",
 				"term": "Arteriolosclerosis"
 			}
 		],
@@ -56,6 +56,12 @@
 			}
 		]
 	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Arteriolosclerosis",
+			"num_cases": 6668
+		}
+	],
 	"curation_history": [
 		{
 			"event_date": "2026-06-12",

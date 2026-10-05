@@ -56,6 +56,12 @@
 			}
 		]
 	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Lewy body",
+			"num_cases": 7218
+		}
+	],
 	"curation_history": [
 		{
 			"event_date": "2026-06-12",

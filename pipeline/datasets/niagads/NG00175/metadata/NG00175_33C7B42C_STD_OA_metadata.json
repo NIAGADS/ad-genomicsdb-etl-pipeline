@@ -56,6 +56,12 @@
 			}
 		]
 	},
+	"study_diagnosis": [
+		{
+			"phenotype": "LATE-NC",
+			"num_cases": 3112
+		}
+	],
 	"curation_history": [
 		{
 			"event_date": "2026-06-12",

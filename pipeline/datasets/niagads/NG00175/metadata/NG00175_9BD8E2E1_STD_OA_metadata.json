@@ -56,6 +56,12 @@
 			}
 		]
 	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Atherosclerosis",
+			"num_cases": 7340
+		}
+	],
 	"curation_history": [
 		{
 			"event_date": "2026-06-12",

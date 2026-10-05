@@ -56,6 +56,12 @@
 			}
 		]
 	},
+	"study_diagnosis": [
+		{
+			"phenotype": "amyloid-beta plaques",
+			"num_cases": 6363
+		}
+	],
 	"curation_history": [
 		{
 			"event_date": "2026-06-12",

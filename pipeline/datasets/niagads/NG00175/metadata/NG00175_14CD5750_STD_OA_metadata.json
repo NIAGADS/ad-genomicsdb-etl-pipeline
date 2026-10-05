@@ -56,6 +56,12 @@
 			}
 		]
 	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Cerebral amyloid angiopathy",
+			"num_cases": 7381
+		}
+	],
 	"curation_history": [
 		{
 			"event_date": "2026-06-12",

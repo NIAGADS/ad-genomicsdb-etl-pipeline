@@ -56,6 +56,12 @@
 			}
 		]
 	},
+	"study_diagnosis": [
+		{
+			"phenotype": "CERAD score",
+			"num_cases": 7786
+		}
+	],
 	"curation_history": [
 		{
 			"event_date": "2026-06-12",

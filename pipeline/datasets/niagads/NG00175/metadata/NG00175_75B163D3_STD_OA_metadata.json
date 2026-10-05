@@ -56,6 +56,12 @@
 			}
 		]
 	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Braak Stages",
+			"num_cases": 7776
+		}
+	],
 	"curation_history": [
 		{
 			"event_date": "2026-06-12",
