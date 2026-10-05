@@ -36,22 +36,20 @@
 		],
 		"race": [
 			{
-				"curie": "HANCESTRO:0008",
+				"curie": "HANCESTRO:0847",
 				"term": "Asian"
 			}
 		],
 		"population": [
 			{
-				"curie": "NIAGADS:needs-review",
+				"curie": "HANCESTRO:0022",
 				"term": "Korean"
 			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Alzheimer's disease"
-			],
+			"phenotype": ["Alzheimer's disease"],
 			"num_cases": 1583,
 			"num_controls": 1957
 		}
