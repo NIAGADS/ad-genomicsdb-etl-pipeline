@@ -1,7 +1,7 @@
 {
 	"id": "NG00161_F89B5AFE_STD",
-	"name": "Sex differences in AD cognitive resilience genetics: Residual cognitive resilience in cognitively normal males",
-	"description": "Summary statistics from a genome-wide association study meta-analysis examining residual cognitive resilience in cognitively normal males. GWAS were performed in the combined autopsy and PET datasets and subsequently meta-analyzed using a fixed-effects model.",
+	"name": "Residual Cognitive Resilience to AD Neuropathology in Cognitively Normal Participants (Males)",
+	"description": "Summary statistics from a quantitative-trait genome-wide association study of residual cognitive resilience to AD neuropathology in cognitively normal males.",
 	"genome_build": "GRCh38",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],
 	"provenance": {

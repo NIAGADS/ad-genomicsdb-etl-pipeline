@@ -1,7 +1,7 @@
 {
 	"id": "NG00161_A3BA69CE_STD",
-	"name": "Sex differences in AD cognitive resilience genetics: Global cognitive resilience in males",
-	"description": "Summary statistics from a genome-wide association study meta-analysis examining global cognitive resilience in males. GWAS were performed in the combined autopsy and PET datasets and subsequently meta-analyzed using a fixed-effects model.",
+	"name": "Combined Resilience to AD Neuropathology (Males)",
+	"description": "Summary statistics from a quantitative-trait genome-wide association study of combined resilience to AD neuropathology in males using all eligible participants.",
 	"genome_build": "GRCh38",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],
 	"provenance": {

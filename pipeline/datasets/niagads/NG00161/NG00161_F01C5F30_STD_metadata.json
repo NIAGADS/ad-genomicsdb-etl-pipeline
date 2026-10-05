@@ -1,7 +1,7 @@
 {
 	"id": "NG00161_F01C5F30_STD",
-	"name": "Sex differences in AD cognitive resilience genetics: Sex interaction on residual cognitive resilience",
-	"description": "Summary statistics from a genome-wide association study meta-analysis examining sex interactions on residual cognitive resilience. GWAS were performed in the combined autopsy and PET datasets and subsequently meta-analyzed using a fixed-effects model.",
+	"name": "Residual Cognitive Resilience to AD Neuropathology (Sex Interaction)",
+	"description": "Summary statistics from a quantitative-trait genome-wide association study testing SNP-by-sex interaction effects on residual cognitive resilience to AD neuropathology using all eligible participants.",
 	"genome_build": "GRCh38",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],
 	"provenance": {
