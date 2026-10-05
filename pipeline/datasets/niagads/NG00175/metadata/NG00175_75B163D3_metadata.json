@@ -48,10 +48,12 @@
 	"participant_phenotypes": {
 		"neuropathology": [
 			{
-				"term": "neurofibrillary tangles"
+				"term": "Neurofibrillary tangles",
+				"curie": "HP:0002185"
 			},
 			{
-				"term": "Braak Stages"
+				"term": "Braak Stages",
+				"curie": "NIAGADS:0000025"
 			}
 		],
 		"population": [
