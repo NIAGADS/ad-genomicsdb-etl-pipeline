@@ -58,7 +58,7 @@
 		],
 		"genotype": [
 			{
-				"curie": "NO:0000060",
+				"curie": "NIAGADS:0000060",
 				"term": "APOE \u03b54 non-carrier"
 			}
 		]

@@ -22,7 +22,7 @@
 	},
 	"experimental_design": {
 		"data_category": {
-			"curie": "NO:0000010",
+			"curie": "NIAGADS:0000010",
 			"term": "GWAS summary statistics"
 		},
 		"covariates": [

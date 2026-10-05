@@ -22,7 +22,7 @@
 	},
 	"experimental_design": {
 		"data_category": {
-			"curie": "NO:0000010",
+			"curie": "NIAGADS:0000010",
 			"term": "GWAS summary statistics"
 		},
 		"is_lifted": false,
@@ -54,7 +54,7 @@
 		],
 		"genotype": [
 			{
-				"curie": "NO:0000060",
+				"curie": "NIAGADS:0000060",
 				"term": "APOE \u03b54 non-carrier"
 			}
 		]
