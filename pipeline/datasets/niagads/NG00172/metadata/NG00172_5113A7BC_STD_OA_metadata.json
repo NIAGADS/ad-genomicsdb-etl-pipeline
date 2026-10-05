@@ -46,8 +46,8 @@
 		],
 		"population": [
 			{
-				"curie": "NCIT:C16612",
-				"term": "European"
+				"curie": "HANCESTRO:0005",
+				"term": "European ancestry"
 			}
 		]
 	},

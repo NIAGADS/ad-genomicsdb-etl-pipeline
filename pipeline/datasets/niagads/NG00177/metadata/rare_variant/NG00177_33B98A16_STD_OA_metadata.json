@@ -59,7 +59,8 @@
 		],
 		"population": [
 			{
-				"term": "East Asian"
+				"term": "East Asian",
+				"curie": "HANCESTRO:0849"
 			}
 		]
 	},

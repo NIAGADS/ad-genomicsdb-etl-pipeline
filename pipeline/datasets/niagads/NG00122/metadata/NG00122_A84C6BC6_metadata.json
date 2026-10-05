@@ -55,7 +55,8 @@
 		],
 		"population": [
 			{
-				"term": "European"
+				"term": "European ancestry",
+				"curie": "HANCESTRO:0005"
 			}
 		]
 	},

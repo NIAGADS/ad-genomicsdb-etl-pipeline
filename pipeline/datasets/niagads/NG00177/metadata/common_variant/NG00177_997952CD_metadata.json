@@ -109,16 +109,20 @@
 		],
 		"population": [
 			{
-				"term": "East Asian"
+				"term": "East Asian",
+				"curie": "HANCESTRO:0849"
 			},
 			{
-				"term": "African American"
+				"term": "African American",
+				"curie": "HANCESTRO:0568"
 			},
 			{
-				"term": "European"
+				"term": "European ancestry",
+				"curie": "HANCESTRO:0005"
 			},
 			{
-				"term": "Latin or Admixed American ancestry"
+				"term": "Latin or Admixed American ancestry",
+				"curie": "HANCESTRO:0014"
 			}
 		]
 	},

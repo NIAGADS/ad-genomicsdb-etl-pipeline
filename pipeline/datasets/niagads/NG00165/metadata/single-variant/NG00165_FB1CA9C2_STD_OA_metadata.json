@@ -62,7 +62,8 @@
 		],
 		"population": [
 			{
-				"term": "African American"
+				"term": "African American",
+				"curie": "HANCESTRO:0568"
 			}
 		]
 	},

@@ -60,7 +60,8 @@
 		],
 		"population": [
 			{
-				"term": "Latin or Admixed American ancestry"
+				"term": "Latin or Admixed American ancestry",
+				"curie": "HANCESTRO:0014"
 			}
 		]
 	},
