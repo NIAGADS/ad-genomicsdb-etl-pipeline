@@ -59,7 +59,8 @@
 	"study_diagnosis": [
 		{
 			"phenotype": "combined resilience",
-			"curie": "NIAGADS:0000065"
+			"curie": "NIAGADS:0000065",
+			"num_cases": 2931
 		}
 	],
 	"curation_history": [

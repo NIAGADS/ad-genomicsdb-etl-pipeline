@@ -54,7 +54,8 @@
 	"study_diagnosis": [
 		{
 			"phenotype": "residual cognitive resilience",
-			"curie": "NIAGADS:0000002"
+			"curie": "NIAGADS:0000002",
+			"num_cases": 2093
 		}
 	],
 	"curation_history": [
