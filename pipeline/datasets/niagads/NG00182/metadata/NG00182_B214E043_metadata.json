@@ -1,6 +1,6 @@
 {
 	"id": "NG00182_B214E043_STD",
-	"name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: APOE\u03b54 non-carrier",
+	"name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: APOEε4 Non-carriers",
 	"description": "Summary statistics from single-variant tests for associations with Alzheimer's disease (AD). The dataset comprises 4,132 APOEε4 non-carriers derived from the Korean GARD cohort and the Japanese JGSCAD cohort.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",

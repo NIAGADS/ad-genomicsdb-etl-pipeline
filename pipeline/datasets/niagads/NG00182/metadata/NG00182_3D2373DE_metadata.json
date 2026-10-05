@@ -1,6 +1,6 @@
 {
 	"id": "NG00182_3D2373DE_STD",
-	"name": "Novel Alzheimer's Risk Loci in Korean participants: Total Sample",
+	"name": "Novel Alzheimer's Risk Loci in Korean participants",
 	"description": "Summary statistics from single-variant tests for associations with Alzheimer's disease (AD). The dataset comprises 3,540 participants aged 60 years or older derived from the Korean GARD cohort.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",

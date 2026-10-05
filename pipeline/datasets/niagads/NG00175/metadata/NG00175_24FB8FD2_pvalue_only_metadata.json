@@ -1,6 +1,6 @@
 {
 	"id": "NG00175_24FB8FD2_STD_OA",
-	"name": "Neuropathology endophenotypes: neuritic plaques",
+	"name": "Neuropathology endophenotypes: Neuritic plaques",
 	"description": "Summary statistics from a genome-wide association study meta-analysis examining neuritic plaques as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",

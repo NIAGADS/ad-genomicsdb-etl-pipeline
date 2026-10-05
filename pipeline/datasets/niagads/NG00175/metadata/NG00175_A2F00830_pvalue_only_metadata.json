@@ -1,6 +1,6 @@
 {
 	"id": "NG00175_A2F00830_STD_OA",
-	"name": "Neuropathology endophenotypes: amyloid-beta plaques",
+	"name": "Neuropathology endophenotypes: Amyloid-beta plaques",
 	"description": "Summary statistics from a genome-wide association study meta-analysis examining amyloid-beta plaque as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",

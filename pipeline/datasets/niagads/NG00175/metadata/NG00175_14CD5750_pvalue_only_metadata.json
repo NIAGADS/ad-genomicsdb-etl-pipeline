@@ -1,6 +1,6 @@
 {
 	"id": "NG00175_14CD5750_STD_OA",
-	"name": "Neuropathology endophenotypes: cerebral amyloid angiopathy",
+	"name": "Neuropathology endophenotypes: Cerebral amyloid angiopathy",
 	"description": "Summary statistics from a genome-wide association study meta-analysis examining cerebral amyloid angiopathy as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",

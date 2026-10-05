@@ -1,6 +1,6 @@
 {
 	"id": "NG00161_01548326_STD",
-	"name": "Combined Resilience to AD Neuropathology in Cognitively Normal Participants (Sex Interaction)",
+	"name": "Combined Resilience to AD Neuropathology in Cognitively Normal Participants: Sex Interaction",
 	"description": "Summary statistics from a quantitative-trait genome-wide association study testing SNP-by-sex interaction effects on combined resilience to AD neuropathology in cognitively normal participants.",
 	"genome_build": "GRCh38",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],

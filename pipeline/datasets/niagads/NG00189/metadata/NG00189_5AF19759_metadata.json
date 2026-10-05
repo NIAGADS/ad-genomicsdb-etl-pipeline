@@ -1,6 +1,6 @@
 {
 	"id": "NG00189_5AF19759_STD",
-	"name": "Summary statistics for GWAS of nine individual neuropsychiatric symptoms in mild cognitive impairment and dementia: Nighttime behaviors",
+	"name": "Summary statistics for GWAS of nine individual neuropsychiatric symptoms in mild cognitive impairment and dementia: Nighttime Behaviors",
 	"description": "Nine individual neuropsychiatric symptom domains (agitation or aggression, anxiety, apathy or indifference, delusions, depression or dysphoria, disinhibition, hallucinations, irritability or lability, nighttime behaviors) measured using the Neuropsychiatric Symptom Inventory Questionnaire were tested for association with single-nucleotide polymorphisms (SNPs) with minor allele frequency > 5% in a sample of 12,806 participants with mild cognitive impairment or dementia. Participants were sampled from Alzheimer\u2019s Disease Research Centers (ADRCs) throughout the United States and were of European genetic ancestry.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",

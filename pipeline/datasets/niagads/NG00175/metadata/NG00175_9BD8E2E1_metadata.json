@@ -1,6 +1,6 @@
 {
 	"id": "NG00175_9BD8E2E1_STD",
-	"name": "Neuropathology endophenotypes: atherosclerosis",
+	"name": "Neuropathology endophenotypes: Atherosclerosis",
 	"description": "Summary statistics from a genome-wide association study meta-analysis examining atherosclerosis as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",

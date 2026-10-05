@@ -1,6 +1,6 @@
 {
 	"id": "NG00161_F89B5AFE_STD",
-	"name": "Residual Cognitive Resilience to AD Neuropathology in Cognitively Normal Participants (Males)",
+	"name": "Residual Cognitive Resilience to AD Neuropathology in Cognitively Normal Participants: Males",
 	"description": "Summary statistics from a quantitative-trait genome-wide association study of residual cognitive resilience to AD neuropathology in cognitively normal males.",
 	"genome_build": "GRCh38",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],

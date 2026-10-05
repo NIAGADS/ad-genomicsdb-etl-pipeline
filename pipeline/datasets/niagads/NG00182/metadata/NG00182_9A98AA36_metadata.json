@@ -1,6 +1,6 @@
 {
 	"id": "NG00182_9A98AA36_STD",
-	"name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: Meta-Analysis male",
+	"name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: Males",
 	"description": "Summary statistics from single-variant tests for associations with Alzheimer's disease (AD). The dataset comprises 2,736 male participants derived from the Korean GARD cohort and the Japanese JGSCAD cohort.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",

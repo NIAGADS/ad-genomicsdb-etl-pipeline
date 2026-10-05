@@ -22,7 +22,7 @@
 	},
 	"experimental_design": {
 		"data_category": {
-			"curie": "NIAGADS:0000065",
+			"curie": "NIAGADS:0000067",
 			"term": "single-variant association test summary statistics"
 		}
 	},

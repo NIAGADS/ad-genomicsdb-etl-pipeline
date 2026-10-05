@@ -1,6 +1,6 @@
 {
 	"id": "NG00161_A3BA69CE_STD",
-	"name": "Combined Resilience to AD Neuropathology (Males)",
+	"name": "Combined Resilience to AD Neuropathology: Males",
 	"description": "Summary statistics from a quantitative-trait genome-wide association study of combined resilience to AD neuropathology in males using all eligible participants.",
 	"genome_build": "GRCh38",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],

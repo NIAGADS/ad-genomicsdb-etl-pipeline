@@ -1,6 +1,6 @@
 {
 	"id": "NG00175_6F944F9C_STD_OA",
-	"name": "Neuropathology endophenotypes: hippocampal sclerosis",
+	"name": "Neuropathology endophenotypes: Hippocampal sclerosis",
 	"description": "Summary statistics from a genome-wide association study meta-analysis examining hippocampal sclerosis as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",

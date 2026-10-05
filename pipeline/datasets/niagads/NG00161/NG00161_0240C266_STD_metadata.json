@@ -1,6 +1,6 @@
 {
 	"id": "NG00161_0240C266_STD",
-	"name": "Combined Resilience to AD Neuropathology (Females)",
+	"name": "Combined Resilience to AD Neuropathology: Females",
 	"description": "Summary statistics from a quantitative-trait genome-wide association study of combined resilience to AD neuropathology in females using all eligible participants.",
 	"genome_build": "GRCh38",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],
