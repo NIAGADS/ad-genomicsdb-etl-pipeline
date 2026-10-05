@@ -46,7 +46,8 @@
 		],
 		"sex": [
 			{
-				"term": "Male"
+				"term": "Male",
+				"curie": "NCIT:C20197"
 			}
 		]
 	},

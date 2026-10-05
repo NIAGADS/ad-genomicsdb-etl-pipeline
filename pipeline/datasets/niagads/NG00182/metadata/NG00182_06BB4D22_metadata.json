@@ -55,7 +55,7 @@
 		],
 		"Gender": [
 			{
-				"curie": "PATO:0000384",
+				"curie": "NCIT:C20197",
 				"term": "Male"
 			}
 		]

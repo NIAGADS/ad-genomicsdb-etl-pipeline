@@ -49,10 +49,12 @@
 		],
 		"sex": [
 			{
-				"term": "Female"
+				"term": "Female",
+				"curie": "NCIT:C16576"
 			},
 			{
-				"term": "Male"
+				"term": "Male",
+				"curie": "NCIT:C20197"
 			}
 		]
 	},
