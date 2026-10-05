@@ -1,100 +1,88 @@
 {
-  "id": "NG00175_D31007D4_STD",
-  "name": "Neuropathology endophenotypes: gross infarcts",
-  "description": "Summary statistics from a genome-wide association study meta-analysis examining gross infracts as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
-  "genome_build": "GRCh38",
-  "feature_type": "VARIANT",
-  "cohorts": [
-    "NACC",
-    "ROS",
-    "MAP",
-    "ACT"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00175",
-    "release_date": "2025-08-06",
-    "release_version": "1",
-    "consortium": [
-      "NACC",
-      "ADGC"
-    ],
-    "attribution": "Shade et al. 2024",
-    "pubmed_id": [
-      "39379761"
-    ],
-    "doi": [
-      "10.1038/s41588-024-01939-9"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00175_D31007D4_STD.tsv.gz",
-    "md5sum": "915f936e4f962c5d0102e97b53be7119",
-    "file_size": 464298929
-  },
-  "experimental_design": {
-    "analysis": "Meta-analysis",
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "GWAS Summary Statistics"
-    },
-    "is_lifted": false,
-    "covariates": [
-      {
-        "term": "Age at death"
-      },
-      {
-        "term": "Sex"
-      },
-      {
-        "term": "Cohort"
-      },
-      {
-        "term": "PCA"
-      },
-      {
-        "term": "Relatedness"
-      }
-    ]
-  },
-  "participant_phenotypes": {
-    "neuropathology": [
-      {
-        "term": "gross infracts"
-      },
-      {
-        "term": "vascular brain injury"
-      }
-    ],
-    "population": [
-      {
-        "curie": "HANCESTRO:0005",
-        "term": "European"
-      }
-    ]
-  },
-    "study_diagnosis": [
-    {
-      "phenotype": "Gross Infracts",
-      "num_cases": 1766,
-      "num_controls": 5632
-    }
-  ],
-  "curation_history": [
-    {
-      "event_date": "2026-06-12",
-      "event_type": "PREPROCESS",
-      "actor": "NIAGADS",
-      "actor_type": "USER"
-    },
-    {
-      "event_date": "2026-06-16",
-      "event_type": "STANDARDIZE",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    }
-  ]
+	"id": "NG00175_D31007D4_STD",
+	"name": "Neuropathology endophenotypes: gross infarcts",
+	"description": "Summary statistics from a genome-wide association study meta-analysis examining gross infracts as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
+	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
+	"cohorts": ["NACC", "ROS", "MAP", "ACT"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00175",
+		"release_date": "2025-08-06",
+		"release_version": "1",
+		"consortium": ["NACC", "ADGC"],
+		"attribution": "Shade et al. 2024",
+		"pubmed_id": ["39379761"],
+		"doi": ["10.1038/s41588-024-01939-9"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00175_D31007D4_STD.tsv.gz",
+		"md5sum": "915f936e4f962c5d0102e97b53be7119",
+		"file_size": 464298929
+	},
+	"experimental_design": {
+		"analysis": "Meta-analysis",
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "GWAS Summary Statistics"
+		},
+		"is_lifted": false,
+		"covariates": [
+			{
+				"term": "Age at death"
+			},
+			{
+				"term": "Sex"
+			},
+			{
+				"term": "Cohort"
+			},
+			{
+				"term": ""Principal component analysis"
+			},
+			{
+				"term": "Relatedness"
+			}
+		]
+	},
+	"participant_phenotypes": {
+		"neuropathology": [
+			{
+				"term": "gross infracts"
+			},
+			{
+				"term": "vascular brain injury"
+			}
+		],
+		"population": [
+			{
+				"curie": "HANCESTRO:0005",
+				"term": "European"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Gross Infracts",
+			"num_cases": 1766,
+			"num_controls": 5632
+		}
+	],
+	"curation_history": [
+		{
+			"event_date": "2026-06-12",
+			"event_type": "PREPROCESS",
+			"actor": "NIAGADS",
+			"actor_type": "USER"
+		},
+		{
+			"event_date": "2026-06-16",
+			"event_type": "STANDARDIZE",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		}
+	]
 }

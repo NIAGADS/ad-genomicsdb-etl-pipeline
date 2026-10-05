@@ -1,103 +1,91 @@
 {
-  "id": "NG00175_14CD5750_STD_OA",
-  "name": "Neuropathology endophenotypes: cerebral amyloid angiopathy",
-  "description": "Summary statistics from a genome-wide association study meta-analysis examining cerebral amyloid angiopathy as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
-  "genome_build": "GRCh38",
-  "feature_type": "VARIANT",
-  "cohorts": [
-    "NACC",
-    "ROS",
-    "MAP",
-    "ACT"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00175",
-    "release_date": "2025-08-06",
-    "release_version": "1",
-    "consortium": [
-      "NACC",
-      "ADGC"
-    ],
-    "attribution": "Shade et al. 2024",
-    "pubmed_id": [
-      "39379761"
-    ],
-    "doi": [
-      "10.1038/s41588-024-01939-9"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00175_14CD5750_pvalue_only_STD.tsv.gz",
-    "md5sum": "76731574816c0e07ab2d75b9d345aa43",
-    "file_size": 131401600
-  },
-  "experimental_design": {
-    "analysis": "Meta-analysis",
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "GWAS Summary Statistics"
-    },
-    "is_lifted": false,
-    "covariates": [
-      {
-        "term": "Age at death"
-      },
-      {
-        "term": "Sex"
-      },
-      {
-        "term": "Cohort"
-      },
-      {
-        "term": "PCA"
-      },
-      {
-        "term": "Relatedness"
-      }
-    ]
-  },
-  "participant_phenotypes": {
-    "neuropathology": [
-      {
-        "curie": "EFO:0006790",
-        "term": "cerebral amyloid angiopathy"
-      },
-      {
-        "curie": "EFO:0006800",
-        "term": "vascular brain injury"
-      }
-    ],
-    "population": [
-      {
-        "curie": "HANCESTRO:0005",
-        "term": "European"
-      }
-    ]
-  },
-  "curation_history": [
-    {
-      "event_date": "2026-06-12",
-      "event_type": "PREPROCESS",
-      "actor": "NIAGADS",
-      "actor_type": "USER"
-    },
-    {
-      "event_date": "2026-06-16",
-      "event_type": "STANDARDIZE",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    },
-    {
-      "event_date": "2026-06-16",
-      "event_type": "FILTER",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    }
-  ]
+	"id": "NG00175_14CD5750_STD_OA",
+	"name": "Neuropathology endophenotypes: cerebral amyloid angiopathy",
+	"description": "Summary statistics from a genome-wide association study meta-analysis examining cerebral amyloid angiopathy as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
+	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
+	"cohorts": ["NACC", "ROS", "MAP", "ACT"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00175",
+		"release_date": "2025-08-06",
+		"release_version": "1",
+		"consortium": ["NACC", "ADGC"],
+		"attribution": "Shade et al. 2024",
+		"pubmed_id": ["39379761"],
+		"doi": ["10.1038/s41588-024-01939-9"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00175_14CD5750_pvalue_only_STD.tsv.gz",
+		"md5sum": "76731574816c0e07ab2d75b9d345aa43",
+		"file_size": 131401600
+	},
+	"experimental_design": {
+		"analysis": "Meta-analysis",
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "GWAS Summary Statistics"
+		},
+		"is_lifted": false,
+		"covariates": [
+			{
+				"term": "Age at death"
+			},
+			{
+				"term": "Sex"
+			},
+			{
+				"term": "Cohort"
+			},
+			{
+				"term": ""Principal component analysis"
+			},
+			{
+				"term": "Relatedness"
+			}
+		]
+	},
+	"participant_phenotypes": {
+		"neuropathology": [
+			{
+				"curie": "EFO:0006790",
+				"term": "cerebral amyloid angiopathy"
+			},
+			{
+				"curie": "EFO:0006800",
+				"term": "vascular brain injury"
+			}
+		],
+		"population": [
+			{
+				"curie": "HANCESTRO:0005",
+				"term": "European"
+			}
+		]
+	},
+	"curation_history": [
+		{
+			"event_date": "2026-06-12",
+			"event_type": "PREPROCESS",
+			"actor": "NIAGADS",
+			"actor_type": "USER"
+		},
+		{
+			"event_date": "2026-06-16",
+			"event_type": "STANDARDIZE",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		},
+		{
+			"event_date": "2026-06-16",
+			"event_type": "FILTER",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		}
+	]
 }

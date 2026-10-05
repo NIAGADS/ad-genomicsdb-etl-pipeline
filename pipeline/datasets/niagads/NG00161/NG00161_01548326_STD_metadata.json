@@ -29,10 +29,10 @@
 		"is_lifted": false,
 		"covariates": [
 			{
-				"term": "age"
+				"term": "Age"
 			},
 			{
-				"term": "PCA"
+				"term": ""Principal component analysis"
 			},
 			{
 				"term": "sex"

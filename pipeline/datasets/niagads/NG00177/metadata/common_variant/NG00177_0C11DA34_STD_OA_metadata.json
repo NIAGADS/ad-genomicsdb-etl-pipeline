@@ -1,100 +1,91 @@
 {
-  "id": "NG00177_0C11DA34_STD_OA",
-  "name": "ADGC multi-ancestry AD GWAS meta-analysis: APOE-adjusted common variants in East Asian individuals",
-  "description": "Summary statistics from a fixed-effects GWAS meta-analysis examining common variants associated with late-onset Alzheimer's disease in East Asian individuals with adjustment for APOE ε4 dosage.",
-  "genome_build": "GRCh38",
-  "cohorts": [
-    "JGSCAD",
-    "ADC"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00177",
-    "release_date": "2025-09-01",
-    "release_version": "1",
-    "consortium": [
-      "ADGC"
-    ],
-    "attribution": "Rajabli et al. 2025",
-    "pubmed_id": [
-      "40676597"
-    ],
-    "doi": [
-      " 10.1186/s13059-025-03564-z"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00177_0C11DA34_STD_OA.tsv.gz",
-    "md5sum": "9dab2322cfd76c4ec5f46579ab6e6f75",
-    "file_size": 117643347
-  },
-  "experimental_design": {
-    "analysis": "Meta-analysis",
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "GWAS Summary Statistics"
-    },
-    "is_lifted": false,
-    "covariates": [
-      {
-        "term": "age"
-      },
-      {
-        "term": "PCA"
-      },
-      {
-        "term": "sex"
-      },
-      {
-        "term": "APOE e4 carrier status or allele number"
-      }
-    ]
-  },
-  "participant_phenotypes": {
-    "Disease": [
-      {
-        "term": "Alzheimer's disease"
-      }
-    ],
-    "ethnicity": [
-      {
-        "term": "Not Hispanic Or Latino"
-      }
-    ],
-    "race": [
-      {
-        "term": "Asian"
-      }
-    ],
-    "population": [
-      {
-        "term": "East Asian"
-      }
-    ]
-  },
-  "study_diagnosis": [
-    {
-      "phenotype": "Alzheimer's disease",
-      "num_cases": 1430,
-      "num_controls": 1802
-    }
-  ],
-  "curation_history": [
-    {
-      "event_date": "2026-09-15",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.12"
-    },
-    {
-      "event_date": "2026-09-15",
-      "event_type": "FILTER",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.12"
-    }
-  ]
+	"id": "NG00177_0C11DA34_STD_OA",
+	"name": "ADGC multi-ancestry AD GWAS meta-analysis: APOE-adjusted common variants in East Asian individuals",
+	"description": "Summary statistics from a fixed-effects GWAS meta-analysis examining common variants associated with late-onset Alzheimer's disease in East Asian individuals with adjustment for APOE ε4 dosage.",
+	"genome_build": "GRCh38",
+	"cohorts": ["JGSCAD", "ADC"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00177",
+		"release_date": "2025-09-01",
+		"release_version": "1",
+		"consortium": ["ADGC"],
+		"attribution": "Rajabli et al. 2025",
+		"pubmed_id": ["40676597"],
+		"doi": [" 10.1186/s13059-025-03564-z"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00177_0C11DA34_STD_OA.tsv.gz",
+		"md5sum": "9dab2322cfd76c4ec5f46579ab6e6f75",
+		"file_size": 117643347
+	},
+	"experimental_design": {
+		"analysis": "Meta-analysis",
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "GWAS Summary Statistics"
+		},
+		"is_lifted": false,
+		"covariates": [
+			{
+				"term": "Age"
+			},
+			{
+				"term": ""Principal component analysis"
+			},
+			{
+				"term": "sex"
+			},
+			{
+				"term": "APOE e4 carrier status or allele number"
+			}
+		]
+	},
+	"participant_phenotypes": {
+		"Disease": [
+			{
+				"term": "Alzheimer's disease"
+			}
+		],
+		"ethnicity": [
+			{
+				"term": "Not Hispanic Or Latino"
+			}
+		],
+		"race": [
+			{
+				"term": "Asian"
+			}
+		],
+		"population": [
+			{
+				"term": "East Asian"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Alzheimer's disease",
+			"num_cases": 1430,
+			"num_controls": 1802
+		}
+	],
+	"curation_history": [
+		{
+			"event_date": "2026-09-15",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.12"
+		},
+		{
+			"event_date": "2026-09-15",
+			"event_type": "FILTER",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.12"
+		}
+	]
 }

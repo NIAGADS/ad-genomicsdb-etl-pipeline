@@ -1,132 +1,126 @@
 {
-  "id": "NG00177_DE457174",
-  "name": "ADGC multi-ancestry AD GWAS meta-analysis: Common variants across ancestries",
-  "description": "Summary statistics from a fixed-effects GWAS meta-analysis examining common variants associated with late-onset Alzheimer's disease across non-Hispanic White, African American, Hispanic, and East Asian populations without adjustment for APOE ε4 dosage.",
-  "genome_build": "GRCh38",
-  "cohorts": [
-    "AAG",
-    "ACT",
-    "ACT1/2",
-    "ADC",
-    "ADNI",
-    "BIOCARD",
-    "CHAP",
-    "EAS",
-    "EFIGA",
-    "GenADA",
-    "GenerAAtions",
-    "IU",
-    "JGSCAD",
-    "MAYO",
-    "MIRAGE",
-    "MSSM",
-    "NBB",
-    "NIA-LOAD",
-    "NIA-LOAD/NCRAD",
-    "OHSU",
-    "Pfizer",
-    "PR1066",
-    "PRADI",
-    "RMAYO",
-    "ROS/MAP",
-    "MARS/CORE",
-    "ROSMAP1-2",
-    "TARCC",
-    "TGEN2",
-    "UKS",
-    "UM/CWRU",
-    "UM/CWRU/MSSM",
-    "UM/CWRU/TARCC2",
-    "UPITT",
-    "WASHU",
-    "WHICAP"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00177",
-    "release_date": "2025-09-01",
-    "release_version": "1",
-    "consortium": [
-      "ADGC"
-    ],
-    "attribution": "Rajabli et al. 2025",
-    "pubmed_id": [
-      "40676597"
-    ],
-    "doi": [
-      " 10.1186/s13059-025-03564-z"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00177_DE457174.txt",
-    "md5sum": "4b308e3f5dbe997ed5367b332bea1972",
-    "file_size": 1147138241
-  },
-  "experimental_design": {
-    "analysis": "Meta-analysis",
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "GWAS Summary Statistics"
-    },
-    "is_lifted": false,
-    "covariates": [
-      {
-        "term": "age"
-      },
-      {
-        "term": "PCA"
-      },
-      {
-        "term": "sex"
-      }
-    ]
-  },
-  "participant_phenotypes": {
-    "Disease": [
-      {
-        "term": "Alzheimer's disease"
-      }
-    ],
-    "ethnicity": [
-      {
-        "term": "Hispanic Or Latino"
-      },
-      {
-        "term": "Not Hispanic Or Latino"
-      }
-    ],
-    "race": [
-      {
-        "term": "Asian"
-      },
-      {
-        "term": "Black Or African American"
-      },
-      {
-        "term": "White"
-      }
-    ],
-    "population": [
-      {
-        "term": "East Asian"
-      },
-      {
-        "term": "African American"
-      },
-      {
-        "term": "European"
-      },
-      {
-        "term": "Latin or Admixed American ancestry"
-      }
-    ]
-  },
-  "study_diagnosis": [
-    {
-      "phenotype": "Alzheimer's disease",
-      "num_cases": 24495,
-      "num_controls": 31746
-    }
-  ]
+	"id": "NG00177_DE457174",
+	"name": "ADGC multi-ancestry AD GWAS meta-analysis: Common variants across ancestries",
+	"description": "Summary statistics from a fixed-effects GWAS meta-analysis examining common variants associated with late-onset Alzheimer's disease across non-Hispanic White, African American, Hispanic, and East Asian populations without adjustment for APOE ε4 dosage.",
+	"genome_build": "GRCh38",
+	"cohorts": [
+		"AAG",
+		"ACT",
+		"ACT1/2",
+		"ADC",
+		"ADNI",
+		"BIOCARD",
+		"CHAP",
+		"EAS",
+		"EFIGA",
+		"GenADA",
+		"GenerAAtions",
+		"IU",
+		"JGSCAD",
+		"MAYO",
+		"MIRAGE",
+		"MSSM",
+		"NBB",
+		"NIA-LOAD",
+		"NIA-LOAD/NCRAD",
+		"OHSU",
+		"Pfizer",
+		"PR1066",
+		"PRADI",
+		"RMAYO",
+		"ROS/MAP",
+		"MARS/CORE",
+		"ROSMAP1-2",
+		"TARCC",
+		"TGEN2",
+		"UKS",
+		"UM/CWRU",
+		"UM/CWRU/MSSM",
+		"UM/CWRU/TARCC2",
+		"UPITT",
+		"WASHU",
+		"WHICAP"
+	],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00177",
+		"release_date": "2025-09-01",
+		"release_version": "1",
+		"consortium": ["ADGC"],
+		"attribution": "Rajabli et al. 2025",
+		"pubmed_id": ["40676597"],
+		"doi": [" 10.1186/s13059-025-03564-z"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00177_DE457174.txt",
+		"md5sum": "4b308e3f5dbe997ed5367b332bea1972",
+		"file_size": 1147138241
+	},
+	"experimental_design": {
+		"analysis": "Meta-analysis",
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "GWAS Summary Statistics"
+		},
+		"is_lifted": false,
+		"covariates": [
+			{
+				"term": "Age"
+			},
+			{
+				"term": ""Principal component analysis"
+			},
+			{
+				"term": "sex"
+			}
+		]
+	},
+	"participant_phenotypes": {
+		"Disease": [
+			{
+				"term": "Alzheimer's disease"
+			}
+		],
+		"ethnicity": [
+			{
+				"term": "Hispanic Or Latino"
+			},
+			{
+				"term": "Not Hispanic Or Latino"
+			}
+		],
+		"race": [
+			{
+				"term": "Asian"
+			},
+			{
+				"term": "Black Or African American"
+			},
+			{
+				"term": "White"
+			}
+		],
+		"population": [
+			{
+				"term": "East Asian"
+			},
+			{
+				"term": "African American"
+			},
+			{
+				"term": "European"
+			},
+			{
+				"term": "Latin or Admixed American ancestry"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Alzheimer's disease",
+			"num_cases": 24495,
+			"num_controls": 31746
+		}
+	]
 }
