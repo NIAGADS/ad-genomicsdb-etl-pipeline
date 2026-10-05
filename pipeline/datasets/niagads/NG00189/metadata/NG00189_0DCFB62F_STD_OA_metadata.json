@@ -1,7 +1,7 @@
 {
-	"id": "NG00189_D1638151_STD_OA",
-	"name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Apathy",
-	"description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of apathy in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
+	"id": "NG00189_0DCFB62F_STD_OA",
+	"name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Disinhibition",
+	"description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of disinhibition in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADRC"],
@@ -17,9 +17,9 @@
 		"data_source_url": "https://dss.niagads.org"
 	},
 	"file_properties": {
-		"file_name": "NG00189_D1638151_pvalue_only_STD.tsv.gz",
-		"md5sum": "4e4c4c0de4134eb87595951b405d11a8",
-		"file_size": 117291920
+		"file_name": "NG00189_0DCFB62F_pvalue_only_STD.tsv.gz",
+		"md5sum": "fe6d0052a121cadb3e3b7d088abe4fd0",
+		"file_size": 117288027
 	},
 	"experimental_design": {
 		"data_category": {
@@ -28,41 +28,33 @@
 		}
 	},
 	"covariates": [
-		{
-			"term": "Gender",
-			"curie": "niagads: undefined"
-		},
-		{
-			"term": "Principal component analysis",
-			"curie": "EDAM:operation_3960"
-		},
-		{
-			"term": "batch",
-			"curie": "niagads: undefined"
-		}
+      {
+        "term": "Gender", "curie": "niagads: undefined" PCA and batch #define ourslves niagads: undefined.
+      },
+	  {
+		"term" : "Principal component analysis", "curie": "EDAM:operation_3960"
+	  },
+	  {
+		"term" : "Technical variables", "curie" : "niagads: undefined"
+	  }
 	],
 	"participant_phenotypes": {
 		"disease": [
 			{ "term": "mild cognitive impairment", "curie": "DOID:0080832" },
-
 			{ "term": "dementia", "curie": "DOID:1307" }
 		],
 		"clinical_status": [
 			{
-				"curie": "HP:0000741",
-				"term": "Apathy"
-			},
-			{
-				"curie": "PATO:0000772",
-				"term": "indifference"
+				"curie": "HP:0000734",
+				"term": "Disinhibition"
 			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": ["Apathy", "indifference"],
-			"num_cases": 7895,
-			"num_controls": 4832
+			"phenotype": "Disinhibition",
+			"num_cases": 5070,
+			"num_controls": 7658
 		}
 	],
 	"curation_history": [
@@ -74,6 +66,7 @@
 			"tool": "hipFG",
 			"tool_version": "1.4.1"
 		},
+
 		{
 			"event_date": "2026-05-15",
 			"event_type": "FILTER",

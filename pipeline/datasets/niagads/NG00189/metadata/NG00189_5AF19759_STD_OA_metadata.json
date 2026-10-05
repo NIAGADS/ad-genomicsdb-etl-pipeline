@@ -1,7 +1,7 @@
 {
-	"id": "NG00189_1A348242_STD_OA",
-	"name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Depression or dysphoria",
-	"description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of depression or dysphoria in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
+	"id": "NG00189_5AF19759_STD_OA",
+	"name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Nighttime Behaviors",
+	"description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of nighttime behaviors in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADRC"],
@@ -17,9 +17,9 @@
 		"data_source_url": "https://dss.niagads.org"
 	},
 	"file_properties": {
-		"file_name": "NG00189_1A348242_pvalue_only_STD.tsv.gz",
-		"md5sum": "69d67c0e2b1dd6d602e16f0956df7c3f",
-		"file_size": 117298251
+		"file_name": "NG00189_5AF19759_pvalue_only_STD.tsv.gz",
+		"md5sum": "6aaa3b223d22cab205348cae89843c28",
+		"file_size": 117282083
 	},
 	"experimental_design": {
 		"data_category": {
@@ -37,7 +37,7 @@
 			"curie": "EDAM:operation_3960"
 		},
 		{
-			"term": "batch",
+			"term": "Technical variables",
 			"curie": "niagads: undefined"
 		}
 	],
@@ -49,20 +49,16 @@
 		],
 		"clinical_status": [
 			{
-				"curie": "HP:0000716",
-				"term": "Depression"
-			},
-			{
-				"curie": "HP:0033838",
-				"term": "Dysphoria"
+				"curie": "NIAGADS:undefined",
+				"term": " Nighttime Behaviors"
 			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": ["Depression", "Dysphoria"],
-			"num_cases": 7581,
-			"num_controls": 5146
+			"phenotype": "Nighttime Behaviors",
+			"num_cases": 7085,
+			"num_controls": 5631
 		}
 	],
 	"curation_history": [
