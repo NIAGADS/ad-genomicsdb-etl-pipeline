@@ -48,11 +48,18 @@
 				"term": "Female",
 				"curie": "NCIT:C16576"
 			}
+		],
+		"derived_phenotype": [
+			{
+				"term": "residual cognitive resilience",
+				"curie": "NIAGADS:0000002"
+			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Residual cognitive resilience"
+			"phenotype": "residual cognitive resilience",
+			"curie": "NIAGADS:0000002"
 		}
 	],
 	"curation_history": [

@@ -51,11 +51,18 @@
 				"term": "Male",
 				"curie": "NCIT:C20197"
 			}
+		],
+		"derived_phenotype": [
+			{
+				"term": "combined resilience",
+				"curie": "NIAGADS:0000065"
+			}
 		]
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Global cognitive resilience"
+			"phenotype": "combined resilience",
+			"curie": "NIAGADS:0000065"
 		}
 	],
 	"curation_history": [
