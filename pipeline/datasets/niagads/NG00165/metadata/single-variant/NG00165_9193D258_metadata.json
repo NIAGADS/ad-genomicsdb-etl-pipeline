@@ -40,9 +40,6 @@
 			{
 				"term": "Principal component analysis",
 				"curie": "EDAM:operation_3960"
-			},
-			{
-				"term": "Relatedness"
 			}
 		]
 	},

@@ -21,7 +21,6 @@
 		"file_size": 211730357
 	},
 	"experimental_design": {
-		"analysis": "Meta-analysis",
 		"data_category": {
 			"curie": "NO:0000010",
 			"term": "GWAS summary statistics"

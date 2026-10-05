@@ -32,9 +32,6 @@
 				"curie": "EDAM:operation_3960"
 			},
 			{
-				"term": "Relatedness"
-			},
-			{
 				"term": "Sex",
 				"curie": "NCIT:C28421"
 			}

@@ -21,7 +21,6 @@
 		"file_size": 167030491
 	},
 	"experimental_design": {
-		"analysis": "Meta-Analysis",
 		"data_category": {
 			"curie": "NIAGADS:undefined",
 			"term": "Meta-analysis"
