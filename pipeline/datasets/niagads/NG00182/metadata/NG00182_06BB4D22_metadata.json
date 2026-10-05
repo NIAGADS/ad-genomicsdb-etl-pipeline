@@ -1,86 +1,80 @@
 {
-  "id": "NG00182_06BB4D22_STD",
-  "name": "Novel Alzheimer's Risk Loci in Korean participants:male",
-  "description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 2,736 male participants, including 1,047 Alzheimer\u2019s disease (AD) cases and 1,689 controls. These samples derive from the Korean GARD cohort (1,560 individuals: 669 AD cases, 897 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (1,176 individuals: 378 AD cases, 798 controls; SNP array\u2013based GWAS).",
-  "genome_build": "GRCh38",
-  "feature_type": "VARIANT",
-  "cohorts": [
-    "GARD"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00182",
-    "release_date": "2025-09-24",
-    "release_version": "v1",
-    "attribution": "Kang et al. 2024",
-    "pubmed_id": [
-      "39428694"
-    ],
-    "doi": [
-      "10.1002/alz.14128"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00182_06BB4D22_STD.tsv.gz",
-    "md5sum": "7c9b5aba23932ddf631ceb2e387219f7",
-    "file_size": 698942206
-  },
-  "experimental_design": {
-    "analysis": "Meta-Analysis",
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "GWAS Summary Statistics"
-    },
-    "is_lifted": false,
-    "covariates": [
-      {
-        "curie": "NCIT:C17357",
-        "term": "gender"
-      }
-    ]
-  },
-  "participant_phenotypes": {
-    "disease": [
-      {
-        "curie": "EFO:1001870",
-        "term": "Alzheimer's disease"
-      }
-    ],
-    "race": [
-      {
-        "curie": "HANCESTRO:0008",
-        "term": "Asian"
-      }
-    ],
-    "population": [
-      {
-        "curie": "NIAGADS:needs-review",
-        "term": "Korean"
-      }
-    ],
-    "gender": [
-      {
-        "curie": "PATO:0000384",
-        "term": "male"
-      }
-    ]
-  },
-  "study_diagnosis": [
-    {
-      "phenotype": "Alzheimer's disease",
-      "num_cases": 669,
-      "num_controls": 891
-    }
-  ],
-  "curation_history": [
-    {
-      "event_date": "2026-05-10",
-      "event_type": "STANDARDIZE",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    }
-  ]
+	"id": "NG00182_06BB4D22_STD",
+	"name": "Novel Alzheimer's Risk Loci in Korean participants:male",
+	"description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 2,736 male participants, including 1,047 Alzheimer\u2019s disease (AD) cases and 1,689 controls. These samples derive from the Korean GARD cohort (1,560 individuals: 669 AD cases, 897 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (1,176 individuals: 378 AD cases, 798 controls; SNP array\u2013based GWAS).",
+	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
+	"cohorts": ["GARD"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00182",
+		"release_date": "2025-09-24",
+		"release_version": "v1",
+		"attribution": "Kang et al. 2024",
+		"pubmed_id": ["39428694"],
+		"doi": ["10.1002/alz.14128"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00182_06BB4D22_STD.tsv.gz",
+		"md5sum": "7c9b5aba23932ddf631ceb2e387219f7",
+		"file_size": 698942206
+	},
+	"experimental_design": {
+		"analysis": "Meta-Analysis",
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "GWAS Summary Statistics"
+		},
+		"is_lifted": false,
+		"covariates": [
+			{
+				"curie": "NCIT:C17357",
+				"term": "Gender"
+			}
+		]
+	},
+	"participant_phenotypes": {
+		"disease": [
+			{
+				"curie": "DOID:10652",
+				"term": "Alzheimer's disease"
+			}
+		],
+		"race": [
+			{
+				"curie": "HANCESTRO:0008",
+				"term": "Asian"
+			}
+		],
+		"population": [
+			{
+				"curie": "NIAGADS:needs-review",
+				"term": "Korean"
+			}
+		],
+		"Gender": [
+			{
+				"curie": "PATO:0000384",
+				"term": "male"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Alzheimer's disease",
+			"num_cases": 669,
+			"num_controls": 891
+		}
+	],
+	"curation_history": [
+		{
+			"event_date": "2026-05-10",
+			"event_type": "STANDARDIZE",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		}
+	]
 }

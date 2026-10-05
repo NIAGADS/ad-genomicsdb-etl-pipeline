@@ -57,7 +57,7 @@
   "participant_phenotypes": {
     "disease": [
       {
-        "curie": "EFO:1001870",
+        "curie": "DOID:10652",
         "term": "Alzheimer's disease"
       }
     ],

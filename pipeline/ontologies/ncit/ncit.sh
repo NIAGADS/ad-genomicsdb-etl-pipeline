@@ -1,7 +1,7 @@
 wget -O $DATA_DIR/ontologies/ncit.owl.zip https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.09d.OWL.zip
 
-unzip $DATA_DIR/ontologie/ncit.owl.zip
-mv $DATA_DIR/Thesaurus.owl $DATA_DIR/ncit.owl
+unzip $DATA_DIR/ontologies/ncit.owl.zip
+mv $DATA_DIR/ontologies/Thesaurus.owl $DATA_DIR/ontologies/ncit.owl
 
 
 # load external database reference

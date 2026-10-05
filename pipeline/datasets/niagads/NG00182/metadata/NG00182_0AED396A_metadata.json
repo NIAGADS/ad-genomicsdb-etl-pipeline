@@ -23,20 +23,20 @@
 	"experimental_design": {
 		"data_category": {
 			"curie": "NIAGADS:undefined",
-			"term": "GWAS Summary Statistics"
+			"term": "GWAS Study"
 		},
 		"is_lifted": false,
 		"covariates": [
 			{
 				"curie": "NCIT:C17357",
-				"term": "gender"
+				"term": "Gender"
 			}
 		]
 	},
 	"participant_phenotypes": {
 		"disease": [
 			{
-				"curie": "EFO:1001870",
+				"curie": "DOID:10652",
 				"term": "Alzheimer's disease"
 			}
 		],
@@ -52,10 +52,10 @@
 				"term": "Korean"
 			}
 		],
-		"gender": [
+		"Gender": [
 			{
-				"curie": "PATO:0000383",
-				"term": "female"
+				"curie": "NCIT:C16576",
+				"term": "Female"
 			}
 		]
 	},

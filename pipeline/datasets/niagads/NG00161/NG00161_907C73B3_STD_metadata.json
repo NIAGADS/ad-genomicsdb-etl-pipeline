@@ -44,7 +44,7 @@
 		],
 		"sex": [
 			{
-				"term": "female"
+				"term": "Female"
 			}
 		]
 	},

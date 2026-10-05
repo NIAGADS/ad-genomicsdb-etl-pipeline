@@ -1,94 +1,88 @@
 {
-  "id": "NG00166_9FFA6A1C_STD_OA",
-  "name": "Association results from the ADSP R3 17k WGS data set: Hispanic",
-  "description": "Association testing on single variants (MAF > 0.5%) and aggregates of rare (MAF < 1%) coding and non-coding variants with the R3 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to uncover common and rare genetic variation that may have been missed by traditional genotyping methods.",
-  "genome_build": "GRCh38",
-  "feature_type": "VARIANT",
-"cohorts": [
-    "ADSP-derived R3"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00166",
-    "release_date": "2024-06-18",
-    "version": "1",
-    "consortium": [
-      "ADSP"
-    ],
-    "attribution": "Lee et al. 2023",
-    "pubmed_id": [
-      "PMID:39428839"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00166_9FFA6A1C_STD_pvalue_only.tsv.gz",
-    "md5sum": "13b8f1ba2f75d85226dcc3e14d4a04df",
-    "file_size": 263750191
-  },
-  "experimental_design": {
-    "is_lifted": false,
-    "covariates": [
-      {
-        "term": "Sex" 
-      },
-      {
-        "term": "Sequencing center" 
-      },
-      {
-        "term": "Technical variables"
-      },
-      {
-        "term": "Principal components" 
-      },
-      {
-        "term": "Relatedness" 
-      }
-    ]
-  },
-  "participant_phenotypes": {
-    "disease": [
-      {
-        "curie": "EFO:1001870",
-        "term": "Alzheimer's disease"
-      }
-    ],
-    "ethnicity": [
-      {
-        "curie": "NCIT:C17459",
-        "term": "Hispanic Or Latino"
-      }
-    ],
-    "population": [
-      {
-        "curie": "HANCESTRO:0014",
-        "term": "Latin or Admixed American ancestry"
-      }
-    ]
-  },
-  "study_diagnosis": [
-    {
-      "phenotype": "Alzheimer's disease",
-      "num_cases": 1021,
-      "num_controls": 1988
-    }
-  ],
-  "curation_history": [
-    {
-      "event_date": "2026-06-16",
-      "event_type": "STANDARDIZE",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    },
-    {
-      "event_date": "2026-06-16",
-      "event_type": "FILTER",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    }
-  ]
+	"id": "NG00166_9FFA6A1C_STD_OA",
+	"name": "Association results from the ADSP R3 17k WGS data set: Hispanic",
+	"description": "Association testing on single variants (MAF > 0.5%) and aggregates of rare (MAF < 1%) coding and non-coding variants with the R3 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to uncover common and rare genetic variation that may have been missed by traditional genotyping methods.",
+	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
+	"cohorts": ["ADSP-derived R3"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00166",
+		"release_date": "2024-06-18",
+		"version": "1",
+		"consortium": ["ADSP"],
+		"attribution": "Lee et al. 2023",
+		"pubmed_id": ["PMID:39428839"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00166_9FFA6A1C_STD_pvalue_only.tsv.gz",
+		"md5sum": "13b8f1ba2f75d85226dcc3e14d4a04df",
+		"file_size": 263750191
+	},
+	"experimental_design": {
+		"is_lifted": false,
+		"covariates": [
+			{
+				"term": "Sex"
+			},
+			{
+				"term": "Sequencing center"
+			},
+			{
+				"term": "Technical variables"
+			},
+			{
+				"term": "Principal components"
+			},
+			{
+				"term": "Relatedness"
+			}
+		]
+	},
+	"participant_phenotypes": {
+		"disease": [
+			{
+				"curie": "DOID:10652",
+				"term": "Alzheimer's disease"
+			}
+		],
+		"ethnicity": [
+			{
+				"curie": "NCIT:C17459",
+				"term": "Hispanic Or Latino"
+			}
+		],
+		"population": [
+			{
+				"curie": "HANCESTRO:0014",
+				"term": "Latin or Admixed American ancestry"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Alzheimer's disease",
+			"num_cases": 1021,
+			"num_controls": 1988
+		}
+	],
+	"curation_history": [
+		{
+			"event_date": "2026-06-16",
+			"event_type": "STANDARDIZE",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		},
+		{
+			"event_date": "2026-06-16",
+			"event_type": "FILTER",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		}
+	]
 }

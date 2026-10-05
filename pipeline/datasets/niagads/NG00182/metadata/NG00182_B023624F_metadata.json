@@ -1,85 +1,79 @@
 {
-  "id": "NG00182_B023624F_STD",
-  "name": "Novel Alzheimer's Risk Loci in Korean: APOE\u03b54 non-carrier",
-  "description": "GWAS summary statistics derived from single-variant association tests for WGS data  from 2,195 Korean APOE\u03b54 non-carriers aged 60 years or older (773 AD cases, 1,422 controls) from the GARD cohort.",
-  "genome_build": "GRCh38",
-  "feature_type": "VARIANT",
-  "cohorts": [
-    "GARD"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00182",
-    "release_date": "2025-09-24",
-    "release_version": "v1",
-    "attribution": "Kang et al. 2024",
-    "pubmed_id": [
-      "39428694"
-    ],
-    "doi": [
-      "10.1002/alz.14128"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00182_B023624F_STD.tsv.gz",
-    "md5sum": "2539d6b52399b5b0812abf53395e8b07",
-    "file_size": 708202859
-  },
-  "experimental_design": {
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "GWAS Summary Statistics"
-    },
-    "is_lifted": false,
-    "covariates": [
-      {
-        "curie": "NIAGADS:undefined",
-        "term": "APO\u03b54 carrier status or allele number"
-      }
-    ]
-  },
-  "participant_phenotypes": {
-    "disease": [
-      {
-        "curie": "EFO:1001870",
-        "term": "Alzheimer's disease"
-      }
-    ],
-    "race": [
-      {
-        "curie": "HANCESTRO:0008",
-        "term": "Asian"
-      }
-    ],
-    "population": [
-      {
-        "curie": "NIAGADS:needs-review",
-        "term": "Korean"
-      }
-    ],
-    "genotype": [
-      {
-        "curie": "NO:0000060",
-        "term": "APOE \u03b54 non-carrier"
-      }
-    ]
-  },
-  "study_diagnosis": [
-    {
-      "phenotype": "Alzheimer's disease",
-      "num_cases": 773,
-      "num_controls": 1422
-    }
-  ],
-  "curation_history": [
-    {
-      "event_date": "2026-05-10",
-      "event_type": "STANDARDIZE",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    }
-  ]
+	"id": "NG00182_B023624F_STD",
+	"name": "Novel Alzheimer's Risk Loci in Korean: APOE\u03b54 non-carrier",
+	"description": "GWAS summary statistics derived from single-variant association tests for WGS data  from 2,195 Korean APOE\u03b54 non-carriers aged 60 years or older (773 AD cases, 1,422 controls) from the GARD cohort.",
+	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
+	"cohorts": ["GARD"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00182",
+		"release_date": "2025-09-24",
+		"release_version": "v1",
+		"attribution": "Kang et al. 2024",
+		"pubmed_id": ["39428694"],
+		"doi": ["10.1002/alz.14128"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00182_B023624F_STD.tsv.gz",
+		"md5sum": "2539d6b52399b5b0812abf53395e8b07",
+		"file_size": 708202859
+	},
+	"experimental_design": {
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "GWAS Summary Statistics"
+		},
+		"is_lifted": false,
+		"covariates": [
+			{
+				"curie": "NIAGADS:undefined",
+				"term": "APO\u03b54 carrier status or allele number"
+			}
+		]
+	},
+	"participant_phenotypes": {
+		"disease": [
+			{
+				"curie": "DOID:10652",
+				"term": "Alzheimer's disease"
+			}
+		],
+		"race": [
+			{
+				"curie": "HANCESTRO:0008",
+				"term": "Asian"
+			}
+		],
+		"population": [
+			{
+				"curie": "NIAGADS:needs-review",
+				"term": "Korean"
+			}
+		],
+		"genotype": [
+			{
+				"curie": "NO:0000060",
+				"term": "APOE \u03b54 non-carrier"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Alzheimer's disease",
+			"num_cases": 773,
+			"num_controls": 1422
+		}
+	],
+	"curation_history": [
+		{
+			"event_date": "2026-05-10",
+			"event_type": "STANDARDIZE",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		}
+	]
 }

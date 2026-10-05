@@ -1,92 +1,84 @@
 {
-  "id": "NG00182_781C0850_STD",
-  "name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: APOE\u03b54 carrier",
-  "description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 2,386 APOE\u03b54 carriers, including 1,570 Alzheimer\u2019s disease (AD) cases and 816 controls. These samples derive from the Korean GARD cohort (1,345 individuals: 810 AD cases, 535 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (2,802 individuals: 760 AD cases, 281 controls; SNP array\u2013based GWAS).",
-  "genome_build": "GRCh38",
-  "feature_type": "VARIANT",
-  "cohorts": [
-    "GARD",
-    "JGSCAD_1",
-    "JGSCAD_2"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00182",
-    "release_date": "2025-09-24",
-    "release_version": "v1",
-    "attribution": "Kang et al. 2024",
-    "pubmed_id": [
-      "39428694"
-    ],
-    "doi": [
-      "10.1002/alz.14128"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00182_781C0850_STD.tsv.gz",
-    "md5sum": "004b031ac2e1e931492db34eb0739d1a",
-    "file_size": 167347400
-  },
-  "experimental_design": {
-    "analysis": "Meta-Analysis",
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "Meta-analysis"
-    },
-    "is_lifted": false,
-    "covariates": [
-      {
-        "curie": "NIAGADS:undefined",
-        "term": "APO\u03b54 carrier status or allele number"
-      }
-    ]
-  },
-  "participant_phenotypes": {
-    "disease": [
-      {
-        "curie": "EFO:1001870",
-        "term": "Alzheimer's disease"
-      }
-    ],
-    "race": [
-      {
-        "curie": "HANCESTRO:0008",
-        "term": "Asian"
-      }
-    ],
-    "population": [
-      {
-        "curie": "NIAGADS:needs-review",
-        "term": "Korean"
-      },
-      {
-        "curie": "HANCESTRO:0019",
-        "term": "Japanese"
-      }
-    ],
-    "genotype": [
-      {
-        "curie": "NO:0000059",
-        "term": "APOE \u03b54 carrier"
-      }
-    ]
-  },
-  "study_diagnosis": [
-    {
-      "phenotype": "Alzheimer's disease",
-      "num_cases": 1570,
-      "num_controls": 816
-    }
-  ],
-  "curation_history": [
-    {
-      "event_date": "2026-05-10",
-      "event_type": "STANDARDIZE",
-      "actor": "NIAGADS",
-      "actor_type": "USER",
-      "tool": "hipFG",
-      "tool_version": "1.4.1"
-    }
-  ]
+	"id": "NG00182_781C0850_STD",
+	"name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants: APOE\u03b54 carrier",
+	"description": "GWAS summary statistics from a meta-analysis of single-variant association tests, where analyses were performed separately within each cohort and then combined. The dataset comprises 2,386 APOE\u03b54 carriers, including 1,570 Alzheimer\u2019s disease (AD) cases and 816 controls. These samples derive from the Korean GARD cohort (1,345 individuals: 810 AD cases, 535 controls; WGS-based GWAS) and the Japanese JGSCAD cohort (2,802 individuals: 760 AD cases, 281 controls; SNP array\u2013based GWAS).",
+	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
+	"cohorts": ["GARD", "JGSCAD_1", "JGSCAD_2"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00182",
+		"release_date": "2025-09-24",
+		"release_version": "v1",
+		"attribution": "Kang et al. 2024",
+		"pubmed_id": ["39428694"],
+		"doi": ["10.1002/alz.14128"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00182_781C0850_STD.tsv.gz",
+		"md5sum": "004b031ac2e1e931492db34eb0739d1a",
+		"file_size": 167347400
+	},
+	"experimental_design": {
+		"analysis": "Meta-Analysis",
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "Meta-analysis"
+		},
+		"is_lifted": false,
+		"covariates": [
+			{
+				"curie": "NIAGADS:undefined",
+				"term": "APO\u03b54 carrier status or allele number"
+			}
+		]
+	},
+	"participant_phenotypes": {
+		"disease": [
+			{
+				"curie": "DOID:10652",
+				"term": "Alzheimer's disease"
+			}
+		],
+		"race": [
+			{
+				"curie": "HANCESTRO:0008",
+				"term": "Asian"
+			}
+		],
+		"population": [
+			{
+				"curie": "NIAGADS:needs-review",
+				"term": "Korean"
+			},
+			{
+				"curie": "HANCESTRO:0019",
+				"term": "Japanese"
+			}
+		],
+		"genotype": [
+			{
+				"curie": "NO:0000059",
+				"term": "APOE \u03b54 carrier"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Alzheimer's disease",
+			"num_cases": 1570,
+			"num_controls": 816
+		}
+	],
+	"curation_history": [
+		{
+			"event_date": "2026-05-10",
+			"event_type": "STANDARDIZE",
+			"actor": "NIAGADS",
+			"actor_type": "USER",
+			"tool": "hipFG",
+			"tool_version": "1.4.1"
+		}
+	]
 }

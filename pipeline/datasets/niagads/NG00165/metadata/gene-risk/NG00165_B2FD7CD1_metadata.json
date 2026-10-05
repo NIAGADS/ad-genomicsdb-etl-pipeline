@@ -1,97 +1,90 @@
 {
-  "id": "NG00165_B2FD7CD1",
-  "name": "Multi-ancestry evidence for AD associations: Gene-based analysis SKAT 0.01",
-  "description": "Gene-based rare variant association analysis using SKAT with a minor allele frequency threshold of 0.01 to test the association of aggregate groups of genetic variants with Alzheimer's disease (AD) status in whole-genome sequencing data from individuals self-identified or statistically inferred as having White/European, African American, or Hispanic/Latino ancestry in ADSP cohorts (release 1).",
-  "genome_build": "GRCh38",
-  "feature_type": "GENE",
-  "cohorts": [
-    "ADSP-derived R1"
-  ],
-  "provenance": {
-    "data_source": "NIAGADS_DSS",
-    "accession": "NG00165",
-    "release_date": "2024-05-15",
-    "release_version": "1",
-    "consortium": [
-      "ADNI",
-      "ADSP"
-    ],
-    "attribution": "Wang et al. 2024",
-    "pubmed_id": [
-      "38511601"
-    ],
-    "data_source_url": "https://dss.niagads.org"
-  },
-  "file_properties": {
-    "file_name": "NG00165_B2FD7CD1.txt",
-    "md5sum": "a0ce98d5efaad3c649941c4946618945",
-    "file_size": 1759309
-  },
-  "experimental_design": {
-    "data_category": {
-      "curie": "NIAGADS:undefined",
-      "term": "Gene-based variant assocication analysis"
-    },
-    "is_lifted": false,
-    "covariates": [
-      {
-        "term": "Sequencing center"
-      },
-      {
-        "term": "Technical variables"
-      },
-      {
-        "term": "Relatedness"
-      },
-      {
-        "term": "PCA"
-      }
-    ]
-  },
-  "participant_phenotypes": {
-    "disease": [
-      {
-        "curie": "EFO:1001870",
-        "term": "Alzheimer's disease"
-      }
-    ],
-    "ethnicity": [
-      {
-        "curie": "NCIT:C17459",
-        "term": "Hispanic Or Latino"
-      },
-      {
-        "curie": "NCIT:C41222",
-        "term": "Not Hispanic Or Latino"
-      }
-    ],
-    "race": [
-      {
-        "curie": "NCIT:C16352",
-        "term": "Black or African American"
-      },
-      {
-        "curie": "NCIT:C48325",
-        "term": "White"
-      }
-    ],
-    "population": [
-      {
-        "term": "European"
-      },
-      {
-        "term": "African American"
-      },
-      {
-        "term": "Hispanic Or Latino"
-      }
-    ]
-  },
-  "study_diagnosis": [
-    {
-      "phenotype": "Alzheimer's disease",
-      "num_cases": 2184,
-      "num_controls": 2383
-    }
-  ]
+	"id": "NG00165_B2FD7CD1",
+	"name": "Multi-ancestry evidence for AD associations: Gene-based analysis SKAT 0.01",
+	"description": "Gene-based rare variant association analysis using SKAT with a minor allele frequency threshold of 0.01 to test the association of aggregate groups of genetic variants with Alzheimer's disease (AD) status in whole-genome sequencing data from individuals self-identified or statistically inferred as having White/European, African American, or Hispanic/Latino ancestry in ADSP cohorts (release 1).",
+	"genome_build": "GRCh38",
+	"feature_type": "GENE",
+	"cohorts": ["ADSP-derived R1"],
+	"provenance": {
+		"data_source": "NIAGADS_DSS",
+		"accession": "NG00165",
+		"release_date": "2024-05-15",
+		"release_version": "1",
+		"consortium": ["ADNI", "ADSP"],
+		"attribution": "Wang et al. 2024",
+		"pubmed_id": ["38511601"],
+		"data_source_url": "https://dss.niagads.org"
+	},
+	"file_properties": {
+		"file_name": "NG00165_B2FD7CD1.txt",
+		"md5sum": "a0ce98d5efaad3c649941c4946618945",
+		"file_size": 1759309
+	},
+	"experimental_design": {
+		"data_category": {
+			"curie": "NIAGADS:undefined",
+			"term": "Gene-based variant assocication analysis"
+		},
+		"is_lifted": false,
+		"covariates": [
+			{
+				"term": "Sequencing center"
+			},
+			{
+				"term": "Technical variables"
+			},
+			{
+				"term": "Relatedness"
+			},
+			{
+				"term": "PCA"
+			}
+		]
+	},
+	"participant_phenotypes": {
+		"disease": [
+			{
+				"curie": "DOID:10652",
+				"term": "Alzheimer's disease"
+			}
+		],
+		"ethnicity": [
+			{
+				"curie": "NCIT:C17459",
+				"term": "Hispanic Or Latino"
+			},
+			{
+				"curie": "NCIT:C41222",
+				"term": "Not Hispanic Or Latino"
+			}
+		],
+		"race": [
+			{
+				"curie": "NCIT:C16352",
+				"term": "Black or African American"
+			},
+			{
+				"curie": "NCIT:C48325",
+				"term": "White"
+			}
+		],
+		"population": [
+			{
+				"term": "European"
+			},
+			{
+				"term": "African American"
+			},
+			{
+				"term": "Hispanic Or Latino"
+			}
+		]
+	},
+	"study_diagnosis": [
+		{
+			"phenotype": "Alzheimer's disease",
+			"num_cases": 2184,
+			"num_controls": 2383
+		}
+	]
 }
