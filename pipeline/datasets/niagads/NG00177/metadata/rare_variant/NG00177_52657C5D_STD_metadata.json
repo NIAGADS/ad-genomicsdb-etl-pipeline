@@ -57,7 +57,8 @@
 				"curie": "NCIT:C28421"
 			},
 			{
-				"term": "APOE e4 carrier status or allele number"
+				"term": "APOEε4 carrier status or allele number",
+				"curie": "NIAGADS:0000061"
 			}
 		]
 	},

@@ -28,8 +28,8 @@
 		"is_lifted": false,
 		"covariates": [
 			{
-				"curie": "NIAGADS:undefined",
-				"term": "APO\u03b54 carrier status or allele number"
+				"curie": "NIAGADS:0000061",
+				"term": "APOEε4 carrier status or allele number"
 			}
 		]
 	},
