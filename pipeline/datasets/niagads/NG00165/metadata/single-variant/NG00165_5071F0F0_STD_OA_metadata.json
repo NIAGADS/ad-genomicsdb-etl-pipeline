@@ -28,7 +28,8 @@
 		"is_lifted": false,
 		"covariates": [
 			{
-				"term": "Sex"
+				"term": "Sex",
+				"curie": "NCIT:C28421"
 			},
 			{
 				"term": "Study Design"

@@ -34,7 +34,8 @@
 				"curie": "NCIT:C25150"
 			},
 			{
-				"term": "Sex"
+				"term": "Sex",
+				"curie": "NCIT:C28421"
 			},
 			{
 				"term": "Cohort"

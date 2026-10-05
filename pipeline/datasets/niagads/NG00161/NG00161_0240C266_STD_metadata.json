@@ -39,7 +39,7 @@
 		]
 	},
 	"participant_phenotypes": {
-		"sex": [
+		"gender": [
 			{
 				"term": "Female",
 				"curie": "NCIT:C16576"

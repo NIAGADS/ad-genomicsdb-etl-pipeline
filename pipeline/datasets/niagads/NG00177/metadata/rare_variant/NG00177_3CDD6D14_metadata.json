@@ -74,7 +74,8 @@
 				"curie": "EDAM:operation_3960"
 			},
 			{
-				"term": "sex"
+				"term": "Sex",
+				"curie": "NCIT:C28421"
 			},
 			{
 				"term": "APOE e4 carrier status or allele number"

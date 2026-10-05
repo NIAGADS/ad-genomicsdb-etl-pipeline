@@ -74,7 +74,8 @@
 				"curie": "EDAM:operation_3960"
 			},
 			{
-				"term": "sex"
+				"term": "Sex",
+				"curie": "NCIT:C28421"
 			}
 		]
 	},

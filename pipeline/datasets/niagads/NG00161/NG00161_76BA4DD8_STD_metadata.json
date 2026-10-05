@@ -39,7 +39,7 @@
 		]
 	},
 	"participant_phenotypes": {
-		"sex": [
+		"gender": [
 			{
 				"term": "Male",
 				"curie": "NCIT:C20197"

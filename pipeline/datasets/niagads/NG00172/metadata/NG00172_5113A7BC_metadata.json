@@ -35,7 +35,8 @@
 				"term": "Relatedness"
 			},
 			{
-				"term": "Sex"
+				"term": "Sex",
+				"curie": "NCIT:C28421"
 			}
 		]
 	},

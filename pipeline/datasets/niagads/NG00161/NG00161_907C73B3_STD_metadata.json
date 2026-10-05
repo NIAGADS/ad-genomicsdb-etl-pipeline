@@ -44,7 +44,7 @@
 				"term": "Cognitively Normal"
 			}
 		],
-		"sex": [
+		"gender": [
 			{
 				"term": "Female",
 				"curie": "NCIT:C16576"

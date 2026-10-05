@@ -37,7 +37,8 @@
 				"curie": "EDAM:operation_3960"
 			},
 			{
-				"term": "sex"
+				"term": "Sex",
+				"curie": "NCIT:C28421"
 			}
 		]
 	},
@@ -47,7 +48,7 @@
 				"term": "Cognitively Normal"
 			}
 		],
-		"sex": [
+		"gender": [
 			{
 				"term": "Female",
 				"curie": "NCIT:C16576"
