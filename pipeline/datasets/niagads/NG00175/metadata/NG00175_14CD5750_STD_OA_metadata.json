@@ -58,7 +58,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Cerebral amyloid angiopathy",
+			"phenotype": [
+				"Cerebral amyloid angiopathy"
+			],
 			"num_cases": 7381
 		}
 	],

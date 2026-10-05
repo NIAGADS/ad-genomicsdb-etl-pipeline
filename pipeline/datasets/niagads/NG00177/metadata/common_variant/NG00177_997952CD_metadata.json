@@ -124,7 +124,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Alzheimer's disease",
+			"phenotype": [
+				"Alzheimer's disease"
+			],
 			"num_cases": 24495,
 			"num_controls": 31746
 		}

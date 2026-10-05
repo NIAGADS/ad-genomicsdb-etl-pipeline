@@ -58,7 +58,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Hippocampal sclerosis",
+			"phenotype": [
+				"Hippocampal sclerosis"
+			],
 			"num_cases": 751,
 			"num_controls": 6413
 		}

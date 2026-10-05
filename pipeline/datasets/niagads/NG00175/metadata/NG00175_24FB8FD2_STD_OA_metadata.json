@@ -58,7 +58,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "CERAD score",
+			"phenotype": [
+				"CERAD score"
+			],
 			"num_cases": 7786
 		}
 	],

@@ -58,7 +58,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Lewy body",
+			"phenotype": [
+				"Lewy body"
+			],
 			"num_cases": 7218
 		}
 	],

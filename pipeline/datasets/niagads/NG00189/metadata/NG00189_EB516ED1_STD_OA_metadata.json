@@ -56,7 +56,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Anxiety",
+			"phenotype": [
+				"Anxiety"
+			],
 			"num_cases": 7894,
 			"num_controls": 4833
 		}

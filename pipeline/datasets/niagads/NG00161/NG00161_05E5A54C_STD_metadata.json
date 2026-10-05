@@ -52,8 +52,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "residual cognitive resilience to Alzheimer’s disease neuropathology",
-			"curie": "NIAGADS:0000002",
+			"phenotype": [
+				"residual cognitive resilience to Alzheimer’s disease neuropathology"
+			],
 			"num_cases": 2931
 		}
 	],

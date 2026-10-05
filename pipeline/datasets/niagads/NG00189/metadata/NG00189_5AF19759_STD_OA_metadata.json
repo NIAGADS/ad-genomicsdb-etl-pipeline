@@ -56,7 +56,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Nighttime Behaviors",
+			"phenotype": [
+				"Nighttime Behaviors"
+			],
 			"num_cases": 7085,
 			"num_controls": 5631
 		}

@@ -58,7 +58,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "LATE-NC",
+			"phenotype": [
+				"LATE-NC"
+			],
 			"num_cases": 3112
 		}
 	],

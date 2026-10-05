@@ -58,7 +58,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Braak Stages",
+			"phenotype": [
+				"Braak Stages"
+			],
 			"num_cases": 7776
 		}
 	],

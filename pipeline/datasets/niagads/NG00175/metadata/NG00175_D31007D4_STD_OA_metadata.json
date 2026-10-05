@@ -57,7 +57,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "vascular brain injury",
+			"phenotype": [
+				"vascular brain injury"
+			],
 			"num_cases": 1766,
 			"num_controls": 5632
 		}

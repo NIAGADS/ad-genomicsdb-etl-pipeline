@@ -58,7 +58,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Atherosclerosis",
+			"phenotype": [
+				"Atherosclerosis"
+			],
 			"num_cases": 7340
 		}
 	],

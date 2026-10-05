@@ -58,7 +58,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Arteriolosclerosis",
+			"phenotype": [
+				"Arteriolosclerosis"
+			],
 			"num_cases": 6668
 		}
 	],

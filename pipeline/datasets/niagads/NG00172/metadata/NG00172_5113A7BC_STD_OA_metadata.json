@@ -53,7 +53,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "Progressive supranuclear palsy",
+			"phenotype": [
+				"Progressive supranuclear palsy"
+			],
 			"num_cases": 1718,
 			"num_controls": 2944
 		}

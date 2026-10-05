@@ -58,7 +58,9 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": "amyloid-beta plaques",
+			"phenotype": [
+				"amyloid-beta plaques"
+			],
 			"num_cases": 6363
 		}
 	],
