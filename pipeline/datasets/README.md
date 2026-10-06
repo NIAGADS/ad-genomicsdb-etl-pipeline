@@ -4,6 +4,10 @@ These rules cover JSON metadata under `pipeline/datasets/`. The term tables refl
 
 The sections below identify preferred ontology sources for participant phenotypes, covariates, and data categories and list the terms and CURIEs currently used in the metadata. This list is not necessarily kept up to date.
 
+## Genome liftover
+
+Curators should add `"is_lifted": true` under `file_properties` when the dataset has been lifted to a different reference genome build.
+
 ## Study diagnosis
 
 Each string in `study_diagnosis.phenotype` must exactly match an existing `term` under `participant_phenotypes` in the same file, including capitalization and spelling.

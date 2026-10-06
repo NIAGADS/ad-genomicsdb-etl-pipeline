@@ -23,7 +23,6 @@
 			"curie": "NIAGADS:0000010",
 			"term": "GWAS summary statistics"
 		},
-		"is_lifted": false,
 		"covariates": [
 			{
 				"term": "Principal component analysis",

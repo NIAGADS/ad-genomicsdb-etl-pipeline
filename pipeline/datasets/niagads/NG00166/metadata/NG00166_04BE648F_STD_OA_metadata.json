@@ -21,7 +21,6 @@
 		"file_size": 301642951
 	},
 	"experimental_design": {
-		"is_lifted": false,
 		"covariates": [
 			{
 				"term": "Sex",

@@ -24,8 +24,7 @@
 		"data_category": {
 			"curie": "NIAGADS:0000067",
 			"term": "single-variant association test summary statistics"
-		},
-		"is_lifted": false
+		}
 	},
 	"participant_phenotypes": {
 		"ethnicity": [
