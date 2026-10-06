@@ -53,12 +53,14 @@
 		],
 		"ethnicity": [
 			{
-				"term": "Not Hispanic Or Latino"
+				"term": "Not Hispanic or Latino",
+				"curie": "NCIT:C41222"
 			}
 		],
 		"race": [
 			{
-				"term": "Asian"
+				"term": "Asian",
+				"curie": "NCIT:C41260"
 			}
 		],
 		"population": [

@@ -90,21 +90,26 @@
 		],
 		"ethnicity": [
 			{
-				"term": "Hispanic Or Latino"
+				"term": "Hispanic or Latino",
+				"curie": "NCIT:C17459"
 			},
 			{
-				"term": "Not Hispanic Or Latino"
+				"term": "Not Hispanic or Latino",
+				"curie": "NCIT:C41222"
 			}
 		],
 		"race": [
 			{
-				"term": "Asian"
+				"term": "Asian",
+				"curie": "NCIT:C41260"
 			},
 			{
-				"term": "Black Or African American"
+				"term": "Black or African American",
+				"curie": "NCIT:C16352"
 			},
 			{
-				"term": "White"
+				"term": "White",
+				"curie": "NCIT:C48325"
 			}
 		],
 		"population": [

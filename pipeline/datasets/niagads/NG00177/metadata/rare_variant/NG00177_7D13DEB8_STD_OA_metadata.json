@@ -77,12 +77,14 @@
 		],
 		"ethnicity": [
 			{
-				"term": "Not Hispanic Or Latino"
+				"term": "Not Hispanic or Latino",
+				"curie": "NCIT:C41222"
 			}
 		],
 		"race": [
 			{
-				"term": "White"
+				"term": "White",
+				"curie": "NCIT:C48325"
 			}
 		],
 		"population": [

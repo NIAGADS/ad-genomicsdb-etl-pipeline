@@ -53,7 +53,8 @@
 		],
 		"ethnicity": [
 			{
-				"term": "Hispanic or Latino"
+				"term": "Hispanic or Latino",
+				"curie": "NCIT:C17459"
 			}
 		],
 		"population": [

@@ -51,11 +51,11 @@
 		"ethnicity": [
 			{
 				"curie": "NCIT:C17459",
-				"term": "Hispanic Or Latino"
+				"term": "Hispanic or Latino"
 			},
 			{
 				"curie": "NCIT:C41222",
-				"term": "Not Hispanic Or Latino"
+				"term": "Not Hispanic or Latino"
 			}
 		],
 		"race": [
