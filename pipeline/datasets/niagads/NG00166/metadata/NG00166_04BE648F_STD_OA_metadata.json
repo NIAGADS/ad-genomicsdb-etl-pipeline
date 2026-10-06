@@ -1,7 +1,7 @@
 {
 	"id": "NG00166_04BE648F_STD_OA",
-	"name": "Association results from the ADSP R3 17k WGS data set: Pooled Population",
-	"description": "Association testing on single variants (MAF > 0.5%) and aggregates of rare (MAF < 1%) coding and non-coding variants with the R3 WGS data from the Alzheimer's Disease Sequencing Project (ADSP) to uncover common and rare genetic variation that may have been missed by traditional genotyping methods.",
+	"name": "ADSP WGS single-variant associations with Alzheimer's disease",
+	"description": "Summary statistics from single-variant tests (MAF > 0.5%) for associations with Alzheimer's disease (AD), based on whole-genome sequencing data from participants pooled across populations in Alzheimer's Disease Sequencing Project (ADSP) cohorts (R3 17k release).",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADSP-derived R3"],
@@ -88,9 +88,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Alzheimer's disease"
-			],
+			"phenotype": ["Alzheimer's disease"],
 			"num_cases": 6519,
 			"num_controls": 6852
 		}
