@@ -13,7 +13,7 @@
 		"consortium": ["ADSP"],
 		"attribution": "Lee et al. 2023",
 		"pubmed_id": ["PMID:39428839"],
-		"data_source_url": "https://dss.niagads.org"
+		"data_source_url": "https://dss.niagads.org/datasets/NG00166"
 	},
 	"file_properties": {
 		"file_name": "NG00166_0472B88D_STD_pvalue_only.tsv.gz",
@@ -21,6 +21,10 @@
 		"file_size": 301642951
 	},
 	"experimental_design": {
+		"data_category": {
+			"curie": "NIAGADS:0000067",
+			"term": "single-variant association test summary statistics"
+		},
 		"covariates": [
 			{
 				"term": "Sex",

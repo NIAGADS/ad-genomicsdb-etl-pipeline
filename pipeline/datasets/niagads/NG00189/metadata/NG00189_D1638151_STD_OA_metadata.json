@@ -14,7 +14,7 @@
 		"attribution": "Vattahil et al. 2025",
 		"pubmed_id": ["40495575"],
 		"doi": ["10.60859/c486-bm9140495575"],
-		"data_source_url": "https://dss.niagads.org"
+		"data_source_url": "https://dss.niagads.org/datasets/NG00189"
 	},
 	"file_properties": {
 		"file_name": "NG00189_D1638151_pvalue_only_STD.tsv.gz",

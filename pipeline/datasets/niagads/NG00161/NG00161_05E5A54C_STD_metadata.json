@@ -3,6 +3,7 @@
 	"name": "Residual Cognitive Resilience to AD Neuropathology: Females",
 	"description": "Summary statistics from a quantitative-trait genome-wide association study of residual cognitive resilience to AD neuropathology in females using all eligible participants.",
 	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],
 	"provenance": {
 		"data_source": "NIAGADS_DSS",

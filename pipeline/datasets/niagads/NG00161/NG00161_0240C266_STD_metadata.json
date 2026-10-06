@@ -3,6 +3,7 @@
 	"name": "Combined Resilience to AD Neuropathology: Females",
 	"description": "Summary statistics from a quantitative-trait genome-wide association study of combined resilience to AD neuropathology in females using all eligible participants.",
 	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],
 	"provenance": {
 		"data_source": "NIAGADS_DSS",
@@ -13,7 +14,7 @@
 		"attribution": "Eissman et al. 2022",
 		"pubmed_id": ["35552371"],
 		"doi": ["10.1093/brain/awac177"],
-		"data_source_url": "https://dss.niagads.org"
+		"data_source_url": "https://dss.niagads.org/datasets/NG00161"
 	},
 	"file_properties": {
 		"file_name": "NG00161_0240C266_STD.tsv.gz",

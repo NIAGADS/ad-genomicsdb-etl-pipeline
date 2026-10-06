@@ -8,6 +8,7 @@
 	"provenance": {
 		"data_source": "NIAGADS_DSS",
 		"accession": "NG00122",
+		"data_source_url": "https://dss.niagads.org/datasets/NG00122",
 		"release_date": "2021-06-10",
 		"release_version": "v1",
 		"attribution": "DeMichele-Sweet 2021",

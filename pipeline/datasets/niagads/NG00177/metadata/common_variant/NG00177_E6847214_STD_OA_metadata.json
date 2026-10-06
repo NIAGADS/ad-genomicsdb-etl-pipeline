@@ -3,6 +3,7 @@
 	"name": "ADGC multi-ancestry AD GWAS meta-analysis: APOE-adjusted common variants in Non-Hispanic White individuals",
 	"description": "Summary statistics from a fixed-effects GWAS meta-analysis examining common variants associated with late-onset Alzheimer's disease in Non-Hispanic White individuals with adjustment for APOE ε4 dosage.",
 	"genome_build": "GRCh38",
+	"feature_type": "VARIANT",
 	"cohorts": [
 		"ACT1/2",
 		"ADC",
@@ -37,7 +38,7 @@
 		"attribution": "Rajabli et al. 2025",
 		"pubmed_id": ["40676597"],
 		"doi": [" 10.1186/s13059-025-03564-z"],
-		"data_source_url": "https://dss.niagads.org"
+		"data_source_url": "https://dss.niagads.org/datasets/NG00177"
 	},
 	"file_properties": {
 		"file_name": "NG00177_E6847214_STD_OA.tsv.gz",

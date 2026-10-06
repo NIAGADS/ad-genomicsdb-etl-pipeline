@@ -13,7 +13,7 @@
 		"attribution": "Kang et al. 2024",
 		"pubmed_id": ["39428694"],
 		"doi": ["10.1002/alz.14128"],
-		"data_source_url": "https://dss.niagads.org"
+		"data_source_url": "https://dss.niagads.org/datasets/NG00182"
 	},
 	"file_properties": {
 		"file_name": "NG00182_781C0850_STD.tsv.gz",

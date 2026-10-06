@@ -13,7 +13,7 @@
 		"consortium": ["ADNI", "ADSP"],
 		"attribution": "Wang et al. 2024",
 		"pubmed_id": ["38511601"],
-		"data_source_url": "https://dss.niagads.org"
+		"data_source_url": "https://dss.niagads.org/datasets/NG00165"
 	},
 	"file_properties": {
 		"file_name": "NG00165_9193D258_pvalue_only_STD.tsv.gz",
