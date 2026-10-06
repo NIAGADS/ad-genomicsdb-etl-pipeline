@@ -54,6 +54,7 @@
 				"term": "Hispanic or Latino"
 			}
 		],
+		"race": [{ "curie": "NCIT:C104495", "term": "Other Race" }],
 		"population": [
 			{
 				"curie": "HANCESTRO:0014",
@@ -63,9 +64,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Alzheimer's disease"
-			],
+			"phenotype": ["Alzheimer's disease"],
 			"num_cases": 1021,
 			"num_controls": 1988
 		}

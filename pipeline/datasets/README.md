@@ -51,9 +51,12 @@ Use the NCI Thesaurus (`NCIT`) for race terms.
 
 | Term | CURIE |
 | --- | --- |
+| American Indian or Alaska Native | `NCIT:C41259` |
 | Asian | `NCIT:C41260` |
 | Black or African American | `NCIT:C16352` |
+| Native Hawaiian or Other Pacific Islander | `NCIT:C41219` |
 | White | `NCIT:C48325` |
+| Other race | `NCIT:C104495` |
 
 ## Population
 

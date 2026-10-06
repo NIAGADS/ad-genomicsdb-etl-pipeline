@@ -58,6 +58,7 @@
 				"term": "Hispanic or Latino"
 			}
 		],
+		"race": [{ "curie": "NCIT:C104495", "term": "Other Race" }],
 		"population": [
 			{
 				"term": "Latin or Admixed American ancestry",
@@ -67,9 +68,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Alzheimer's disease"
-			],
+			"phenotype": ["Alzheimer's disease"],
 			"num_cases": 795,
 			"num_controls": 721
 		}

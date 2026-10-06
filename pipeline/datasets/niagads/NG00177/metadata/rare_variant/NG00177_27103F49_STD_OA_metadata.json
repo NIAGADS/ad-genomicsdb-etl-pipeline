@@ -42,6 +42,7 @@
 		]
 	},
 	"participant_phenotypes": {
+		"race": [{ "curie": "NCIT:C104495", "term": "Other Race" }],
 		"disease": [
 			{
 				"term": "Alzheimer's disease",
