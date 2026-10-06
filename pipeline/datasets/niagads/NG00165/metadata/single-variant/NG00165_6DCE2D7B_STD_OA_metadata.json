@@ -1,7 +1,7 @@
 {
 	"id": "NG00165_6DCE2D7B_STD_OA",
 	"name": "Multi-ancestry evidence for AD associations: Pooled Population",
-	"description": "GWAS summary statistics from a multi-population meta-analysis of whole genome sequencing from individuals self-identified or statistcally inferred as having White/European, African American, or Hispanic/Latino ancestry in ADSP cohorts (release 1).",
+	"description": "Summary statistics from a multi-population genome-wide association meta-analysis of Alzheimer's disease (AD), based on whole-genome sequencing data from individuals self-identified or statistically inferred as having White/European, African American, or Hispanic/Latino ancestry in ADSP cohorts (release 1).",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADSP-derived R1 "],

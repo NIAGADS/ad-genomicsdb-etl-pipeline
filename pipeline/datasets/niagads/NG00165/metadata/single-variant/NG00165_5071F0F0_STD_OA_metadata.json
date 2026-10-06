@@ -1,7 +1,7 @@
 {
 	"id": "NG00165_5071F0F0_STD_OA",
 	"name": "Multi-ancestry evidence for AD associations: White/European Ancestry",
-	"description": "GWAS summary statistics from a population-specific analysis of whole genome sequencing from individuals self-identified or statistcally inferred as having White/European ancestry in ADSP cohorts (release 1).",
+	"description": "Summary statistics from a population-specific genome-wide association study of Alzheimer's disease (AD), based on whole-genome sequencing data from individuals self-identified or statistically inferred as having White/European ancestry in ADSP cohorts (release 1).",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADSP-derived R1"],

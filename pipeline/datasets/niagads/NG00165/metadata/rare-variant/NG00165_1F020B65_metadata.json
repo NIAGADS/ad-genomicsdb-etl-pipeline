@@ -1,7 +1,8 @@
 {
+	"comment": "I think this is not correct -> is this a rare-variant aggregation test or a gene-risk analysis",
 	"id": "NG00165_1F020B65_STD",
 	"name": "Multi-ancestry evidence for AD associations: Gene-based analysis STAAR",
-	"description": "Gene-based rare variant association analysis using STAAR (variant-Set Test for Association using Annotation infoRmation) to test aggregate groups of genetic variants for association with Alzheimer's disease (AD) status in whole-genome sequencing data from individuals self-identified or statistically inferred as having White/European, African American, or Hispanic/Latino ancestry in ADSP cohorts (release 1).",
+	"description": "Summary statistics from gene-based tests using STAAR (variant-Set Test for Association using Annotation infoRmation) to evaluate groups of rare variants for association with Alzheimer's disease (AD) status, based on whole-genome sequencing data from individuals self-identified or statistically inferred as having White/European, African American, or Hispanic/Latino ancestry in ADSP cohorts (release 1).",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADSP-derived R1"],
@@ -84,9 +85,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Alzheimer's disease"
-			],
+			"phenotype": ["Alzheimer's disease"],
 			"num_cases": 2184,
 			"num_controls": 2383
 		}

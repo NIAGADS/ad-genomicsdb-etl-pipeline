@@ -1,7 +1,7 @@
 {
 	"id": "NG00172_5113A7BC_STD_OA",
 	"name": "Progressive Supranuclear Palsy: with APOE selection bias",
-	"description": "GWAS summary statistics from 30x coverage whole-genome sequencing for individuals in ADSP cohort release R7 with Progressive Supranuclear Palsy (PSP) diagnosis and without PSP. This dataset includes samples from cohorts with selection bias for APOE genotype.",
+	"description": "Summary statistics from a genome-wide association study of progressive supranuclear palsy (PSP), based on whole-genome sequencing data at 30x coverage from individuals with and without PSP in ADSP cohorts (release R7). This dataset includes samples from cohorts with selection bias for APOE genotype.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADSP-derived R7"],
