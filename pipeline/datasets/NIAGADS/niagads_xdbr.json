@@ -1,0 +1,8 @@
+{
+	"name": "NIAGADS Data Sharing Service",
+	"database_key": "NIAGADS-DSS",
+	"description": "The NIAGADS Data Sharing Service (DSS) is a repository that facilitates the deposition and sharing of genomic data from the ADSP and other NIA funded Alzheimer's Disease and Related Dementias genomic studies with approved users in the research community.",
+	"url": "https://dss.niagads.org/",
+	"version": "current",
+	"database_type_id": "EDAM:operation_3197"
+}
