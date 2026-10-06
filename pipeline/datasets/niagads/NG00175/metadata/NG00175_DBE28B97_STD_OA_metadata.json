@@ -45,7 +45,7 @@
 	"participant_phenotypes": {
 		"neuropathology": [
 			{
-				"curie": "HP:0002621",
+				"curie": "MONDO:0006658",
 				"term": "Arteriolosclerosis"
 			}
 		],
@@ -58,9 +58,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Arteriolosclerosis"
-			],
+			"phenotype": ["Arteriolosclerosis"],
 			"num_cases": 6668
 		}
 	],

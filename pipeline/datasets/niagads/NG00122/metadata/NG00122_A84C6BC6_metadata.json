@@ -38,11 +38,14 @@
 				"term": "Alzheimer's disease"
 			}
 		],
-		"neuropathology": [
+
+		"clinical_status": [
 			{
-				"term": ""
+				"curie": "HP:0000709",
+				"term": "Psychosis"
 			}
 		],
+
 		"ethnicity": [
 			{
 				"term": ""
@@ -62,31 +65,12 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"psychosis"
-			],
+			"phenotype": ["Psychosis"],
 			"num_cases": 5445,
 			"num_controls": 6872
 		}
 	],
-	"biosample_characteristics": {
-		"biosample": [
-			{
-				"term": "blood",
-				"curie": "UBERON:0000178"
-			}
-		],
-		"biosample_type": [
-			{
-				"term": ""
-			}
-		],
-		"biomarker": [
-			{
-				"term": ""
-			}
-		]
-	},
+
 	"curation_history": [
 		{
 			"event_date": "2026-05-10",

@@ -28,15 +28,18 @@
 		}
 	},
 	"covariates": [
-      {
-        "term": "Gender", "curie": "NCIT:C17357" PCA and batch #define ourslves niagads: undefined.
-      },
-	  {
-		"term" : "Principal component analysis", "curie": "EDAM:operation_3960"
-	  },
-	  {
-		"term" : "technical variables", "curie" : "NIAGADS:0000069"
-	  }
+		{
+			"term": "Gender",
+			"curie": "NCIT:C17357"
+		},
+		{
+			"term": "Principal component analysis",
+			"curie": "EDAM:operation_3960"
+		},
+		{
+			"term": "technical variables",
+			"curie": "NIAGADS:0000069"
+		}
 	],
 	"participant_phenotypes": {
 		"disease": [
@@ -52,9 +55,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Disinhibition"
-			],
+			"phenotype": ["Disinhibition"],
 			"num_cases": 5070,
 			"num_controls": 7658
 		}

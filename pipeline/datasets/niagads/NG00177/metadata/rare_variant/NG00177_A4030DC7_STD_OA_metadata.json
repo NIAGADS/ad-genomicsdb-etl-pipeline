@@ -1,5 +1,5 @@
 {
-	"id": "NG00177_27103F49_STD_OA",
+	"id": "NG00177_A4030DC7_STD_OA",
 	"name": "ADGC multi-ancestry AD GWAS meta-analysis: APOE-adjusted rare variants in Hispanic individuals",
 	"description": "Summary statistics examining rare variants associated with late-onset Alzheimer's disease in Hispanic individuals with adjustment for APOE ε4 dosage",
 	"genome_build": "GRCh38",
@@ -67,9 +67,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Alzheimer's disease"
-			],
+			"phenotype": ["Alzheimer's disease"],
 			"num_cases": 3112,
 			"num_controls": 5787
 		}

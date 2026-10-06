@@ -26,7 +26,7 @@ Prefer the Human Phenotype Ontology (`HP`) for neuropathology terms. If not avai
 | Term | CURIE |
 | --- | --- |
 | amyloid-beta plaques | `NIAGADS:0000070` |
-| Arteriolosclerosis | `HP:0002621` |
+| Arteriolosclerosis | `MONDO:0006658` |
 | Atherosclerosis | `HP:0002621` |
 | Braak Stages | `NIAGADS:0000025` |
 | CERAD score | `NIAGADS:0000026` |
