@@ -85,7 +85,8 @@
 	"participant_phenotypes": {
 		"disease": [
 			{
-				"term": "Alzheimer's disease"
+				"term": "Alzheimer's disease",
+				"curie": "DOID:10652"
 			}
 		],
 		"ethnicity": [

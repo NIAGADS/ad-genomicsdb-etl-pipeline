@@ -72,7 +72,8 @@
 	"biosample_characteristics": {
 		"biosample": [
 			{
-				"term": "blood"
+				"term": "blood",
+				"curie": "UBERON:0000178"
 			}
 		],
 		"biosample_type": [

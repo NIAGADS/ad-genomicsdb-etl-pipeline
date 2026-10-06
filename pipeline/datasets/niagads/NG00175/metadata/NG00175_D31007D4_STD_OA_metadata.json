@@ -45,7 +45,8 @@
 	"participant_phenotypes": {
 		"neuropathology": [
 			{
-				"term": "vascular brain injury"
+				"term": "vascular brain injury",
+				"curie": "MONDO:0005621"
 			}
 		],
 		"population": [
