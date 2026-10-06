@@ -49,6 +49,24 @@
 				"term": "combined resilience to Alzheimer’s disease neuropathology",
 				"curie": "NIAGADS:0000065"
 			}
+		],
+		"population": [
+			{
+				"term": "European ancestry",
+				"curie": "HANCESTRO:0005"
+			}
+		],
+		"race": [
+			{
+				"term": "White",
+				"curie": "NCIT:C48325"
+			}
+		],
+		"ethnicity": [
+			{
+				"term": "Not Hispanic or Latino",
+				"curie": "NCIT:C41222"
+			}
 		]
 	},
 	"study_diagnosis": [
