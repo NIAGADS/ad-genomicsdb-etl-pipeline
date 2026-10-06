@@ -1,4 +1,9 @@
-# dataset_type_id values
+# External Database References
+
+## database_type_ids
+
+Qualify the type of data we pull from a data resource.  
+As an example, even though NIAGADS-DSS stores a variety of genomic data, we only pull genetic variant analysis results.  
 
 | Term ID | Term | Example DB |
 | --- | --- | --- |

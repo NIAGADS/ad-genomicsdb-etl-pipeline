@@ -1,11 +1,10 @@
 {
-	"name": "National Cancer Institute Thesaurus",
-	"database_key": "NCIT",
-	"description": "NCI Thesaurus (NCIt) provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities.",
-	"url": "https://github.com/ncit-obo-org/ncit-obo-edition",
-	"version": "v2026-03-19",
-	"release_date": "2026-03-19",
+	"name": "NIAGADS Ontology",
+	"database_key": "NIAGADS-Ontology",
+	"description": "The NIAGADS ontology defines terms for describing and classifying Alzheimer’s disease and related dementias genomic datasets, annotations, and associated metadata.",
+	"url": "https://github.com/NIAGADS/niagads-ontology",
+	"version": "current",
 	"download_url": "http://purl.obolibrary.org/obo/ncit.owl",
-	"download_date": "2026-08-13",
+	"download_date": "2026-10-6",
 	"database_type_id": "EDAM:data_0582"
 }

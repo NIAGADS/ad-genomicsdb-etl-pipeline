@@ -5,4 +5,4 @@ wget -O $DATA_DIR/ontologies/niagads/niagads.obo https://raw.githubusercontent.c
 runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/niagads/niagads_xdbr.json --log-path $DATA_DIR/ontologies/niagads/niagads-xdbr.log --commit
 
 # load ontology
-runpipe-plugin --plugin OntologyTermLoader --xdbref "NIAGADS Ontology|current" --file $DATA_DIR/ontologies/niagads/niagads.obo
+runpipe-plugin --plugin OBOTermLoader --xdbref "NIAGADS Ontology|current" --file $DATA_DIR/ontologies/niagads/niagads.obo --namespace NIAGADS --log-path $DATA_DIR/ontologies/niagads/niagads-load.log --commit
