@@ -28,6 +28,9 @@
 		"is_lifted": false
 	},
 	"participant_phenotypes": {
+		"ethnicity": [
+			{ "curie": "NCIT:C41222", "term": "Not Hispanic or Latino" }
+		],
 		"disease": [
 			{
 				"curie": "DOID:10652",

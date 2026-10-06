@@ -43,6 +43,12 @@
 		]
 	},
 	"participant_phenotypes": {
+		"race": [
+			{"term": "White", "curie": "NCIT:C48325"}
+		],
+		"ethnicity": [
+			{"term": "Not Hispanic or Latino", "curie": "NCIT:C41222"}
+		],
 		"neuropathology": [
 			{
 				"curie": "HP:0002621",

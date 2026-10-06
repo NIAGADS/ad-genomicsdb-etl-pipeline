@@ -43,6 +43,12 @@
 		]
 	},
 	"participant_phenotypes": {
+		"race": [
+			{"term": "White", "curie": "NCIT:C48325"}
+		],
+		"ethnicity": [
+			{"term": "Not Hispanic or Latino", "curie": "NCIT:C41222"}
+		],
 		"neuropathology": [
 			{
 				"term": "Braak Stages",
