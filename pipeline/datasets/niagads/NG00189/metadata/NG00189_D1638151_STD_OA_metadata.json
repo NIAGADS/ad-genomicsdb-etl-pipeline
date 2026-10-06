@@ -42,6 +42,15 @@
 		}
 	],
 	"participant_phenotypes": {
+		"population": [
+			{"term": "European ancestry", "curie": "HANCESTRO:0005"}
+		],
+		"race": [
+			{"term": "White", "curie": "NCIT:C48325"}
+		],
+		"ethnicity": [
+			{"term": "Not Hispanic or Latino", "curie": "NCIT:C41222"}
+		],
 		"disease": [
 			{ "term": "mild cognitive impairment", "curie": "DOID:0080832" },
 			{ "term": "dementia", "curie": "DOID:1307" }

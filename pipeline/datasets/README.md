@@ -17,7 +17,7 @@ Prefer DOID or MONDO for disease terms.
 | Alzheimer's disease | `DOID:10652` |
 | dementia | `DOID:1307` |
 | mild cognitive impairment | `DOID:0080832` |
-| Progressive supranuclear palsy | `Orphanet:683` |
+| Progressive supranuclear palsy | `MONDO:0019037` |
 
 ## Neuropathology
 

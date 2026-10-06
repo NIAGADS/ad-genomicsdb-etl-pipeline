@@ -1,6 +1,6 @@
 {
 	"id": "NG00172_DAB6F22D_STD_OA",
-	"name": "Progressive Supranuclear Palsy: SNV/INDELs without APOE selection bias",
+	"name": "Progressive Supranuclear Palsy: without APOE selection bias",
 	"description": "GWAS summary statistics from 30x coverage whole-genome sequencing for individuals in ADSP cohort release R7 with Progressive Supranuclear Palsy (PSP) diagnosis and without PSP. This dataset includes samples from cohorts without selection bias for APOE genotype.",
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
@@ -40,8 +40,8 @@
 	"participant_phenotypes": {
 		"disease": [
 			{
-				"curie": "Orphanet:683",
-				"term": "Progressive supranuclear palsy"
+				"curie": "MONDO:0019037",
+				"term": "progressive supranuclear palsy"
 			}
 		],
 		"population": [
@@ -51,6 +51,13 @@
 			}
 		]
 	},
+	"study_diagnosis": [
+		{
+			"phenotype": ["progressive supranuclear palsy"],
+			"num_cases": 1718,
+			"num_controls": 2944
+		}
+	],
 	"curation_history": [
 		{
 			"event_date": "2026-06-16",
