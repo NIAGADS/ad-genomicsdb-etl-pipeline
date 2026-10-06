@@ -1,8 +1,7 @@
 
-wget -O $DATA_DIR/ontologies/hp.owl http://purl.obolibrary.org/obo/hp.owl #done
+wget -O $DATA_DIR/ontologies/hp.owl http://purl.obolibrary.org/obo/hp.owl
 
 # load external database reference
-#done
 runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/hp/hp_xdbr.json --log-path $DATA_DIR/ontologies/hp-xdbr.log --commit
 
 # load ontology

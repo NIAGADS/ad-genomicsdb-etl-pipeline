@@ -1,7 +1,6 @@
-wget -O $DATA_DIR/ontologies/symp.owl http://purl.obolibrary.org/obo/symp.owl #done
+wget -O $DATA_DIR/ontologies/symp.owl http://purl.obolibrary.org/obo/symp.owl
 
 # load external database reference
-#done 
 runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/symp/symp_xdbr.json --log-path $DATA_DIR/ontologies/symp-xdbr.log --commit
 
 # load ontology

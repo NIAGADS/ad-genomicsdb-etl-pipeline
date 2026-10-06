@@ -1,9 +1,8 @@
 
-wget -O $DATA_DIR/ontologies/doid.owl http://purl.obolibrary.org/obo/doid.owl #done
+wget -O $DATA_DIR/ontologies/doid.owl http://purl.obolibrary.org/obo/doid.owl
 
 
 # load external database reference
-#done
 runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/ontologies/doid/doid_xdbr.json --log-path $DATA_DIR/ontologies/doid-xdbr.log --commit
 
 # load ontology
