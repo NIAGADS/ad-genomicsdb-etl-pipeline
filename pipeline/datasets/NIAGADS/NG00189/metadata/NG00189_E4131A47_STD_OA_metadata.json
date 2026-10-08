@@ -2,6 +2,10 @@
 	"id": "NG00189_E4131A47_STD_OA",
 	"name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Delusion",
 	"description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of delusion in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADRC"],
@@ -20,12 +24,6 @@
 		"file_name": "NG00189_E4131A47_pvalue_only_STD.tsv.gz",
 		"md5sum": "033a53fe03fca877e0bb5b70f6ee5977",
 		"file_size": 117282178
-	},
-	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		}
 	},
 	"covariates": [
 		{

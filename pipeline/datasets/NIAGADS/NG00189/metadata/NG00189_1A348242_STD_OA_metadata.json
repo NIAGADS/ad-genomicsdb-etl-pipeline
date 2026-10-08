@@ -2,6 +2,10 @@
 	"id": "NG00189_1A348242_STD_OA",
 	"name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Depression or dysphoria",
 	"description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of depression or dysphoria in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADRC"],
@@ -20,12 +24,6 @@
 		"file_name": "NG00189_1A348242_pvalue_only_STD.tsv.gz",
 		"md5sum": "69d67c0e2b1dd6d602e16f0956df7c3f",
 		"file_size": 117298251
-	},
-	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		}
 	},
 	"covariates": [
 		{

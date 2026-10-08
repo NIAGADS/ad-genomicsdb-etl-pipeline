@@ -2,6 +2,10 @@
 	"id": "NG00165_FB1CA9C2_STD_OA",
 	"name": "Multi-ancestry evidence for AD associations: African American Ancestry",
 	"description": "Summary statistics from a population-specific genome-wide association study of Alzheimer's disease (AD), based on whole-genome sequencing data from individuals self-identified or statistically inferred as having African American ancestry in ADSP cohorts (release 1).",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADSP-derived R1"],
@@ -21,10 +25,6 @@
 		"file_size": 1084453536
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "Sex",

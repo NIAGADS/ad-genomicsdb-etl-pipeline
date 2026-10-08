@@ -2,6 +2,10 @@
 	"id": "NG00182_0AED396A_STD",
 	"name": "Novel Alzheimer's Disease Risk Loci in Korean participants: Females",
 	"description": "Summary statistics from single-variant tests for associations with Alzheimer's disease (AD). The dataset comprises 1,980 female participants aged 60 years or older derived from the Korean GARD cohort.",
+	"track_type": {
+		"curie": "NIAGADS:0000067",
+		"term": "single-variant association test summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["GARD"],
@@ -21,10 +25,6 @@
 		"file_size": 710837617
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000067",
-			"term": "single-variant association test summary statistics"
-		},
 		"covariates": [
 			{
 				"curie": "NCIT:C17357",

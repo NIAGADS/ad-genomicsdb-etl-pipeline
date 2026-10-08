@@ -2,6 +2,10 @@
 	"id": "NG00175_6F944F9C_STD_OA",
 	"name": "Neuropathology endophenotypes: Hippocampal sclerosis",
 	"description": "Summary statistics from a genome-wide association study meta-analysis examining hippocampal sclerosis as a neuropathological endophenotype. Each study was analyzed individually (ROS and MAP were analyzed together) with meta-analysis being subsequently performed.",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["NACC", "ROS", "MAP", "ACT"],
@@ -22,10 +26,6 @@
 		"file_size": 131015269
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "Age",

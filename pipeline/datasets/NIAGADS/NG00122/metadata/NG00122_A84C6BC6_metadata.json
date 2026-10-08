@@ -2,6 +2,10 @@
 	"id": "NG00122_A84C6BC6_STD",
 	"name": "Genome-Wide Association Identifies the First Risk Loci for Psychosis in Alzheimer Disease",
 	"description": "Genome-wide association meta-analysis of Alzheimer’s disease (AD) subjects (N=12,317) classified as psychosis-positive (AD+P) or psychosis-negative (AD-P) based on delusions and/or hallucinations. Eight program sources contributed whole blood, DNA, SNP array data, or genome-wide association statistics; data were processed as four cohorts (Phase 1, Phase 2, GR@ACE, NEXGENS). Cohort GWAS contrasted AD+P versus AD-P using PLINK logistic regression with ancestry covariate adjustment (and sex as an additional covariate for chromosome X), and results were meta-analyzed using METAL; NEXGENS contributed summary statistics from consortium datasets.",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["Phase 1", "Phase 2", "GR@ACE", "NEXGENS"],
@@ -20,10 +24,6 @@
 		"file_size": 980677339
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "Principal component analysis",

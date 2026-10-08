@@ -2,6 +2,10 @@
 	"id": "NG00161_76BA4DD8_STD",
 	"name": "Residual Cognitive Resilience to AD Neuropathology: Males",
 	"description": "Summary statistics from a quantitative-trait genome-wide association study of residual cognitive resilience to AD neuropathology in males using all eligible participants.",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],
@@ -22,10 +26,6 @@
 		"file_size": 211068614
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "Age",

@@ -2,6 +2,10 @@
 	"id": "NG00161_F01C5F30_STD",
 	"name": "Residual Cognitive Resilience to AD Neuropathology: Sex Interaction",
 	"description": "Summary statistics from a quantitative-trait genome-wide association study testing SNP-by-sex interaction effects on residual cognitive resilience to AD neuropathology using all eligible participants.",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],
@@ -22,10 +26,6 @@
 		"file_size": 217635937
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "Age",

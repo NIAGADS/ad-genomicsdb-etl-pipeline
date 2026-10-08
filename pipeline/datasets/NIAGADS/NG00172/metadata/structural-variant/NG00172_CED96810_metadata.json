@@ -2,6 +2,10 @@
 	"id": "NG00172_CED96810",
 	"name": "Progressive Supranuclear Palsy: Structural Variants",
 	"description": "Summary statistics from a genome-wide association study testing structural variants for association with progressive supranuclear palsy (PSP), based on whole-genome sequencing data at 30x coverage from individuals with and without PSP in ADSP cohorts (release R7).",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "STRUCTURAL_VARIANT",
 	"cohorts": ["ADSP-derived R7"],
@@ -21,10 +25,6 @@
 		"file_size": 1351762
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "Principal component analysis",

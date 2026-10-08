@@ -2,6 +2,10 @@
 	"id": "NG00189_AB9A8D32_STD_OA",
 	"name": "Neuropsychiatric symptoms in mild cognitive impairment and dementia: Agitation or aggression",
 	"description": "Summary statistics from a genome-wide association study testing SNPs with minor allele frequency >5% for association with neuropsychiatric symptoms of agitation or aggression in Alzheimer's Disease Research Center (ADRC) participants with mild cognitive impairment or dementia.",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADRC"],
@@ -20,12 +24,6 @@
 		"file_name": "NG00189_AB9A8D32_pvalue_only_STD.tsv.gz",
 		"md5sum": "87c5f7d643b8edfc7231190ca7a23e22",
 		"file_size": 117290030
-	},
-	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		}
 	},
 	"covariates": [
 		{

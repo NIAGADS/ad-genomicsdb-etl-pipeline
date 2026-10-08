@@ -2,6 +2,10 @@
 	"id": "NG00182_53F0BB1D_STD",
 	"name": "Novel Alzheimer's Risk Loci in Korean and Japanese participants",
 	"description": "Summary statistics from single-variant tests for associations with Alzheimer's disease (AD). The dataset comprises 6,518 participants derived from the Korean GARD cohort and the Japanese JGSCAD cohort.",
+	"track_type": {
+		"curie": "NIAGADS:0000067",
+		"term": "single-variant association test summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["GARD", "JGSCAD_1", "JGSCAD_2"],
@@ -19,12 +23,6 @@
 		"file_name": "NG00182_53F0BB1D_STD.tsv.gz",
 		"md5sum": "de00887b3b82ca3ad667994d4b4b66d1",
 		"file_size": 170315835
-	},
-	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000067",
-			"term": "single-variant association test summary statistics"
-		}
 	},
 	"participant_phenotypes": {
 		"ethnicity": [

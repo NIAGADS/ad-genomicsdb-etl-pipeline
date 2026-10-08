@@ -2,6 +2,10 @@
 	"id": "NG00166_EFD93785_STD_OA",
 	"name": "ADSP WGS single-variant associations with Alzheimer's disease: African American",
 	"description": "Summary statistics from single-variant tests (MAF > 0.5%) for associations with Alzheimer's disease (AD), based on whole-genome sequencing data from African American participants in Alzheimer's Disease Sequencing Project (ADSP) cohorts (R3 17k release).",
+	"track_type": {
+		"curie": "NIAGADS:0000067",
+		"term": "single-variant association test summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ADSP-derived R3"],
@@ -21,10 +25,6 @@
 		"file_size": 316549471
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000067",
-			"term": "single-variant association test summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "Sex",

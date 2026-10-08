@@ -2,6 +2,10 @@
 	"id": "NG00177_E6847214_STD_OA",
 	"name": "ADGC multi-ancestry AD GWAS meta-analysis: APOE-adjusted common variants in Non-Hispanic White individuals",
 	"description": "Summary statistics from a fixed-effects GWAS meta-analysis examining common variants associated with late-onset Alzheimer's disease in Non-Hispanic White individuals with adjustment for APOE ε4 dosage.",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": [
@@ -46,10 +50,6 @@
 		"file_size": 135246636
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "Age",

@@ -2,6 +2,10 @@
 	"id": "NG00165_CB8C996B",
 	"name": "Multi-ancestry evidence for AD associations: Gene-based analysis CMC 0.01",
 	"description": "Summary statistics from gene-based tests using the Combined Multivariate and Collapsing (CMC) burden test to evaluate groups of rare variants (MAF < 0.01) for association with Alzheimer's disease (AD) status, based on whole-genome sequencing data from individuals self-identified or statistically inferred as having White/European, African American, or Hispanic/Latino ancestry in ADSP cohorts (release 1).",
+	"track_type": {
+		"curie": "NIAGADS:0000072",
+		"term": "aggregate variant association test summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "GENE",
 	"cohorts": ["ADSP-derived R1"],
@@ -21,10 +25,6 @@
 		"file_size": 2138129
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000072",
-			"term": "aggregate variant association test summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "sequencing center",

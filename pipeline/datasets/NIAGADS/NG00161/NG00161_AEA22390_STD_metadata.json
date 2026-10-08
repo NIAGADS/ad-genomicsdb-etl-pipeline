@@ -2,6 +2,10 @@
 	"id": "NG00161_AEA22390_STD",
 	"name": "Combined Resilience to AD Neuropathology in Cognitively Normal Participants: Males",
 	"description": "Summary statistics from a quantitative-trait genome-wide association study of combined resilience to AD neuropathology in cognitively normal males.",
+	"track_type": {
+		"curie": "NIAGADS:0000010",
+		"term": "GWAS summary statistics"
+	},
 	"genome_build": "GRCh38",
 	"feature_type": "VARIANT",
 	"cohorts": ["ROS", "MAP", "ADNI", "A4", "ACT"],
@@ -22,10 +26,6 @@
 		"file_size": 204095255
 	},
 	"experimental_design": {
-		"data_category": {
-			"curie": "NIAGADS:0000010",
-			"term": "GWAS summary statistics"
-		},
 		"covariates": [
 			{
 				"term": "Age",
