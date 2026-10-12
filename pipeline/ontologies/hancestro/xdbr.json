@@ -1,0 +1,11 @@
+{
+	"name": "Human Ancestry Ontology",
+	"database_key": "HANCESTRO",
+	"description": "A systematic description of the ancestry concepts used in the NHGRI-EBI Catalog of published genome-wide association studies. It includes a list of countries, regions and major areas (essentially continents), as well as a fairly exhaustive list of defined ancestral categories, uncategorised ancestral categories and population isolates.",
+	"url": "https://ebispot.github.io/hancestro/",
+	"version": "v2025-10-14",
+	"release_date": "2025-10-14",
+	"download_url": "https://github.com/EBISPOT/hancestro/blob/main/hancestro.owl",
+	"download_date": "2026-10-12",
+	"database_type_id": "EDAM:data_0582"
+}
