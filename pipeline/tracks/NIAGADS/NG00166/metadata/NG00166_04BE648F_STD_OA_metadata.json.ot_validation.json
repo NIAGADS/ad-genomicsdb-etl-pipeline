@@ -1,0 +1,78 @@
+{
+    "valid": {
+        "Sex|NCIT:C28421": {
+            "term": "Sex",
+            "curie": "NCIT:C28421",
+            "ontology_term_id": 678576
+        },
+        "sequencing center|NIAGADS:0000068": {
+            "term": "sequencing center",
+            "curie": "NIAGADS:0000068",
+            "ontology_term_id": 827965
+        },
+        "Principal component analysis|EDAM:operation_3960": {
+            "term": "Principal component analysis",
+            "curie": "EDAM:operation_3960",
+            "ontology_term_id": 166808
+        },
+        "White|NCIT:C48325": {
+            "term": "White",
+            "curie": "NCIT:C48325",
+            "ontology_term_id": 621955
+        },
+        "single-variant association test summary statistics|NIAGADS:0000067": {
+            "term": "single-variant association test summary statistics",
+            "curie": "NIAGADS:0000067",
+            "ontology_term_id": 827964
+        },
+        "technical variables|NIAGADS:0000069": {
+            "term": "technical variables",
+            "curie": "NIAGADS:0000069",
+            "ontology_term_id": 827966
+        },
+        "Alzheimer's disease|DOID:10652": {
+            "term": "Alzheimer's disease",
+            "curie": "DOID:10652",
+            "ontology_term_id": 329209
+        },
+        "Hispanic or Latino|NCIT:C17459": {
+            "term": "Hispanic or Latino",
+            "curie": "NCIT:C17459",
+            "ontology_term_id": 653024
+        },
+        "Not Hispanic or Latino|NCIT:C41222": {
+            "term": "Not Hispanic or Latino",
+            "curie": "NCIT:C41222",
+            "ontology_term_id": 689660
+        },
+        "Black or African American|NCIT:C16352": {
+            "term": "Black or African American",
+            "curie": "NCIT:C16352",
+            "ontology_term_id": 701320
+        }
+    },
+    "not_matched": [
+        {
+            "lookup": {
+                "term": "European ancestry",
+                "curie": "HANCESTRO:0005"
+            },
+            "error": "curie_not_found"
+        },
+        {
+            "lookup": {
+                "term": "Latin or Admixed American ancestry",
+                "curie": "HANCESTRO:0014"
+            },
+            "error": "curie_not_found"
+        },
+        {
+            "lookup": {
+                "term": "African American",
+                "curie": "HANCESTRO:0568"
+            },
+            "error": "curie_not_found"
+        }
+    ],
+    "multiple_matches": []
+}
