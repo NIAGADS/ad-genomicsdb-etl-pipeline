@@ -1,6 +1,6 @@
 {
 	"id": "NG00166_04BE648F_STD_OA",
-	"name": "ADSP WGS single-variant associations with Alzheimer's disease",
+	"name": "ADSP (R3 17k) WGS single-variant associations with Alzheimer's disease",
 	"description": "Summary statistics from single-variant tests (MAF > 0.5%) for associations with Alzheimer's disease (AD), based on whole-genome sequencing data from participants pooled across populations in Alzheimer's Disease Sequencing Project (ADSP) cohorts (R3 17k release).",
 	"track_type": {
 		"curie": "NIAGADS:0000067",
