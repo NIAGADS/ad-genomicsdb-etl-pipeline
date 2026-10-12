@@ -5,4 +5,11 @@ runpipe-plugin --plugin CollectionLoader --name "${COLLECTION_NAME}" --descripti
 # rename pvalue only files to _std_oa files
 source $CONFIG_DIR/tracks/NIAGADS/rename_data_files.sh
 
+# For later
+# TRACK_IDS=($(find "$CONFIG_DIR/tracks/NIAGADS/$COLLECTION_KEY/metadata" \
+#     -maxdepth 1 -type f -name '*_STD_OA*.json' -printf '%f\n' |
+#     cut -d_ -f2))
+
+# "${TRACK_IDS[@]}"
+
 runpipe-plugin --plugin GWASTrackLoader --genome-build GRCh38 --seqrepo-data-proxy $DATA_DIR/shared/seqrepo/2024-12-20 --xdbref 'NIAGADS|current' --collection ${COLLECTION_KEY} --metadata-file $CONFIG_DIR/tracks/NIAGADS/${COLLECTION_KEY}/metadata/${COLLECTION_KEY}_04BE648F_STD_OA_metadata.json --data-file $DATA_DIR/tracks/${COLLECTION_KEY}/data/${COLLECTION_KEY}_04BE648F_STD_OA.tsv.gz --log-path $LOG_DIR/04BE648F.log --batch-size 5000 --embedding-force-cpu --commit
