@@ -5,13 +5,7 @@ runpipe-plugin --plugin CollectionLoader --name "${COLLECTION_NAME}" --descripti
 # rename pvalue only files to _std_oa files
 source $CONFIG_DIR/tracks/NIAGADS/rename_data_files.sh
 
-# For later
-# TRACK_IDS=($(find "$CONFIG_DIR/tracks/NIAGADS/$COLLECTION_KEY/metadata" \
-#     -maxdepth 1 -type f -name '*_STD_OA*.json' -printf '%f\n' |
-#     cut -d_ -f2))
+# test
+# runpipe-plugin --plugin GWASTrackLoader --genome-build GRCh38 --seqrepo-data-proxy $DATA_DIR/shared/seqrepo/2024-12-20 --xdbref 'NIAGADS-DSS|current' --collection ${COLLECTION_KEY} --metadata-file $CONFIG_DIR/tracks/NIAGADS/${COLLECTION_KEY}/metadata/${COLLECTION_KEY}_04BE648F_STD_OA_metadata.json --data-file $DATA_DIR/tracks/${COLLECTION_KEY}/data/${COLLECTION_KEY}_04BE648F_STD.tsv.gz --log-path $LOG_DIR/load-NG00166_04BE648F.log --batch-size 5000 --embedding-force-cpu --commit
 
-# "${TRACK_IDS[@]}"
-
-# note - using full data to get effect_size
-
-runpipe-plugin --plugin GWASTrackLoader --genome-build GRCh38 --seqrepo-data-proxy $DATA_DIR/shared/seqrepo/2024-12-20 --xdbref 'NIAGADS-DSS|current' --collection ${COLLECTION_KEY} --metadata-file $CONFIG_DIR/tracks/NIAGADS/${COLLECTION_KEY}/metadata/${COLLECTION_KEY}_04BE648F_STD_OA_metadata.json --data-file $DATA_DIR/tracks/${COLLECTION_KEY}/data/${COLLECTION_KEY}_04BE648F_STD.tsv.gz --log-path $LOG_DIR/load-NG00166_04BE648F.log --batch-size 5000 --embedding-force-cpu --commit
+./$PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/load_niagads_variant_associations.sh NG00166 --embedding-force-cpu --commit
