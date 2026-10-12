@@ -1,0 +1,19 @@
+export COLLECTION_NAME="ADSP WGS single-variant associations with Alzheimer's disease (R3 17K)"
+export COLLECTION_DESCRIPTION=$(cat <<'EOF'
+Investigators used association testing on single variants (MAF > 0.5%) and aggregates 
+of rare (MAF < 1%) coding and non-coding variants with the R3 WGS data from the 
+Alzheimer's Disease Sequencing Project (ADSP) to uncover common and rare genetic variation 
+that may have been missed by traditional genotyping methods within the pooled samples 
+and population subgroups (Lee et al., 2023). The study examined pooled samples, 
+(N cases=6,519 and N control=6,852) and within 
+the three subgroups: African Americans (AA, N cases=1,137 and N control=1,707), 
+Hispanics (HIS, N cases=1,021 and N control=1,988), and 
+Non-Hispanic White (NHW, N cases=4,230 and N control=3,109) defined by reported race and ethnicity
+EOF
+)
+export FLATTENED_COLLECTION_DESCRIPTION="${COLLECTION_DESCRIPTION//$'\n'/ }"
+
+export COLLECTION_KEY=NG00166
+
+runpipe-plugin --plugin CollectionLoader --name "${COLLECTION_NAME}" --description "${FLATTENED_COLLECTION_DESCRIPTION}" --key ${COLLECTION_KEY} --source-id ${COLLECTION_KEY} --xdbref 'NIAGADS-DSS|current' --log-path $DATA_DIR/datasets/NG00166/load-collection.log --commit
+runpipe-plugin --plugin CollectionLoader --name "${COLLECTION_NAME}" --description "${FLATTENED_COLLECTION_DESCRIPTION}" --key ${COLLECTION_KEY} --source-id ${COLLECTION_KEY} --xdbref 'NIAGADS-DSS|current' --log-path $DATA_DIR/datasets/NG00166/load-collection.log --commit
