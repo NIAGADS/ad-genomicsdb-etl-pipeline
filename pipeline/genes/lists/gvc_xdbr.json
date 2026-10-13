@@ -1,0 +1,9 @@
+{
+	"name": "ADSP GVC TopGenes",
+	"database_key": "ADSP-GVC",
+	"description": "A catalog of high confidence genes and loci contributing to development of Alzheimer's Disease and Alzheimer's Disease Related Dementias (AD/ADRD).",
+	"url": "https://topgenes.niagads.org/",
+	"version": "current",
+	"download_date": "2026-10-13",
+	"database_type_id": "EDAM:operation_3672"
+}
