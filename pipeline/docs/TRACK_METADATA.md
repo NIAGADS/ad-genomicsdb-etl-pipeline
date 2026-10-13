@@ -119,7 +119,6 @@ Prefer the Human Phenotype Ontology (`HP`) or Symptom Ontology (`SYMP`) for clin
 | Agitation | `HP:0000713` |
 | Anxiety | `HP:0000739` |
 | Apathy | `HP:0000741` |
-| Cognitively Normal | Not assigned |
 | Delusion | `HP:0000746` |
 | Depression | `HP:0000716` |
 | Disinhibition | `HP:0000734` |
