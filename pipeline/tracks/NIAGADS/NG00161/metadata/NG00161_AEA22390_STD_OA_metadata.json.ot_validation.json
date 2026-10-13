@@ -1,0 +1,54 @@
+{
+    "valid": {
+        "Not Hispanic or Latino|NCIT:C41222": {
+            "term": "Not Hispanic or Latino",
+            "curie": "NCIT:C41222",
+            "ontology_term_id": 689660
+        },
+        "combined resilience to Alzheimer\u2019s disease neuropathology|NIAGADS:0000065": {
+            "term": "combined resilience to Alzheimer\u2019s disease neuropathology",
+            "curie": "NIAGADS:0000065",
+            "ontology_term_id": 827963
+        },
+        "White|NCIT:C48325": {
+            "term": "White",
+            "curie": "NCIT:C48325",
+            "ontology_term_id": 621955
+        },
+        "GWAS summary statistics|NIAGADS:0000010": {
+            "term": "GWAS summary statistics",
+            "curie": "NIAGADS:0000010",
+            "ontology_term_id": 827931
+        },
+        "Male|NCIT:C20197": {
+            "term": "Male",
+            "curie": "NCIT:C20197",
+            "ontology_term_id": 652837
+        },
+        "Age|NCIT:C25150": {
+            "term": "Age",
+            "curie": "NCIT:C25150",
+            "ontology_term_id": 618568
+        },
+        "European ancestry|HANCESTRO:0005": {
+            "term": "European ancestry",
+            "curie": "HANCESTRO:0005",
+            "ontology_term_id": 828356
+        },
+        "Principal component analysis|EDAM:operation_3960": {
+            "term": "Principal component analysis",
+            "curie": "EDAM:operation_3960",
+            "ontology_term_id": 166808
+        }
+    },
+    "not_matched": [
+        {
+            "lookup": {
+                "term": "Cognitively Normal",
+                "curie": null
+            },
+            "error": "term_not_found"
+        }
+    ],
+    "multiple_matches": []
+}

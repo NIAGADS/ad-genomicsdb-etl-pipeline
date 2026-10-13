@@ -42,11 +42,6 @@
 		]
 	},
 	"participant_phenotypes": {
-		"clinical_status": [
-			{
-				"term": "Cognitively Normal"
-			}
-		],
 		"gender": [
 			{
 				"term": "Female",
