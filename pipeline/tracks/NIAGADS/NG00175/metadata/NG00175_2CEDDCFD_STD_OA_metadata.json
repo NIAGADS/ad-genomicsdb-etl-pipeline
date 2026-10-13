@@ -21,7 +21,7 @@
 		"data_source_url": "https://dss.niagads.org/datasets/NG00175"
 	},
 	"file_properties": {
-		"file_name": "NG00175_2CEDDCFD_pvalue_only_STD.tsv.gz",
+		"file_name": "NG00175_2CEDDCFD_STD_OA.tsv.gz",
 		"md5sum": "7374508283830415f44501db9fad34ed",
 		"file_size": 131363637
 	},
@@ -42,11 +42,9 @@
 		]
 	},
 	"participant_phenotypes": {
-		"race": [
-			{"term": "White", "curie": "NCIT:C48325"}
-		],
+		"race": [{ "term": "White", "curie": "NCIT:C48325" }],
 		"ethnicity": [
-			{"term": "Not Hispanic or Latino", "curie": "NCIT:C41222"}
+			{ "term": "Not Hispanic or Latino", "curie": "NCIT:C41222" }
 		],
 		"neuropathology": [
 			{
@@ -63,9 +61,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Lewy body"
-			],
+			"phenotype": ["Lewy body"],
 			"num_cases": 7218
 		}
 	],

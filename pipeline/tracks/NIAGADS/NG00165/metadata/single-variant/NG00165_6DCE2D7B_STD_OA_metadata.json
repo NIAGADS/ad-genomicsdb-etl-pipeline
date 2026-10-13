@@ -20,7 +20,7 @@
 		"data_source_url": "https://dss.niagads.org/datasets/NG00165"
 	},
 	"file_properties": {
-		"file_name": "NG00165_6DCE2D7B_pvalue_only_STD.tsv.gz",
+		"file_name": "NG00165_6DCE2D7B_STD_OA.tsv.gz",
 		"md5sum": "57609eb2fae50165fd29adc45f336b1a",
 		"file_size": 435353385
 	},
@@ -84,9 +84,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Alzheimer's disease"
-			],
+			"phenotype": ["Alzheimer's disease"],
 			"num_cases": 2184,
 			"num_controls": 2383
 		}

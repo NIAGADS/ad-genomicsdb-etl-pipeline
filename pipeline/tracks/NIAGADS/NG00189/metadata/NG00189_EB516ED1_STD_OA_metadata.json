@@ -21,7 +21,7 @@
 		"data_source_url": "https://dss.niagads.org/datasets/NG00189"
 	},
 	"file_properties": {
-		"file_name": "NG00189_EB516ED1_pvalue_only_STD.tsv.gz",
+		"file_name": "NG00189_EB516ED1_STD_OA.tsv.gz",
 		"md5sum": "6dcb6cced6467518e3fa528eb9b47b8c",
 		"file_size": 117294689
 	},
@@ -41,13 +41,11 @@
 	],
 	"participant_phenotypes": {
 		"population": [
-			{"term": "European ancestry", "curie": "HANCESTRO:0005"}
+			{ "term": "European ancestry", "curie": "HANCESTRO:0005" }
 		],
-		"race": [
-			{"term": "White", "curie": "NCIT:C48325"}
-		],
+		"race": [{ "term": "White", "curie": "NCIT:C48325" }],
 		"ethnicity": [
-			{"term": "Not Hispanic or Latino", "curie": "NCIT:C41222"}
+			{ "term": "Not Hispanic or Latino", "curie": "NCIT:C41222" }
 		],
 		"disease": [
 			{ "term": "mild cognitive impairment", "curie": "DOID:0080832" },
@@ -63,9 +61,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Anxiety"
-			],
+			"phenotype": ["Anxiety"],
 			"num_cases": 7894,
 			"num_controls": 4833
 		}

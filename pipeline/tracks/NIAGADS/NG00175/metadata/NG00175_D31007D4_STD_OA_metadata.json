@@ -21,7 +21,7 @@
 		"data_source_url": "https://dss.niagads.org/datasets/NG00175"
 	},
 	"file_properties": {
-		"file_name": "NG00175_D31007D4_pvalue_only_STD.tsv.gz",
+		"file_name": "NG00175_D31007D4_STD_OA.tsv.gz",
 		"md5sum": "2e5841dd8d2b42666b92939e8090d9b0",
 		"file_size": 131366285
 	},
@@ -42,11 +42,9 @@
 		]
 	},
 	"participant_phenotypes": {
-		"race": [
-			{"term": "White", "curie": "NCIT:C48325"}
-		],
+		"race": [{ "term": "White", "curie": "NCIT:C48325" }],
 		"ethnicity": [
-			{"term": "Not Hispanic or Latino", "curie": "NCIT:C41222"}
+			{ "term": "Not Hispanic or Latino", "curie": "NCIT:C41222" }
 		],
 		"neuropathology": [
 			{
@@ -63,9 +61,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"vascular brain injury"
-			],
+			"phenotype": ["vascular brain injury"],
 			"num_cases": 1766,
 			"num_controls": 5632
 		}

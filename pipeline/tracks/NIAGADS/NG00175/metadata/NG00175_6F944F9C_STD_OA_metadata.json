@@ -21,7 +21,7 @@
 		"data_source_url": "https://dss.niagads.org/datasets/NG00175"
 	},
 	"file_properties": {
-		"file_name": "NG00175_6F944F9C_pvalue_only_STD.tsv.gz",
+		"file_name": "NG00175_6F944F9C_STD_OA.tsv.gz",
 		"md5sum": "da14e14f40fdd71fcb9255b1bb16ac3d",
 		"file_size": 131015269
 	},
@@ -42,11 +42,9 @@
 		]
 	},
 	"participant_phenotypes": {
-		"race": [
-			{"term": "White", "curie": "NCIT:C48325"}
-		],
+		"race": [{ "term": "White", "curie": "NCIT:C48325" }],
 		"ethnicity": [
-			{"term": "Not Hispanic or Latino", "curie": "NCIT:C41222"}
+			{ "term": "Not Hispanic or Latino", "curie": "NCIT:C41222" }
 		],
 		"neuropathology": [
 			{
@@ -63,9 +61,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"Hippocampal sclerosis"
-			],
+			"phenotype": ["Hippocampal sclerosis"],
 			"num_cases": 751,
 			"num_controls": 6413
 		}

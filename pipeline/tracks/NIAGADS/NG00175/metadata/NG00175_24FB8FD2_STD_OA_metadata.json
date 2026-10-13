@@ -21,7 +21,7 @@
 		"data_source_url": "https://dss.niagads.org/datasets/NG00175"
 	},
 	"file_properties": {
-		"file_name": "NG00175_24FB8FD2_pvalue_only_STD.tsv.gz",
+		"file_name": "NG00175_24FB8FD2_STD_OA.tsv.gz",
 		"md5sum": "5604e1eddd8a1554faf35fabdbf39d28",
 		"file_size": 131359615
 	},
@@ -42,11 +42,9 @@
 		]
 	},
 	"participant_phenotypes": {
-		"race": [
-			{"term": "White", "curie": "NCIT:C48325"}
-		],
+		"race": [{ "term": "White", "curie": "NCIT:C48325" }],
 		"ethnicity": [
-			{"term": "Not Hispanic or Latino", "curie": "NCIT:C41222"}
+			{ "term": "Not Hispanic or Latino", "curie": "NCIT:C41222" }
 		],
 		"neuropathology": [
 			{
@@ -63,9 +61,7 @@
 	},
 	"study_diagnosis": [
 		{
-			"phenotype": [
-				"CERAD score"
-			],
+			"phenotype": ["CERAD score"],
 			"num_cases": 7786
 		}
 	],
