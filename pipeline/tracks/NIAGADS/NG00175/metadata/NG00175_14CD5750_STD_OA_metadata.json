@@ -14,7 +14,7 @@
 		"accession": "NG00175",
 		"release_date": "2025-08-06",
 		"release_version": "1",
-		"consortium": ["NACC", "ADGC"],
+		"consortium": ["ADGC"],
 		"attribution": "Shade et al. 2024",
 		"pubmed_id": ["39379761"],
 		"doi": ["10.1038/s41588-024-01939-9"],

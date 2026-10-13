@@ -14,7 +14,6 @@
 		"accession": "NG00172",
 		"release_date": "2024-12-13",
 		"release_version": "1",
-		"consortium": ["PSP Study Group"],
 		"attribution": "Wang et al. 2024",
 		"pubmed_id": ["38234807"],
 		"data_source_url": "https://dss.niagads.org/datasets/NG00172"
