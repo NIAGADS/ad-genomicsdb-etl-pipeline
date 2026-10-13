@@ -14,5 +14,5 @@ runpipe-plugin --plugin CollectionLoader --name "${COLLECTION_NAME}" --descripti
 $PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/update_vcf_header.sh $DATA_DIR/tracks/${COLLECTION_KEY}/data
 $PROJECT_DIR/niagads-pylib/projects/variant-annotator/bin/run_vep_parallel.sh $DATA_DIR/tracks/${COLLECTION_KEY}/data --max-parallel 5 --fork 15 --buffer-size 50000 --stats --skip-reheader --skip-filter
 
-$PROJECT_DIR/ad-genomicsdb-etl-pipeline/pipeline/variants/parallel_load_vep.sh $DATA_DIR/tracks/${COLLECTION_KEY}/data 1 1024 commit
+$PROJECT_DIR/ad-genomicsdb-etl-pipeline/pipeline/variants/parallel_load_vep.sh --vep-result-dir $DATA_DIR/tracks/${COLLECTION_KEY}/data --num-parallel 1 --embedding-batch-size 1024 --commit
 
