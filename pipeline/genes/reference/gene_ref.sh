@@ -1,25 +1,20 @@
-# set up env
-export FILE_PATH=$DATA_DIR/gene/reference
-export LOG_PATH=$LOG_DIR/gene/reference
-mkdir -p $FILE_PATH
-mkdir -p $LOG_PATH
 
 # ====== Ensembl GFF3 - Gene Models
 
 # -- fetch files
-wget -O  $FILE_PATH/Homo_sapiens.GRCh38.115.gff3.gz https://ftp.ensembl.org/pub/current/gff3/homo_sapiens/Homo_sapiens.GRCh38.115.gff3.gz
+wget -O  $DATA_DIR/gene/reference/Homo_sapiens.GRCh38.115.gff3.gz https://ftp.ensembl.org/pub/current/gff3/homo_sapiens/Homo_sapiens.GRCh38.115.gff3.gz
 
 # -- xdbr
-runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/ensembl_gene_xdbr.json  --log-path $LOG_PATH/ensembl-gff3-xdbr.log --commit
+runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/ensembl_gene_xdbr.json  --log-path $DATA_DIR/ensembl-gff3-xdbr.log --commit
 
 # --- verify biotypes
-runpipe-plugin --plugin EnsemblGFF3Loader --file $FILE_PATH/Homo_sapiens.GRCh38.115.gff3.gz --xdbref "Ensembl Gene Annotation|115/GRCh38" --so-xdbref "Sequence Ontology|2024-11-18" --log-path $LOG_PATH/ensembl-gff3-verify-biotypes.log --verify_biotypes --verbose
+runpipe-plugin --plugin EnsemblGFF3Loader --file $DATA_DIR/gene/reference/Homo_sapiens.GRCh38.115.gff3.gz --xdbref "Ensembl Gene Annotation|115/GRCh38" --so-xdbref "Sequence Ontology|2024-11-18" --log-path $DATA_DIR/ensembl-gff3-verify-biotypes.log --verify_biotypes --verbose
 
 # add synonyms to SO to support obsolete or custom terms found in Ensembl GFF3 file
 runpipe-plugin --plugin XMLRecordLoader --file $CONFIG_DIR/ontologies/sequence_ontology/ensembl_syn_updates.xml --log-path $LOG_DIR/ontologies/ensembl-syn-updates.log --commit
 
 # -- load
-runpipe-plugin --plugin EnsemblGFF3Loader --file $FILE_PATH/Homo_sapiens.GRCh38.115.gff3.gz --xdbref "Ensembl Gene Annotation|115/GRCh38" --so-xdbref "Sequence Ontology|2024-11-18" --log-path $LOG_PATH/ensembl-gff3-load.log --batch-size 10 --commit
+runpipe-plugin --plugin EnsemblGFF3Loader --file $DATA_DIR/gene/reference/Homo_sapiens.GRCh38.115.gff3.gz --xdbref "Ensembl Gene Annotation|115/GRCh38" --so-xdbref "Sequence Ontology|2024-11-18" --log-path $DATA_DIR/ensembl-gff3-load.log --batch-size 10 --commit
 
 
 # ====== HGNC annotations
@@ -42,21 +37,27 @@ runpipe-plugin --plugin HGNCXRefLoader --file $DATA_DIR/gene/reference/hgnc_comp
 
 
 # found the download
-wget -O $FILE_PATH/HUMAN_9606_idmapping.dat.gz https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/HUMAN_9606_idmapping.dat.gz
+wget -O $DATA_DIR/gene/reference/HUMAN_9606_idmapping.dat.gz https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/HUMAN_9606_idmapping.dat.gz
 
 # -- xdbr
-runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/uniprotkb_xdbr.json  --log-path $LOG_PATH/uniprot-xdbr.log --commit
+runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/uniprotkb_xdbr.json  --log-path $DATA_DIR/uniprot-xdbr.log --commit
 
     # runpipe-xdb-lookup --xdb uniprot -> UniProtKB|2026-01-28
 
-runpipe-plugin --plugin UniProtKBIDLoader --file $FILE_PATH/HUMAN_9606_idmapping.dat.gz --xdbref "UniProtKB|2026-01-28" --log-path $LOG_PATH/uniprot-load.log --commit
+runpipe-plugin --plugin UniProtKBIDLoader --file $DATA_DIR/gene/reference/HUMAN_9606_idmapping.dat.gz --xdbref "UniProtKB|2026-01-28" --log-path $DATA_DIR/uniprot-load.log --commit
 
 # ====== PAN-GO Annotations
-wget -O $FILE_PATH/functionome_release.gaf.gz   -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"  --referer="https://functionome.geneontology.org" https://functionome.geneontology.org/download/functionome_release.gaf.gz 
+wget -O $DATA_DIR/gene/reference/functionome_release.gaf.gz   -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"  --referer="https://functionome.geneontology.org" https://functionome.geneontology.org/download/functionome_release.gaf.gz 
 
 
 # -- xdbr
-runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/pan_go_xdbr.json  --log-path $LOG_PATH/pan-go-xdbr.log --commit
+runpipe-plugin --plugin ExternalDatabaseLoader --file $CONFIG_DIR/genes/reference/pan_go_xdbr.json  --log-path $DATA_DIR/pan-go-xdbr.log --commit
 
 # -- load
-runpipe-plugin --plugin GAFLoader --file $FILE_PATH/functionome_release.gaf.gz --xdbref "PAN-GO|2.0" --go-xdbref "Gene Ontology|2026-03-25" --eco-xdbref "Evidence and Conclusion Ontology|v2026-04-05" --log-path $LOG_PATH/pan-go-load.log --commit
+runpipe-plugin --plugin GAFLoader --file $DATA_DIR/gene/reference/functionome_release.gaf.gz --xdbref "PAN-GO|2.0" --go-xdbref "Gene Ontology|2026-03-25" --eco-xdbref "Evidence and Conclusion Ontology|v2026-04-05" --log-path $DATA_DIR/pan-go-load.log --commit
+
+
+
+# gene_mv embeddings
+runpipe-plugin --plugin GeneDocumentEmbeddingLoader --log-path $DATA_DIR/gene-doc-embeddings.log --embedding-force-cpu --batch-size 1000 --embedding-batch-size 128 --commit
+00%
