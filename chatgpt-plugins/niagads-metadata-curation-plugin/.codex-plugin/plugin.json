@@ -1,0 +1,27 @@
+{
+  "interface": {
+    "displayName": "NIAGADS Metadata Curation",
+    "shortDescription": "Curate genomic track metadata",
+    "longDescription": "Guide NIAGADS curators through study review, analysis and file mapping, ontology annotation, JSON metadata generation, validation, and ontology registration checks.",
+    "developerName": "NIAGADS",
+    "category": "Productivity",
+    "capabilities": [
+      "Metadata curation",
+      "Ontology search"
+    ],
+    "websiteURL": "https://www.niagads.org",
+    "defaultPrompt": [
+      "Begin the NIAGADS Open Access metadata curation workflow at the Initialization stage. Ask the curator for the NIAGADS accession number, associated publication DOI or PubMed ID, submitted README, and data dictionary. Accept partial inputs. Do not ask what task the curator wants to perform or offer a menu of capabilities. Follow SKILL.md for subsequent stages and approval checkpoints."
+    ]
+  },
+  "name": "niagads-open-access-metadata-curation",
+  "version": "0.1.6",
+  "description": "Interactive curation and validation of NIAGADS open-access GWAS metadata, with ontology lookup through the NIAGADS MCP server.",
+  "author": {
+    "name": "NIAGADS"
+  },
+  "keywords": [],
+  "repository": "https://github.com/NIAGADS/ad-genomicsdb-etl-pipeline",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}
