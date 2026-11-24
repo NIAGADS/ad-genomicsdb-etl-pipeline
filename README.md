@@ -1,5 +1,7 @@
 # Alzheimer's Disease GenomicsDB - Database and ETL Pipeline
 
+> NOTE: THIS README IS OUT OF DATE
+
 Internal Issue Tracking Repository for NIAGADS Alzheimer's GenomicsDB Database and ETL Pipeline
 
 ## Documentation
@@ -8,8 +10,7 @@ Internal Issue Tracking Repository for NIAGADS Alzheimer's GenomicsDB Database a
 
 The ETL pipeline automates data extraction, transformation, and loading into the target database using a flexible plugin architecture. Plugins handle specific data formats and business logic, while the pipeline manager coordinates their execution, supports checkpointing, and enables rapid development of new data processing tasks.
 
-* [Plugin HOW-TO](plugins.md)
-* Pipeline Manager HOW-TO
+* see NIAGADS/open-access-service for documentation
 
 ## Getting Started
 
