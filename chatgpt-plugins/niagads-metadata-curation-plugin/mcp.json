@@ -1,16 +1,10 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
-  "mcpServers": {
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+    "mcpServers": {
     "niagads": {
       "type": "streamable-http",
-      "url": "https://api.niagads.org/api/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "none"
-          }
-        }
-      }
+      "url": "https://api.niagads.org/api/mcp"
     }
   }
+ 
 }
