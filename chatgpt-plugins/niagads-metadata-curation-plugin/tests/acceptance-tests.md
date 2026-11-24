@@ -20,7 +20,7 @@ Run in a fresh conversation with the installed skill, and record actual tool acc
 | NIAGADS MCP registration | Uses `keywordSearchOntologyTerm` for exact CURIE registration checks; does not mistake partial or fuzzy matches for registration. |
 | Unimplemented ontology tool | Does not use `queryOntologyTerms` (currently returns 501) as a working search mechanism. |
 | MCP or OLS blocked | Attempts permitted fallback access; otherwise offers preferred ontology, contextual search phrases, OLS link and request for curator-selected term/CURIE; no guessed identifiers. |
-| MCP registration blocked | Uses script/REST if accessible; otherwise reports registration status as unknown, not invalid metadata. |
+| MCP registration blocked | Reports registration status as unknown, not invalid metadata. |
 | NIAGADS extension | Proposes label/definition and verified is_a parents; no new CURIE assignment. |
 | OBO blocked | Requests upload; does not verify NIAGADS terms from memory. |
 | Curator-supplied mapping | Separates curator-supplied and independently verified status. |
