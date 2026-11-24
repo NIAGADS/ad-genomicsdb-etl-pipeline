@@ -1,7 +1,7 @@
 {
     "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
     "mcpServers": {
-    "niagads": {
+    "niagads-open-access": {
       "type": "streamable-http",
       "url": "https://api.niagads.org/api/mcp"
     }
