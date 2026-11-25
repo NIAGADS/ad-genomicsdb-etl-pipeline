@@ -28,6 +28,6 @@ Provide a separate downloadable JSON file for each annotated data file. Report a
 
 ## Final ontology report
 
-At export, extract and deduplicate ontology CURIEs across the metadata records. Use the NIAGADS MCP tool `keywordSearchOntologyTerm` to check database registration of each unique CURIE when available. Confirm an exact CURIE match in the returned identifier; partial or fuzzy matches do not establish registration. If the MCP tool is unavailable, use `scripts/check_ontology_registration.py` or the REST endpoint (`https://api.niagads.org/api/service/ontology-lookup?content=summary&keyword=<curie>`) when network access permits. Report unavailable lookups as unknown. [API specification](https://api.niagads.org/api/openapi).
+At export, extract and deduplicate ontology CURIEs across the metadata records. Use the NIAGADS MCP tool `keywordSearchOntologyTerm` to check database registration of each unique CURIE when available. Confirm an exact CURIE match in the returned identifier; partial or fuzzy matches do not establish registration. If the MCP tool is unavailable, report registration status as unknown.
 
 Report registered terms, terms requiring database loading before metadata ingestion, proposed NIAGADS ontology additions with their full proposed OBO stanzas, and terms whose registration status could not be determined. Database registration is a pre-load readiness check, not a metadata validation requirement.

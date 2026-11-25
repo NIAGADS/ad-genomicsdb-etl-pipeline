@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "niagads-open-access-metadata-curation",
-  "version": "0.1.0",
+  "version": "0.1.6",
   "description": "Interactive curation and validation of NIAGADS open-access GWAS metadata, with ontology lookup through the NIAGADS MCP server.",
   "author": {
     "name": "NIAGADS"
@@ -16,10 +16,13 @@
         "developerName": "NIAGADS",
         "category": "Productivity",
         "capabilities": [
-          "Ontology search",
-          "Metadata curation"
+          "Metadata curation",
+          "Ontology search"
         ],
-        "websiteURL": "https://www.niagads.org"
+        "websiteURL": "https://www.niagads.org",
+        "defaultPrompt": [
+          "Begin the NIAGADS Open Access metadata curation workflow at the Initialization stage. Ask the curator for the NIAGADS accession number, associated publication DOI or PubMed ID, submitted README, and data dictionary. Accept partial inputs. Do not ask what task the curator wants to perform or offer a menu of capabilities. Follow SKILL.md for subsequent stages and approval checkpoints."
+        ]
       }
     }
   }
